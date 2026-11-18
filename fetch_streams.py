@@ -7,10 +7,6 @@ BASE_DIR = Path(__file__).resolve().parent
 CHANNELS_FILE = BASE_DIR / "channels.json"
 OUTPUT_FILE = BASE_DIR / "true_tv.m3u"
 
-# 1. โหมดทดสอบในเครื่อง (Local LAN)
-# BASE_LOGO_URL = "http://192.168.1.10:8080/logos"
-
-# 2. โหมด GitHub (เมื่อพร้อมอัปขึ้น GitHub ให้เอา # ด้านหน้าบรรทัดล่างออก และใส่ # หน้าบรรทัดบนแทน)
 BASE_LOGO_URL = "https://raw.githubusercontent.com/PAANMILE/true-iptv/main/logos"
 
 USER_AGENT = "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
@@ -52,7 +48,7 @@ def main():
         channels = json.load(f)
 
     m3u_lines = [
-        '#EXTM3U url-tvg="https://raw.githubusercontent.com/PAANMILE/my-iptv/main/my_epg.xml"'
+        '#EXTM3U'
     ]
 
     with sync_playwright() as p:
@@ -65,7 +61,6 @@ def main():
                 print(f"✅ สำเร็จ: {ch['name']}")
                 logo_file = ch.get("logo", "")
                 logo_url = f"{BASE_LOGO_URL}/{logo_file}" if logo_file else ""
-                
                 extinf = (
                     f'#EXTINF:-1 tvg-chno="{ch.get("chno", "")}" '
                     f'tvg-id="{ch.get("tvg_id", "")}" '

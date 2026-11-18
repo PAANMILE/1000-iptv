@@ -9,7 +9,7 @@ python3 fetch_streams.py
 
 echo ""
 echo "กำลังอัปโหลดขึ้น GitHub..."
-git add true_tv.m3u
+git add channels.json fetch_streams.py update_channels.command true_tv.m3u
 git commit -m "Update TrueID stream tokens"
 git push origin main
 
