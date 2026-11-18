@@ -1,0 +1,122 @@
+[
+  {
+    "chno": "3",
+    "name": "Thai PBS",
+    "tvg_id": "Thai.PBS.th",
+    "group": "Digital TV",
+    "logo": "thaipbs.png",
+    "url": "https://tv.trueid.net/th-th/live/thaipbs"
+  },
+  {
+    "chno": "5",
+    "name": "ททบ.5 HD",
+    "tvg_id": "TV5.HD.th",
+    "group": "Digital TV",
+    "logo": "ch5.png",
+    "url": "https://tv.trueid.net/th-th/live/ch5"
+  },
+  {
+    "chno": "23",
+    "name": "เวิร์คพอยท์ 23",
+    "tvg_id": "WORKPOINT.th",
+    "group": "Digital TV",
+    "logo": "workpointtv.png",
+    "url": "https://tv.trueid.net/th-th/live/workpointtv"
+  },
+  {
+    "chno": "24",
+    "name": "True4U",
+    "tvg_id": "True4U.th",
+    "group": "Digital TV",
+    "logo": "true4u.png",
+    "url": "https://tv.trueid.net/th-th/live/true4u"
+  },
+  {
+    "chno": "25",
+    "name": "GMM25",
+    "tvg_id": "GMM.25.th",
+    "group": "Digital TV",
+    "logo": "gmm25.png",
+    "url": "https://tv.trueid.net/th-th/live/gmm25"
+  },
+  {
+    "chno": "27",
+    "name": "ช่อง 8",
+    "tvg_id": "Channel.8.th",
+    "group": "Digital TV",
+    "logo": "ch8.png",
+    "url": "https://tv.trueid.net/th-th/live/ch8"
+  },
+  {
+    "chno": "30",
+    "name": "ช่อง 9 MCOT HD",
+    "tvg_id": "MCOT.HD.th",
+    "group": "Digital TV",
+    "logo": "9mcot-hd.png",
+    "url": "https://tv.trueid.net/th-th/live/9mcot-hd"
+  },
+  {
+    "chno": "31",
+    "name": "ช่องวัน 31",
+    "tvg_id": "One.31.th",
+    "group": "Digital TV",
+    "logo": "one-hd.png",
+    "url": "https://tv.trueid.net/th-th/live/one-hd"
+  },
+  {
+    "chno": "33",
+    "name": "ช่อง 3 HD",
+    "tvg_id": "Channel.3.HD.th",
+    "group": "Digital TV",
+    "logo": "ch3-hd.png",
+    "url": "https://tv.trueid.net/th-th/live/ch3-hd"
+  },
+  {
+    "chno": "34",
+    "name": "อมรินทร์ทีวี เอชดี 34",
+    "tvg_id": "Amarin.TV.th",
+    "group": "Digital TV",
+    "logo": "amarintv-hd.png",
+    "url": "https://tv.trueid.net/th-th/live/amarintv-hd"
+  },
+  {
+    "chno": "35",
+    "name": "ช่อง 7HD",
+    "tvg_id": "Channel.7.HD.th",
+    "group": "Digital TV",
+    "logo": "ch7-hd.png",
+    "url": "https://tv.trueid.net/th-th/live/ch7-hd"
+  },
+  {
+    "chno": "36",
+    "name": "PPTV HD 36",
+    "tvg_id": "PPTV.HD.th",
+    "group": "Digital TV",
+    "logo": "pptv-hd.png",
+    "url": "https://tv.trueid.net/th-th/live/pptv-hd"
+  },
+  {
+    "chno": "38",
+    "name": "Boomerang",
+    "tvg_id": "Boomerang.(Thai).th",
+    "group": "Kids & Anime",
+    "logo": "boomerang-hd.png",
+    "url": "https://tv.trueid.net/th-th/live/boomerang-hd"
+  },
+  {
+    "chno": "39",
+    "name": "Cartoon Club",
+    "tvg_id": "Cartoon.Club.th",
+    "group": "Kids & Anime",
+    "logo": "tid-cartoon-club-channel.png",
+    "url": "https://tv.trueid.net/th-th/live/tid-cartoon-club-channel"
+  },
+  {
+    "chno": "40",
+    "name": "ANIPLUS",
+    "tvg_id": "Aniplus.th",
+    "group": "Kids & Anime",
+    "logo": "aniplus-channel.png",
+    "url": "https://tv.trueid.net/th-th/live/aniplus-channel"
+  }
+]
