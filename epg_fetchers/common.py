@@ -127,7 +127,7 @@ def _load_epg_cache(cache_key, tvg_id, channel_name, logo_url, max_age=21600):
         pass
     return None
 
-def fetch_from_trueid_epg(slug, tvg_id, channel_name, logo_url=""):
+def fetch_from_trueid_epg(slug, tvg_id, channel_name, logo_url="", epg_url=None):
     cached = _load_epg_cache(f"trueid_{slug}", tvg_id, channel_name, logo_url)
     if cached:
         return cached
