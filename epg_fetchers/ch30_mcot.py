@@ -7,7 +7,7 @@ from .common import USER_AGENT, build_channel_element, fetch_from_xml_sources
 
 API_URL = "https://api-service.mcot.net/api/web/v1/tv/program/?date=&categoryId=35"
 
-def fetch(tvg_id, channel_name, logo_url, driver=None):
+def fetch(tvg_id, channel_name, logo_url, driver=None, epg_url=None):
     ch_elem = build_channel_element(tvg_id, channel_name, logo_url)
     programmes = []
     tz_th = timezone(timedelta(hours=7))
@@ -17,7 +17,7 @@ def fetch(tvg_id, channel_name, logo_url, driver=None):
     try:
         ctx = ssl._create_unverified_context()
         req = urllib.request.Request(
-            API_URL,
+            epg_url or API_URL,
             headers={"User-Agent": USER_AGENT, "Referer": "https://tv.mcot.net/tv/th/program/35", "Accept": "application/json"}
         )
         data = json.loads(urllib.request.urlopen(req, timeout=20, context=ctx).read().decode("utf-8"))

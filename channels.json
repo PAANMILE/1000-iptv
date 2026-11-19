@@ -7,7 +7,8 @@
     "logo": "thaipbs.png",
     "url": "https://thaipbs-mcx0wm.cdn.byteark.com/vtt-live/variant_1080p.m3u8",
     "fetcher": "ch03_thaipbs",
-    "epg_fetcher": "ch03_thaipbs"
+    "epg_fetcher": "ch03_thaipbs",
+    "epg_url": "https://www.thaipbs.or.th/program/schedules"
   },
   {
     "chno": "5",
@@ -17,7 +18,8 @@
     "logo": "ch5.png",
     "url": "https://thaitv5hd.com/live/",
     "fetcher": "ch05_tv5",
-    "epg_fetcher": "ch05_tv5"
+    "epg_fetcher": "ch05_tv5",
+    "epg_url": "https://thaitv5hd.com/schedule/"
   },
   {
     "chno": "23",
@@ -27,7 +29,8 @@
     "logo": "workpointtv.png",
     "url": "https://tv.trueid.net/th-th/live/workpointtv",
     "fetcher": "ch23_workpoint",
-    "epg_fetcher": "ch23_workpoint"
+    "epg_fetcher": "ch23_workpoint",
+    "epg_url": "https://tv.trueid.net/th-th/live/workpointtv"
   },
   {
     "chno": "24",
@@ -37,7 +40,8 @@
     "logo": "true4u.png",
     "url": "https://true4u.com/live/",
     "fetcher": "ch24_true4u",
-    "epg_fetcher": "ch24_true4u"
+    "epg_fetcher": "ch24_true4u",
+    "epg_url": "https://true4u.com/tvplan/"
   },
   {
     "chno": "25",
@@ -47,7 +51,8 @@
     "logo": "gmm25.png",
     "url": "https://www.oned.net/live-tv/gmm25",
     "fetcher": "ch25_gmm25",
-    "epg_fetcher": "ch25_gmm25"
+    "epg_fetcher": "ch25_gmm25",
+    "epg_url": "https://www.gmm25.com/firebase/web/api/schedule.php"
   },
   {
     "chno": "27",
@@ -57,7 +62,8 @@
     "logo": "ch8.png",
     "url": "https://tv.trueid.net/th-th/live/ch8",
     "fetcher": "ch27_ch8",
-    "epg_fetcher": "ch27_ch8"
+    "epg_fetcher": "ch27_ch8",
+    "epg_url": "https://tv.trueid.net/th-th/live/ch8"
   },
   {
     "chno": "29",
@@ -67,7 +73,8 @@
     "logo": "mono29.png",
     "url": "https://udn-streamer1.cdn.3bbtv.com:8443/3bb/live/29/29.mpd",
     "fetcher": "ch29_mono29",
-    "epg_fetcher": "ch29_mono29"
+    "epg_fetcher": "ch29_mono29",
+    "epg_url": "https://epgshare01.online/epgshare01/epg_ripper_TH1.xml.gz"
   },
   {
     "chno": "30",
@@ -77,7 +84,8 @@
     "logo": "9mcot-hd.png",
     "url": "https://tv.mcot.net/tv/th",
     "fetcher": "ch30_mcot",
-    "epg_fetcher": "ch30_mcot"
+    "epg_fetcher": "ch30_mcot",
+    "epg_url": "https://api-service.mcot.net/api/web/v1/tv/program/?date=&categoryId=35"
   },
   {
     "chno": "31",
@@ -87,7 +95,8 @@
     "logo": "one-hd.png",
     "url": "https://www.oned.net/live-tv/one31",
     "fetcher": "ch31_one31",
-    "epg_fetcher": "ch31_one31"
+    "epg_fetcher": "ch31_one31",
+    "epg_url": "https://api-web.onehd.net/api/schedule/day/"
   },
   {
     "chno": "33",
@@ -97,7 +106,8 @@
     "logo": "ch3-hd.png",
     "url": "https://ch3plus.com",
     "fetcher": "ch33_ch3",
-    "epg_fetcher": "ch33_ch3"
+    "epg_fetcher": "ch33_ch3",
+    "epg_url": "https://ch3plus.com/schedule"
   },
   {
     "chno": "34",
@@ -107,7 +117,8 @@
     "logo": "amarintv-hd.png",
     "url": "https://www.amarintv.com/live",
     "fetcher": "ch34_amarin",
-    "epg_fetcher": "ch34_amarin"
+    "epg_fetcher": "ch34_amarin",
+    "epg_url": "https://web-api.amarintv.com/web/schedules/by-date"
   },
   {
     "chno": "35",
@@ -117,7 +128,8 @@
     "logo": "ch7-hd.png",
     "url": "https://www.ch7.com/th/live/",
     "fetcher": "ch35_ch7",
-    "epg_fetcher": "ch35_ch7"
+    "epg_fetcher": "ch35_ch7",
+    "epg_url": "https://www.ch7.com/th/schedule/"
   },
   {
     "chno": "36",
@@ -127,7 +139,8 @@
     "logo": "pptv-hd.png",
     "url": "https://tv.trueid.net/th-th/live/pptv-hd",
     "fetcher": "ch36_pptv",
-    "epg_fetcher": "ch36_pptv"
+    "epg_fetcher": "ch36_pptv",
+    "epg_url": "https://tv.trueid.net/th-th/live/pptv-hd"
   },
   {
     "chno": "38",
@@ -137,7 +150,8 @@
     "logo": "boomerang-hd.png",
     "url": "https://tv.trueid.net/th-th/live/boomerang-hd",
     "fetcher": "ch38_boomerang",
-    "epg_fetcher": "ch38_boomerang"
+    "epg_fetcher": "ch38_boomerang",
+    "epg_url": "https://tv.trueid.net/th-th/live/boomerang-hd"
   },
   {
     "chno": "39",
@@ -147,7 +161,8 @@
     "logo": "tid-cartoon-club-channel.png",
     "url": "https://tv.trueid.net/th-th/live/tid-cartoon-club-channel",
     "fetcher": "ch39_cartoonclub",
-    "epg_fetcher": "ch39_cartoonclub"
+    "epg_fetcher": "ch39_cartoonclub",
+    "epg_url": "https://tv.trueid.net/th-th/live/tid-cartoon-club-channel"
   },
   {
     "chno": "888",
@@ -157,6 +172,7 @@
     "logo": "1000miles_tv.png",
     "url": "http://127.0.0.1:8888/1000miles_tv/index.m3u8",
     "fetcher": "local_stream",
-    "epg_fetcher": "ch888_1000milestv"
+    "epg_fetcher": "ch888_1000milestv",
+    "epg_url": ""
   }
 ]

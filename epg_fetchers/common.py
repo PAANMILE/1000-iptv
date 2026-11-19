@@ -135,7 +135,7 @@ def fetch_from_trueid_epg(slug, tvg_id, channel_name, logo_url=""):
     ch_elem = build_channel_element(tvg_id, channel_name, logo_url)
     programmes = []
     tz_th = timezone(timedelta(hours=7))
-    url = f"https://tv.trueid.net/th-th/live/{slug}"
+    url = epg_url or f"https://tv.trueid.net/th-th/live/{slug}"
 
     try:
         ctx = ssl._create_unverified_context()
