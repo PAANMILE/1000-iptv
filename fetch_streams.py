@@ -126,9 +126,10 @@ def run(force_update=False, driver=None):
     for ch in channels:
         name = ch["name"]
         if ch.get("fetcher") == "local_stream":
-            print(f"🟢 [LOCAL]  {pad_display(name, 26)} -> Local MediaMTX stream")
-            results[name] = ch["url"]
-            seen_urls.add(ch["url"])
+            preserved_url = existing_streams.get(name, ch["url"])
+            print(f"🟢 [LOCAL]  {pad_display(name, 26)} -> Preserved ({preserved_url})")
+            results[name] = preserved_url
+            seen_urls.add(preserved_url)
             continue
         expected_ref = get_referer(ch["url"])
         old_data = existing_streams.get(name)
