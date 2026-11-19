@@ -58,7 +58,7 @@ https://cdn144.stm.trueid.net/p202aes/i007_multi_w_auto_tidapp.smil/playlist.m3u
 #EXTINF:-1 tvg-chno="39" tvg-id="CartoonClub.th" tvg-name="Cartoon Club" tvg-logo="https://raw.githubusercontent.com/PAANMILE/1000-iptv/main/logos/tid-cartoon-club-channel.png" group-title="Kids & Anime",Cartoon Club
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.6 Safari/605.1.15
 #EXTVLCOPT:http-referrer=https://tv.trueid.net/
-https://cdn138.stm.trueid.net/p201dai/143_multi_w_auto_tidapp.smil/playlist.m3u8?appid=trueid&type=live&visitor=web&drm=aes&uid=d0c506ada0&did=LURRdlNVMHJNMzh0VTd1VjFSb3V4VGVHLVlzbF80Q0k&mpass=mCJNIDIQvxcbMFmcz5-hJEY5ZqXccKI2Pogyf781lnJ9QjPbIS7t5esZ5nfaaQkW5d2E0zu6nm1be-XrWqRuj96EqJG6-VYz27sitJPsB68gIH0Pci_lqC9sYKD_MA3Z0Qw&sid=4490497366&rt=1795107644&ds=25200&tk=rZ6T9e83I-zEF4Vhap0dkLDGC3slxhz9QyxJHKez0-M
+https://cdn147.stm.trueid.net/p201dai/143_multi_w_auto_tidapp.smil/playlist.m3u8?appid=trueid&type=live&visitor=web&drm=aes&uid=804531e7a6&did=TmtydDBEYWsxUVVqcDhMTWtQOXQyOWZpSUJmRVBZTHI&mpass=IkiKmSiM4oR5wLpVl9D_dYPG7e2vCJCM7h4tLfe8E9Xe3Z6RAdkrYNio6LeVvOeD5URtPb9pX8NJxgitH_vzLQEDLy92_zC16zIpDEJiEoQgINXRAWSqq5GyqI-vGQ2ggYE&sid=3daf7f4e51&rt=1795109191&ds=25200&tk=UD8kjw_FejCbYdabWN3_x1cR4RAXkiYJ4FBTxNFsbcg
 #EXTINF:-1 tvg-chno="888" tvg-id="1000milesTV.th" tvg-name="1000miles TV" tvg-logo="https://raw.githubusercontent.com/PAANMILE/1000-iptv/main/logos/1000miles_tv.png" group-title="Private",1000miles TV
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.6 Safari/605.1.15
 #EXTVLCOPT:http-referrer=http://127.0.0.1:8888/
