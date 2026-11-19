@@ -145,7 +145,7 @@ def run(force_update=False, driver=None):
 
             preserved_entry = {"stream_url": s_url, "referer": ref_url}
             print(f"🟢 [LOCAL]  {pad_display(name, 26)} -> Preserved ({s_url})")
-            results[name] = preserved_entry
+            results[name] = s_url
             seen_urls.add(s_url)
             continue
         expected_ref = get_referer(ch["url"])
