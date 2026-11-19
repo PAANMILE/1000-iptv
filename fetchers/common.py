@@ -62,7 +62,7 @@ def _extract_oned_epg_from_driver(driver, cache_key):
                 const mLeft = st.match(/left:\\s*([\\d.]+)(px|%)/);
                 const mWidth = st.match(/width:\\s*([\\d.]+)(px|%)/);
                 const txt = (el.innerText || '').trim().split('\\n')[0].trim();
-                if (mLeft && mWidth && txt && txt.length > 1) {
+                if (mLeft && mWidth && txt && txt.length > 1 && !["วันนี้", "พรุ่งนี้", "สด", "รายการถัดไป"].includes(txt)) {
                     out.push({
                         left: parseFloat(mLeft[1]),
                         width: parseFloat(mWidth[1]),
@@ -114,9 +114,17 @@ def sniff_stream(driver, url, channel_name, seen_urls=None, max_wait=15.0, poll_
                 .filter(u => u.includes('.m3u8'));
         """)
         if candidates:
-            for c in reversed(candidates):
-                if c not in seen_urls and "chunklist" not in c:
+            low_res = ("144p", "240p", "360p", "480p", "chunklist")
+            # 1) Prefer Master Playlist (contains all resolutions up to 1080p)
+            for c in candidates:
+                if c not in seen_urls and not any(k in c.lower() for k in low_res):
+                    if any(m in c.lower() for m in ("playlist.m3u8", "master.m3u8", "/live/index.m3u8")):
+                        return c
+            # 2) Any non-low-res m3u8
+            for c in candidates:
+                if c not in seen_urls and not any(k in c.lower() for k in low_res):
                     return c
+            # 3) Fallback to highest available
             for c in reversed(candidates):
                 if c not in seen_urls:
                     return c

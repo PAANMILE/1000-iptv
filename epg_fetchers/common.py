@@ -173,7 +173,7 @@ def _parse_px(style_str, prop):
 
 def _clean_oned_title(raw_text):
     lines = [l.strip() for l in (raw_text or "").splitlines() if l.strip()]
-    badges = {"สด", "รายการถัดไป", "LIVE", "NEXT"}
+    badges = {"สด", "รายการถัดไป", "LIVE", "NEXT", "วันนี้", "พรุ่งนี้"}
     filtered = [l for l in lines if l not in badges]
     return " ".join(filtered).strip()
 
@@ -193,7 +193,9 @@ def fetch_from_oned_epg(url, tvg_id, channel_name, logo_url=""):
         driver.get(url)
         time.sleep(5)
 
+        row_idx = 1 if "gmm25" in url.lower() else 0
         items = driver.execute_script("""
+            const idx = arguments[0];
             const rows = Array.from(document.querySelectorAll("div, ul")).filter(el => {
                 if (el.children.length < 8) return false;
                 const styled = Array.from(el.children).filter(c => {
@@ -203,11 +205,12 @@ def fetch_from_oned_epg(url, tvg_id, channel_name, logo_url=""):
                 return styled.length >= 8;
             });
             if (!rows.length) return [];
-            return Array.from(rows[0].children).map(c => ({
+            const targetRow = rows[idx] || rows[0];
+            return Array.from(targetRow.children).map(c => ({
                 text: c.innerText || "",
                 style: c.getAttribute("style") || ""
             }));
-        """)
+        """, row_idx)
 
         px_per_min = 800.0 / 210.0
 
