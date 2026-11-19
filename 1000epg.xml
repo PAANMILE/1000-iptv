@@ -25,8 +25,8 @@
     <icon src="https://raw.githubusercontent.com/PAANMILE/1000-iptv/main/logos/ch8.png" />
   </channel>
   <channel id="MONO.th">
-    <display-name>TH - MONO</display-name>
-    <icon src="https://iptv-epg.org/images/Q1k5xYtT9VdXhv9UjigtokIJ3mYKfUoajBgcTY41E9fnKGb_lwn3sq6avzi3VG-P8U4_Vl1ioGqsrDltFkLCJlnzDzvRfj4hy_1TI5woxw" />
+    <display-name lang="th">MONO29</display-name>
+    <icon src="https://raw.githubusercontent.com/PAANMILE/1000-iptv/main/logos/mono29.png" />
   </channel>
   <channel id="ONE31.HD.th">
     <display-name lang="th">ONE 31</display-name>
@@ -268,9 +268,6 @@
   <programme start="20261120230000 +0700" stop="20261121000000 +0700" channel="TV5.HD.th">
     <title lang="th">สารคดีรู้รอบโลก</title>
   </programme>
-  <programme start="20261120010000 +0700" stop="20261120012500 +0700" channel="WORKPOINT.th">
-    <title lang="th">TV Direct Shopping</title>
-  </programme>
   <programme start="20261120012500 +0700" stop="20261120020000 +0700" channel="WORKPOINT.th">
     <title lang="th">ปัญญาปันสุข รีรัน</title>
   </programme>
@@ -373,8 +370,8 @@
   <programme start="20261120235700 +0700" stop="20261121000000 +0700" channel="WORKPOINT.th">
     <title lang="th">2 ข่าวใหญ่เวิร์คพอยท์ รีรัน</title>
   </programme>
-  <programme start="20261120010000 +0700" stop="20261120012500 +0700" channel="WORKPOINT.th">
-    <title lang="th">TV Direct Shopping</title>
+  <programme start="20261120012500 +0700" stop="20261120020000 +0700" channel="WORKPOINT.th">
+    <title lang="th">ปัญญาปันสุข รีรัน</title>
   </programme>
   <programme start="20261120003000 +0700" stop="20261120010000 +0700" channel="TRUE4U.th">
     <title lang="th">เชฟข้างถนน</title>
@@ -721,472 +718,161 @@
   <programme start="20261120003500 +0700" stop="20261120013500 +0700" channel="CH8.th">
     <title lang="th">ละคร กระถินริมรั้ว</title>
   </programme>
-  <programme start="20261118170000 +0000" stop="20261119000000 +0000" channel="MONO.th">
-    <category lang="th">Sport</category>
-    <category>Sports</category>
-    <desc lang="th">พบกับไฮไลท์การแข่งขันฟุตบอลพรีเมียร์ลีก.</desc>
-    <icon src="https://iptv-epg.org/images/_K4CiT-AD-rwpwudr1R977hHKKY428LfS0pKWiMbeF9rt3SdRrxkb6jiI_PJv9zddMJT6oLB9vmPz2SB1NSxfLyFkdSmfK0IGUGE-u9820-sdlNN1lOn8wl1SBVcz-wVjW8EwI66JRhQ6DyUC8yGUvFZvPgNeV6FJgR5UYFMdafCI7Er" />
-    <title lang="th">The Big Interview / PL REWIND</title>
-  </programme>
-  <programme start="20261119000000 +0000" stop="20261119010000 +0000" channel="MONO.th">
-    <category lang="th">Sport</category>
-    <category>Sports</category>
-    <desc lang="th">ย้อนรอยการแข่งขันฟุตบอลพรีเมียร์ลีก โดยรวบรวมเกมการแข่งขันที่มีความดุเดือด สุดมันส์ เต็มไปด้วยดราม่าและการยิงประตูที่แฟนบอลทั่วโลกประทับใจ.</desc>
-    <icon src="https://iptv-epg.org/images/5l1RIcZQfeDjYM9Zm8SMf1Mwpp0Ke0wKZivhOtqhPhsMvkmqvqgvbpLl3Rdxi-5XVRmEjk7gzoSLlR-75sfcnOyL-I17_E_U_Tj8bk_v1zeUgHn97YCO6KCjKOywCNLpjwAIBb4V9hDMKmhFKxIDWmI2TlZhyw9lgehUG5Mr2u4yBcCW" />
-    <title lang="th">CLASSIC MATCH: Premier League</title>
-  </programme>
-  <programme start="20261119010000 +0000" stop="20261119013000 +0000" channel="MONO.th">
-    <category lang="th">Sport</category>
-    <category>Sports</category>
-    <desc lang="th">รายการข่าวเช้าสายกีฬา อัปเดตผลการแข่งขัน ประเด็นร้อน วงการกีฬาไทยและต่างประเทศ พร้อมบทวิเคราะห์สุดเข้มข้นให้คุณไม่ตกเทรนด์ทุกเช้า.</desc>
-    <icon src="https://iptv-epg.org/images/MnbF6cNT3PtmU7LHeu-2oO70GuZIJdikjIt-UKWOcCykcTOk7vqSY-dMzv2J7H6sLiWnQOBgYgTHouAWp3vlpsnXQ_DOO7AdW4THd3z1RKOMC14W29S-VPZVc3rylSzubXdMfCls6CV7bgw0W1kX_LZyoZrTo4oFuza_lZz-nZOPAlhM" />
-    <title lang="th">MONO MORNING SPORTS</title>
-  </programme>
-  <programme start="20261119013000 +0000" stop="20261119033500 +0000" channel="MONO.th">
-    <category lang="th">Sport</category>
-    <category>Sports</category>
-    <desc lang="th">การถ่ายทอดสดศึกฟุตบอลแห่งศักดิ์ศรีระดับทวีปยุโรป รวมสุดยอดทีมชาติมหาอำนาจฟุตบอลมาฟาดแข้งเพื่อชิงชัยความยิ่งใหญ่และโควตาสำคัญ.</desc>
-    <icon src="https://iptv-epg.org/images/KB5SDE6YpFO6CQYCaCWbPB8Qc64ZaJjOr1Z95eh1RUquHuJ8a_Csix2_3QJUdhcuzV8kIjvecMvROjnzVmVdQfzQpOJV55jsxjvwy-AYawreia6KAfd6LK7gTwQJQkfzHtgw2Q5CKpA7t0otaX-vwFWBkRUUrPSaokw18lkHX259WYT3" />
-    <title lang="th">เทปบันทึก UEFA Nations League</title>
-  </programme>
-  <programme start="20261119033500 +0000" stop="20261119043500 +0000" channel="MONO.th">
-    <category lang="th">Sport</category>
-    <category>Sports</category>
-    <desc lang="th">คุยกันแบบสดๆ ถกกันแบบมันส์ๆเถียงแบบได้สาระ เพื่อแฟนกีฬาตัวจริง.</desc>
-    <icon src="https://iptv-epg.org/images/uaIKSN0eN7iZkAbwbuWYiZeyIOPG6a_JUBFmlW-UOEJ4vlcpNwwAaYgmUKqcXKcuF3BSYpn5YR9sL8SqBSUr1n8ZoWZFTVQits0gRGprlWl-Km-D0qJZooIlxYPsscl9A9JpepWyAOhArcpJ8_JyqMcNMqtvnU3p0f6RhYS7hrrFwbEu" />
-    <title lang="th">SPORT ROUNDUP</title>
-  </programme>
-  <programme start="20261119043500 +0000" stop="20261119055000 +0000" channel="MONO.th">
-    <category lang="th">Drama</category>
-    <desc lang="th">เรื่องราวโลกของการทำอาหาร ซึ่งเต็มไปด้วยการแข่งขัน ความฝัน ความสัมพันธ์ และแรงบันดาลใจ การเติบโตและค้นหาตัวตนของเชฟรุ่นใหม่.</desc>
-    <icon src="https://iptv-epg.org/images/DEW28_gIU4hLbDuHY7CDy8-1Q6WVNMCSy0z1hjBkW3_edodq-0O_Vqcm4rQie80aXbRRtpgbdLgY1jCVYyoc3cxRLJKNzZwOOAhrcdxLQzMLDc0jZEhc06kRO4wEgJaWpvXlnowkXI_Z8N8mwxEMzsBQgpxkDKJs1_uNHuBokk60XO67" />
-    <title lang="th">เลือดใหม่หัวใจนักปรุง</title>
-  </programme>
-  <programme start="20261119055000 +0000" stop="20261119062000 +0000" channel="MONO.th">
-    <category lang="th">Sport</category>
-    <category>Sports</category>
-    <desc lang="th">รายการข่าวกีฬาประจำวัน พร้อมรับชมไฮไลท์ล่าสุด ข่าวเด่นจากวงการกีฬา รวมถึงฟุตบอลระดับโลกอย่างพรีเมียร์ลีกอังกฤษ และ วอลเลย์บอลเนชั่นส์ลีก.</desc>
-    <icon src="https://iptv-epg.org/images/ukrZR3w7OYwVDQDPl8RA2BMh7a1eLNxAyJr088vVWyFRSQdTLavdGq15ArHeoR87o0aQZJ0Duu5W2Cweeh7v30nB8qfOkKqOHiK2o4wo1BXjpm_3ZX-eDL9evJdSKxVh6iWkpb0QiUWJB_yxbwpwcVtdDAY2yFBLXc_BsyJ5ewwH-LcB" />
-    <title lang="th">SPORTS TODAY</title>
-  </programme>
-  <programme start="20261119062000 +0000" stop="20261119073000 +0000" channel="MONO.th">
-    <category lang="th">Drama</category>
-    <desc lang="th">เรื่องราวโลกของการทำอาหาร ซึ่งเต็มไปด้วยการแข่งขัน ความฝัน ความสัมพันธ์ และแรงบันดาลใจ การเติบโตและค้นหาตัวตนของเชฟรุ่นใหม่.</desc>
-    <icon src="https://iptv-epg.org/images/DEW28_gIU4hLbDuHY7CDy8-1Q6WVNMCSy0z1hjBkW3_edodq-0O_Vqcm4rQie80aXbRRtpgbdLgY1jCVYyoc3cxRLJKNzZwOOAhrcdxLQzMLDc0jZEhc06kRO4wEgJaWpvXlnowkXI_Z8N8mwxEMzsBQgpxkDKJs1_uNHuBokk60XO67" />
-    <title lang="th">เลือดใหม่หัวใจนักปรุง</title>
-  </programme>
-  <programme start="20261119073000 +0000" stop="20261119103000 +0000" channel="MONO.th">
-    <category lang="th">Sport</category>
-    <category>Sports</category>
-    <desc lang="th">เทปบันทึกการแข่งขันวอลเลย์บอลเอสวีลีก ญี่ปุ่น ย้อนชมสโมสรชั้นนำดวลพลังตบ เกมรับ และทีมเวิร์กในแมตช์สุดเข้มข้น.</desc>
-    <icon src="https://iptv-epg.org/images/OCXvcjheKKfNTrY5Ob_rHQ--ETdPA7vJ6dt306deU5LuLgFGxqGE4gNXyJtlQOqVn99tKet9RiDncitDsZEItUo1LzmDhLzcNgzm3-Vf0XmCVsuf24uqxfmX-jwbu3Ha7ouwRnmTwYYF085QJKlITW3x1ZPAA5XlKaiqmSgIaJo7T3iG" />
-    <title lang="th">เทปบันทึก SV.LEAGUE</title>
-  </programme>
-  <programme start="20261119103000 +0000" stop="20261119110000 +0000" channel="MONO.th">
-    <category lang="th">Sport</category>
-    <category>Sports</category>
-    <desc lang="th">รายการข่าวกีฬาประจำวัน พร้อมรับชมไฮไลท์ล่าสุด ข่าวเด่นจากวงการกีฬา รวมถึงฟุตบอลระดับโลกอย่างพรีเมียร์ลีกอังกฤษ และ วอลเลย์บอลเนชั่นส์ลีก.</desc>
-    <icon src="https://iptv-epg.org/images/ukrZR3w7OYwVDQDPl8RA2BMh7a1eLNxAyJr088vVWyFRSQdTLavdGq15ArHeoR87o0aQZJ0Duu5W2Cweeh7v30nB8qfOkKqOHiK2o4wo1BXjpm_3ZX-eDL9evJdSKxVh6iWkpb0QiUWJB_yxbwpwcVtdDAY2yFBLXc_BsyJ5ewwH-LcB" />
-    <title lang="th">SPORTS TODAY</title>
-  </programme>
-  <programme start="20261119110000 +0000" stop="20261119132000 +0000" channel="MONO.th">
-    <category lang="th">Crime</category>
-    <desc lang="th">ซีรีส์ที่จะพาคุณเข้าไปโลดแล่นในจิตใจของมนุษย์ ผ่านตัวละครที่มีความหลากหลาย และเรื่องราวที่เหนือความคาดหมาย ดั่งคําที่ว่า ใจคน ยากแท้ หยั่งถึง.</desc>
-    <icon src="https://iptv-epg.org/images/B0JNDFKSJMszEEEC0MTOrUeiX-s_izOxuB_bQCQKGAD0mt5js3Bv-pSFinuvxl0Iw3rJVl8eDMyvLw3FcLYEiZ1h6S-Pq5jvdKJvFmtAKwVr_4iSzHuIGEGUaCjREQ2uyER3n7utyDujJg1sbGGd_UXHTlf7aTkYMun4ODrnG885LGFD" />
-    <title lang="th">ฆาตกรรม เดอะ มิวสิคัล THE MUSICAL MURDER</title>
-  </programme>
-  <programme start="20261119132000 +0000" stop="20261119134000 +0000" channel="MONO.th">
-    <category lang="th">News</category>
-    <desc lang="th">รายการข่าวในพระราชสำนัก.</desc>
-    <icon src="https://iptv-epg.org/images/VhD4lKjPgDtrLmM5Y0LYOMe7VKjyu7eCVc0X2cirkwSJtIuaJSVmz724JSk8CdNrRdjkVxy3N7gNLSNOTpoE4BduecLLbLE7IUV_rcArcI5qjIyt6z3Fpu3Sn6ftMnzqZvQG4UeG0Ek5Gj-XWycwRCqGQnR3X_wtdykEu76h370Xysru" />
-    <title lang="th">ข่าวในพระราชสำนัก</title>
-  </programme>
-  <programme start="20261119134000 +0000" stop="20261119140000 +0000" channel="MONO.th">
-    <category lang="th">Sport</category>
-    <category>Sports</category>
-    <desc lang="th">สรุปข่าวกีฬารอบวัน เจาะลึกประเด็นร้อน สถานการณ์ความเคลื่อนไหวในวงการกีฬา ทั้งฟุตบอลลีกชั้นนำระดับโลก และการแข่งขันกีฬาหลากหลายประเภท.</desc>
-    <icon src="https://iptv-epg.org/images/cIZWEJRjNVDZXzSGMzy_bCkUfr2lXy7BLwQVq1O0rikkiSq_Xz0qvgdPDsjh4FbnopSFD8QJC44QXpdU6IEUc-WBHAbsfibY6WATwkxxwYKIs7IL76YJNpLYABWgqXQA4qQ5KanViZ9I5CCy8yUyroKst2gAaUuSl76_AaqZz0LLV5d0" />
-    <title lang="th">SPORTS FOCUS</title>
-  </programme>
-  <programme start="20261119140000 +0000" stop="20261119143500 +0000" channel="MONO.th">
-    <category lang="th">Sport</category>
-    <category>Sports</category>
-    <desc lang="th">รายการที่จะมาอัพเดทข่าวสารในโลกแห่งกีฬาฟุตบอล ให้คุณได้ตามเชียร์ ตามเช็ค ตามเม้าท์ ครบทุกมุมพรีเมียร์ลีก.</desc>
-    <icon src="https://iptv-epg.org/images/qu9qMZeHrGKsDeTS2yBNf4WgBjCzDq8oCBxL_OrF0nmHy1-0TzgpwochjEY_h3t-rNrFJUhwllD4ztY6HPDNQ0b7fsnpBAEHRqf7d2jD5jgdvgKeckfmp3Y9gqkNeBBVboTEpFPWmWqgy3gP_8tymlMcV5-xgpt5wG8muFleMKOQB-gU" />
-    <title lang="th">MAX Sport Fan Zone</title>
-  </programme>
-  <programme start="20261119143500 +0000" stop="20261119170000 +0000" channel="MONO.th">
-    <category lang="th">Sport</category>
-    <category>Sports</category>
-    <desc lang="th">เทปบันทึกการแข่งขันฟุตบอลพรีเมียร์ลีก อังกฤษ ชมย้อนหลังทุกแมตช์สำคัญ ช็อตเด็ด และจังหวะยิงประตูสุดตื่นเต้นของทีมโปรดแบบเต็มอิ่ม.</desc>
-    <icon src="https://iptv-epg.org/images/_sgLbhl2oSFEskjpztSMoxNfGpK59V8NF_qsnm3JZa46WdA05-XdsLAO3k1PA7mXUpTSuRyAVho2ttsQqCeZSEw3fiqh76GA85BaiJHbkGazK-ARKmYCAX81jxyZMXwSCcQW6kfIJo2MND97yevvAtCrhTou01xCg8ns3LZxmwbW9cY8" />
-    <title lang="th">เทปบันทึก PREMIER LEAGUE 2026/27</title>
-  </programme>
-  <programme start="20261119170000 +0000" stop="20261120000000 +0000" channel="MONO.th">
-    <category lang="th">Sport</category>
-    <category>Sports</category>
-    <desc lang="th">พบกับไฮไลท์การแข่งขันฟุตบอลพรีเมียร์ลีก.</desc>
-    <icon src="https://iptv-epg.org/images/_K4CiT-AD-rwpwudr1R977hHKKY428LfS0pKWiMbeF9rt3SdRrxkb6jiI_PJv9zddMJT6oLB9vmPz2SB1NSxfLyFkdSmfK0IGUGE-u9820-sdlNN1lOn8wl1SBVcz-wVjW8EwI66JRhQ6DyUC8yGUvFZvPgNeV6FJgR5UYFMdafCI7Er" />
-    <title lang="th">The Big Interview / PL REWIND</title>
-  </programme>
-  <programme start="20261120000000 +0000" stop="20261120010000 +0000" channel="MONO.th">
-    <category lang="th">Sport</category>
-    <category>Sports</category>
-    <desc lang="th">ย้อนรอยการแข่งขันฟุตบอลพรีเมียร์ลีก โดยรวบรวมเกมการแข่งขันที่มีความดุเดือด สุดมันส์ เต็มไปด้วยดราม่าและการยิงประตูที่แฟนบอลทั่วโลกประทับใจ.</desc>
-    <icon src="https://iptv-epg.org/images/5l1RIcZQfeDjYM9Zm8SMf1Mwpp0Ke0wKZivhOtqhPhsMvkmqvqgvbpLl3Rdxi-5XVRmEjk7gzoSLlR-75sfcnOyL-I17_E_U_Tj8bk_v1zeUgHn97YCO6KCjKOywCNLpjwAIBb4V9hDMKmhFKxIDWmI2TlZhyw9lgehUG5Mr2u4yBcCW" />
-    <title lang="th">CLASSIC MATCH: Premier League</title>
-  </programme>
-  <programme start="20261120010000 +0000" stop="20261120013000 +0000" channel="MONO.th">
-    <category lang="th">Sport</category>
-    <category>Sports</category>
-    <desc lang="th">รายการข่าวเช้าสายกีฬา อัปเดตผลการแข่งขัน ประเด็นร้อน วงการกีฬาไทยและต่างประเทศ พร้อมบทวิเคราะห์สุดเข้มข้นให้คุณไม่ตกเทรนด์ทุกเช้า.</desc>
-    <icon src="https://iptv-epg.org/images/MnbF6cNT3PtmU7LHeu-2oO70GuZIJdikjIt-UKWOcCykcTOk7vqSY-dMzv2J7H6sLiWnQOBgYgTHouAWp3vlpsnXQ_DOO7AdW4THd3z1RKOMC14W29S-VPZVc3rylSzubXdMfCls6CV7bgw0W1kX_LZyoZrTo4oFuza_lZz-nZOPAlhM" />
-    <title lang="th">MONO MORNING SPORTS</title>
-  </programme>
-  <programme start="20261120013000 +0000" stop="20261120034500 +0000" channel="MONO.th">
-    <category lang="th">Sport</category>
-    <category>Sports</category>
-    <desc lang="th">เทปบันทึกการแข่งขันฟุตบอลพรีเมียร์ลีก อังกฤษ ชมย้อนหลังทุกแมตช์สำคัญ ช็อตเด็ด และจังหวะยิงประตูสุดตื่นเต้นของทีมโปรดแบบเต็มอิ่ม.</desc>
-    <icon src="https://iptv-epg.org/images/_sgLbhl2oSFEskjpztSMoxNfGpK59V8NF_qsnm3JZa46WdA05-XdsLAO3k1PA7mXUpTSuRyAVho2ttsQqCeZSEw3fiqh76GA85BaiJHbkGazK-ARKmYCAX81jxyZMXwSCcQW6kfIJo2MND97yevvAtCrhTou01xCg8ns3LZxmwbW9cY8" />
-    <title lang="th">เทปบันทึก PREMIER LEAGUE 2026/27</title>
-  </programme>
-  <programme start="20261120034500 +0000" stop="20261120044500 +0000" channel="MONO.th">
-    <category lang="th">Sport</category>
-    <category>Sports</category>
-    <desc lang="th">คุยกันแบบสดๆ ถกกันแบบมันส์ๆเถียงแบบได้สาระ เพื่อแฟนกีฬาตัวจริง.</desc>
-    <icon src="https://iptv-epg.org/images/uaIKSN0eN7iZkAbwbuWYiZeyIOPG6a_JUBFmlW-UOEJ4vlcpNwwAaYgmUKqcXKcuF3BSYpn5YR9sL8SqBSUr1n8ZoWZFTVQits0gRGprlWl-Km-D0qJZooIlxYPsscl9A9JpepWyAOhArcpJ8_JyqMcNMqtvnU3p0f6RhYS7hrrFwbEu" />
-    <title lang="th">SPORT ROUNDUP</title>
-  </programme>
-  <programme start="20261120044500 +0000" stop="20261120055000 +0000" channel="MONO.th">
-    <category lang="th">Drama</category>
-    <desc lang="th">เบื้องหลังชีวิตอันเพียบพร้อมและชีวิตแต่งงานที่หรูหรา กลับซ่อนคำโกหกและความลับอันดำมืด ที่พร้อมจะพังทลายทุกสิ่งเมื่อหน้ากากแห่งความรักถูกกะเทาะออก -- นำแสดงโดย ปิยธิดา มิตรธีรโรจน์.</desc>
-    <icon src="https://iptv-epg.org/images/wYSBmxNkSBbLuBaRK8_2lpo5bU7F0CPBGmIMq4Vtv_U-D8K1YUU6j-wmGNuDxWVSETir2U4fu7KEfjF3HvubjNkhLrXozvqmzWxWspVcoS0X_qF91_BrSJIcAU6iWqxX7JRIowG19i4blfxOws2_WTCKIKPCTk2zAgISjii4qmhXYM0q" />
-    <title lang="th">เปลือกรักปมลวง</title>
-  </programme>
-  <programme start="20261120055000 +0000" stop="20261120062000 +0000" channel="MONO.th">
-    <category lang="th">Sport</category>
-    <category>Sports</category>
-    <desc lang="th">รายการข่าวกีฬาประจำวัน พร้อมรับชมไฮไลท์ล่าสุด ข่าวเด่นจากวงการกีฬา รวมถึงฟุตบอลระดับโลกอย่างพรีเมียร์ลีกอังกฤษ และ วอลเลย์บอลเนชั่นส์ลีก.</desc>
-    <icon src="https://iptv-epg.org/images/ukrZR3w7OYwVDQDPl8RA2BMh7a1eLNxAyJr088vVWyFRSQdTLavdGq15ArHeoR87o0aQZJ0Duu5W2Cweeh7v30nB8qfOkKqOHiK2o4wo1BXjpm_3ZX-eDL9evJdSKxVh6iWkpb0QiUWJB_yxbwpwcVtdDAY2yFBLXc_BsyJ5ewwH-LcB" />
-    <title lang="th">SPORTS TODAY</title>
-  </programme>
-  <programme start="20261120062000 +0000" stop="20261120073000 +0000" channel="MONO.th">
-    <category lang="th">Drama</category>
-    <desc lang="th">เบื้องหลังชีวิตอันเพียบพร้อมและชีวิตแต่งงานที่หรูหรา กลับซ่อนคำโกหกและความลับอันดำมืด ที่พร้อมจะพังทลายทุกสิ่งเมื่อหน้ากากแห่งความรักถูกกะเทาะออก -- นำแสดงโดย ปิยธิดา มิตรธีรโรจน์.</desc>
-    <icon src="https://iptv-epg.org/images/wYSBmxNkSBbLuBaRK8_2lpo5bU7F0CPBGmIMq4Vtv_U-D8K1YUU6j-wmGNuDxWVSETir2U4fu7KEfjF3HvubjNkhLrXozvqmzWxWspVcoS0X_qF91_BrSJIcAU6iWqxX7JRIowG19i4blfxOws2_WTCKIKPCTk2zAgISjii4qmhXYM0q" />
-    <title lang="th">เปลือกรักปมลวง</title>
-  </programme>
-  <programme start="20261120073000 +0000" stop="20261120103000 +0000" channel="MONO.th">
-    <category lang="th">Sport</category>
-    <category>Sports</category>
-    <desc lang="th">เทปบันทึกการแข่งขันวอลเลย์บอลเอสวีลีก ญี่ปุ่น ย้อนชมสโมสรชั้นนำดวลพลังตบ เกมรับ และทีมเวิร์กในแมตช์สุดเข้มข้น.</desc>
-    <icon src="https://iptv-epg.org/images/OCXvcjheKKfNTrY5Ob_rHQ--ETdPA7vJ6dt306deU5LuLgFGxqGE4gNXyJtlQOqVn99tKet9RiDncitDsZEItUo1LzmDhLzcNgzm3-Vf0XmCVsuf24uqxfmX-jwbu3Ha7ouwRnmTwYYF085QJKlITW3x1ZPAA5XlKaiqmSgIaJo7T3iG" />
-    <title lang="th">เทปบันทึก SV.LEAGUE</title>
-  </programme>
-  <programme start="20261120103000 +0000" stop="20261120110000 +0000" channel="MONO.th">
-    <category lang="th">Sport</category>
-    <category>Sports</category>
-    <desc lang="th">รายการข่าวกีฬาประจำวัน พร้อมรับชมไฮไลท์ล่าสุด ข่าวเด่นจากวงการกีฬา รวมถึงฟุตบอลระดับโลกอย่างพรีเมียร์ลีกอังกฤษ และ วอลเลย์บอลเนชั่นส์ลีก.</desc>
-    <icon src="https://iptv-epg.org/images/ukrZR3w7OYwVDQDPl8RA2BMh7a1eLNxAyJr088vVWyFRSQdTLavdGq15ArHeoR87o0aQZJ0Duu5W2Cweeh7v30nB8qfOkKqOHiK2o4wo1BXjpm_3ZX-eDL9evJdSKxVh6iWkpb0QiUWJB_yxbwpwcVtdDAY2yFBLXc_BsyJ5ewwH-LcB" />
-    <title lang="th">SPORTS TODAY</title>
-  </programme>
-  <programme start="20261120110000 +0000" stop="20261120132000 +0000" channel="MONO.th">
-    <category lang="th">Comedy</category>
-    <desc lang="th">สาวโสดสายมูเดินสายขอพรความรักกับเพื่อนสนิท เมื่อหนุ่มสามสไตล์ก้าวเข้ามา เธอจะเลือกเชื่อสิ่งศักดิ์สิทธิ์หรือเสียงหัวใจ -- นำแสดงโดย ลภัสลัล จิรเวชสุนทรกุล, รพีพงศ์ ทับสุวรรณ.</desc>
-    <icon src="https://iptv-epg.org/images/CZLnP-AlBezPV2W1GUESYmxc29yNAghSdVJDwtqbSITqRdgmZBZt818NN-QK-YaM5SimwtYw_3l-ayG2yUbZvneR5PLbUlAHLvDzwr-30gMjkmdML27GPMkXgLlahKYI2O8AMP_WSVkTHZ1LWAoP8FC9UhhhGM9O9KjEFxE8THe5ijgW" />
-    <title lang="th">มูเกิร์ล เดทที่วัด นัดที่ศาลเจ้า</title>
-  </programme>
-  <programme start="20261120132000 +0000" stop="20261120134000 +0000" channel="MONO.th">
-    <category lang="th">News</category>
-    <desc lang="th">รายการข่าวในพระราชสำนัก.</desc>
-    <icon src="https://iptv-epg.org/images/VhD4lKjPgDtrLmM5Y0LYOMe7VKjyu7eCVc0X2cirkwSJtIuaJSVmz724JSk8CdNrRdjkVxy3N7gNLSNOTpoE4BduecLLbLE7IUV_rcArcI5qjIyt6z3Fpu3Sn6ftMnzqZvQG4UeG0Ek5Gj-XWycwRCqGQnR3X_wtdykEu76h370Xysru" />
-    <title lang="th">ข่าวในพระราชสำนัก</title>
-  </programme>
-  <programme start="20261120134000 +0000" stop="20261120140000 +0000" channel="MONO.th">
-    <category lang="th">Sport</category>
-    <category>Sports</category>
-    <desc lang="th">สรุปข่าวกีฬารอบวัน เจาะลึกประเด็นร้อน สถานการณ์ความเคลื่อนไหวในวงการกีฬา ทั้งฟุตบอลลีกชั้นนำระดับโลก และการแข่งขันกีฬาหลากหลายประเภท.</desc>
-    <icon src="https://iptv-epg.org/images/cIZWEJRjNVDZXzSGMzy_bCkUfr2lXy7BLwQVq1O0rikkiSq_Xz0qvgdPDsjh4FbnopSFD8QJC44QXpdU6IEUc-WBHAbsfibY6WATwkxxwYKIs7IL76YJNpLYABWgqXQA4qQ5KanViZ9I5CCy8yUyroKst2gAaUuSl76_AaqZz0LLV5d0" />
-    <title lang="th">SPORTS FOCUS</title>
-  </programme>
-  <programme start="20261120140000 +0000" stop="20261120143500 +0000" channel="MONO.th">
-    <category lang="th">Sport</category>
-    <category>Sports</category>
-    <desc lang="th">รายการที่จะมาอัพเดทข่าวสารในโลกแห่งกีฬาฟุตบอล ให้คุณได้ตามเชียร์ ตามเช็ค ตามเม้าท์ ครบทุกมุมพรีเมียร์ลีก.</desc>
-    <icon src="https://iptv-epg.org/images/B2OK1prbhfUewlZm2ut-5gLD6jso4_mFZy27QZQ09xF_vMbaexcjLwXADeyuKdwx-gig820sPVdBkkefVsrcI1EenvJIxdENv52cg0fCrkuN6Isv0ExovJOPkW1WakuGTH1Is_kj4Ae7FVPEJJbeem-CHyzpMtKJfl7DOP57TcQuof1P" />
-    <title lang="th">Max Sport Weekend Preview</title>
-  </programme>
-  <programme start="20261120143500 +0000" stop="20261120170000 +0000" channel="MONO.th">
-    <category lang="th">Sport</category>
-    <category>Sports</category>
-    <desc lang="th">เทปบันทึกการแข่งขันฟุตบอลพรีเมียร์ลีก อังกฤษ ชมย้อนหลังทุกแมตช์สำคัญ ช็อตเด็ด และจังหวะยิงประตูสุดตื่นเต้นของทีมโปรดแบบเต็มอิ่ม.</desc>
-    <icon src="https://iptv-epg.org/images/_sgLbhl2oSFEskjpztSMoxNfGpK59V8NF_qsnm3JZa46WdA05-XdsLAO3k1PA7mXUpTSuRyAVho2ttsQqCeZSEw3fiqh76GA85BaiJHbkGazK-ARKmYCAX81jxyZMXwSCcQW6kfIJo2MND97yevvAtCrhTou01xCg8ns3LZxmwbW9cY8" />
-    <title lang="th">เทปบันทึก PREMIER LEAGUE 2026/27</title>
-  </programme>
-  <programme start="20261120170000 +0000" stop="20261120230000 +0000" channel="MONO.th">
-    <category lang="th">Sport</category>
-    <category>Sports</category>
-    <desc lang="th">พบกับไฮไลท์การแข่งขันฟุตบอลพรีเมียร์ลีก.</desc>
-    <icon src="https://iptv-epg.org/images/_K4CiT-AD-rwpwudr1R977hHKKY428LfS0pKWiMbeF9rt3SdRrxkb6jiI_PJv9zddMJT6oLB9vmPz2SB1NSxfLyFkdSmfK0IGUGE-u9820-sdlNN1lOn8wl1SBVcz-wVjW8EwI66JRhQ6DyUC8yGUvFZvPgNeV6FJgR5UYFMdafCI7Er" />
-    <title lang="th">The Big Interview / PL REWIND</title>
-  </programme>
-  <programme start="20261120230000 +0000" stop="20261121000000 +0000" channel="MONO.th">
-    <category lang="th">Sport</category>
-    <category>Sports</category>
-    <desc lang="th">คุยกันแบบสดๆ ถกกันแบบมันส์ๆเถียงแบบได้สาระ เพื่อแฟนกีฬาตัวจริง.</desc>
-    <icon src="https://iptv-epg.org/images/uaIKSN0eN7iZkAbwbuWYiZeyIOPG6a_JUBFmlW-UOEJ4vlcpNwwAaYgmUKqcXKcuF3BSYpn5YR9sL8SqBSUr1n8ZoWZFTVQits0gRGprlWl-Km-D0qJZooIlxYPsscl9A9JpepWyAOhArcpJ8_JyqMcNMqtvnU3p0f6RhYS7hrrFwbEu" />
-    <title lang="th">SPORT ROUNDUP</title>
-  </programme>
-  <programme start="20261121000000 +0000" stop="20261121010000 +0000" channel="MONO.th">
-    <category lang="th">Sport</category>
-    <category>Sports</category>
-    <desc lang="th">ย้อนรอยการแข่งขันฟุตบอลพรีเมียร์ลีก โดยรวบรวมเกมการแข่งขันที่มีความดุเดือด สุดมันส์ เต็มไปด้วยดราม่าและการยิงประตูที่แฟนบอลทั่วโลกประทับใจ.</desc>
-    <icon src="https://iptv-epg.org/images/5l1RIcZQfeDjYM9Zm8SMf1Mwpp0Ke0wKZivhOtqhPhsMvkmqvqgvbpLl3Rdxi-5XVRmEjk7gzoSLlR-75sfcnOyL-I17_E_U_Tj8bk_v1zeUgHn97YCO6KCjKOywCNLpjwAIBb4V9hDMKmhFKxIDWmI2TlZhyw9lgehUG5Mr2u4yBcCW" />
-    <title lang="th">CLASSIC MATCH: Premier League</title>
-  </programme>
-  <programme start="20261121010000 +0000" stop="20261121013500 +0000" channel="MONO.th">
-    <category lang="th">Sport</category>
-    <category>Sports</category>
-    <desc lang="th">รายการที่จะมาอัพเดทข่าวสารในโลกแห่งกีฬาฟุตบอล ให้คุณได้ตามเชียร์ ตามเช็ค ตามเม้าท์ ครบทุกมุมพรีเมียร์ลีก.</desc>
-    <icon src="https://iptv-epg.org/images/qu9qMZeHrGKsDeTS2yBNf4WgBjCzDq8oCBxL_OrF0nmHy1-0TzgpwochjEY_h3t-rNrFJUhwllD4ztY6HPDNQ0b7fsnpBAEHRqf7d2jD5jgdvgKeckfmp3Y9gqkNeBBVboTEpFPWmWqgy3gP_8tymlMcV5-xgpt5wG8muFleMKOQB-gU" />
-    <title lang="th">MAX Sport Fan Zone</title>
-  </programme>
-  <programme start="20261121013500 +0000" stop="20261121021500 +0000" channel="MONO.th">
-    <category lang="th">Health</category>
-    <credits>
-      <actor>Kym Ng</actor>
-    </credits>
-    <desc lang="th">รายการที่จะพาคุณไปติดตามการแก้ไขปัญหาจากอาการป่วยต่างๆ ด้วยการทดลองใช้วิธีที่ทันสมัยเพื่อรับมือกับความท้าทายด้านสุขภาพ.</desc>
-    <icon src="https://iptv-epg.org/images/uGNc6dpUXV36bbFNONa8pQelwZhu34fULuAiKwrMTHza9JG11KmEQ75WfXqGxge3Y5lohycpeapu43_wy65t4yQrhyMWSsm8cwfPkYKzTNf1TS4k6dALwzjpi0_kRCVcsDJrCWalFBq64_2aRVvIJQqZ-0oBbjp1cm7VSkcQK0ERiA68" />
-    <title lang="th">HEALTH HACKS</title>
-  </programme>
-  <programme start="20261121021500 +0000" stop="20261121032000 +0000" channel="MONO.th">
-    <category lang="th">Drama</category>
-    <desc lang="th">เรื่องราวของลินิน หญิงสาวที่ถูกเหล่าชายชั่วข่มเหงจนตัดสินใจจบชีวิต แต่เธอได้โอกาสกลายเป็นคนใหม่เป็นจุดเริ่มต้นของการทวงแค้น โดยที่มีเธอเป็นคนล่า.</desc>
-    <icon src="https://iptv-epg.org/images/C-tLLdYg5f-GSPHyRpVXzAuzj3FiXmMXVPdof-q7P7y6gorCPBDcxhPLn8sTgWrIh7xhdsGr915neraVwoohkR6CwEUPmtq0cl9ywrG8ucFNWefyw16ylUMWKpt7sloy9ESnwun-m63wKOCc6oBE3os8akOo_CjqjQX-SSQJ3rG-_SIn" />
-    <title lang="th">ทวง</title>
-  </programme>
-  <programme start="20261121032000 +0000" stop="20261121035000 +0000" channel="MONO.th">
-    <category lang="th">Sport</category>
-    <category>Sports</category>
-    <desc lang="th">รวบรวมไฮไลต์การแข่งขันฟุตบอลพรีเมียร์ลีก ฤดูกาล 202627 สรุปทุกประตู ช็อตสำคัญ และผลการแข่งขันประจำสัปดาห์ ส่งตรงถึงแฟนบอลแบบเต็มอิ่ม.</desc>
-    <icon src="https://iptv-epg.org/images/Fz1fyuWt704PyjFkCdyzIWp_fAPgowWTzgfsZMT_PeWneH5JJcFexuh7Ary__JzHkx1EaM6618-psRHu0l54tAXwZlOrDFkk5AD0lhpdvHkmKo8xTMP5sG1PS1PSLlZMUiwdLqKL-V9X_5H-zl2OCkDBJ9p9oOJefDpNF-8ORZIOqrZi" />
-    <title lang="th">PL 2026/27 Highlight</title>
-  </programme>
-  <programme start="20261121035000 +0000" stop="20261121045500 +0000" channel="MONO.th">
-    <category lang="th">Drama</category>
-    <desc lang="th">เรื่องราวของลินิน หญิงสาวที่ถูกเหล่าชายชั่วข่มเหงจนตัดสินใจจบชีวิต แต่เธอได้โอกาสกลายเป็นคนใหม่เป็นจุดเริ่มต้นของการทวงแค้น โดยที่มีเธอเป็นคนล่า.</desc>
-    <icon src="https://iptv-epg.org/images/C-tLLdYg5f-GSPHyRpVXzAuzj3FiXmMXVPdof-q7P7y6gorCPBDcxhPLn8sTgWrIh7xhdsGr915neraVwoohkR6CwEUPmtq0cl9ywrG8ucFNWefyw16ylUMWKpt7sloy9ESnwun-m63wKOCc6oBE3os8akOo_CjqjQX-SSQJ3rG-_SIn" />
-    <title lang="th">ทวง</title>
-  </programme>
-  <programme start="20261121045500 +0000" stop="20261121075500 +0000" channel="MONO.th">
-    <category lang="th">Sport</category>
-    <category>Sports</category>
-    <desc lang="th">ถ่ายทอดสดวอลเลย์บอลเอสวีลีก ญี่ปุ่น ชมสโมสรชั้นนำประชันพลังตบและทีมเวิร์กในศึกสุดเข้มข้นเพื่อคว้าชัยชนะ.</desc>
-    <icon src="https://iptv-epg.org/images/WZNW3IdWqtqpK6CUC4yMr5usZ6RQglzPs1SwxgzrNgdcyXt7m8wDq_eCWIftBWHjBYeVqqGBwhP0Z8CnGT5-FnCR5YjGSd9QTKQ3CCiLZhUj2S47iV5bFAdQ8hzw3uFi1acUIBSm8ML5Qg9N6UYHWrtCTAvf1FV8VKaMVynRchXl1Uay" />
-    <title lang="th">ถ่ายทอดสด SV.LEAGUE</title>
-  </programme>
-  <programme start="20261121075500 +0000" stop="20261121085500 +0000" channel="MONO.th">
-    <category lang="th">Talkshow</category>
-    <desc lang="th">รายการที่จะทำให้คืนวันศุกร์ของคุณลุกเป็นไฟ เมื่อแขกรับเชิญระดับ MVP ของประเทศ ต้องมาปะทะคำถามสุดปั่นแบบมีชั้นเชิงสไตล์น็อต วรฤทธิ์.</desc>
-    <icon src="https://iptv-epg.org/images/EUw2ogt9xNzt0JokI6CzyU-lZC46q_7Ex6IU2cgW9wwzaIdnKZghhU4V78A6zntlfGdO-_fmMDdmW5wcQ5nth9YK59wWtOGaWR7OR7bJPgQNRe6S5qhoM-dr95WzXLjtwZ927pKAOJVXu5TFZg1d-I8Gkw7TpbxmhR4G7FsyxSflkH4S" />
-    <title lang="th">HOT SEAT ตีซี้ตัวตึง</title>
-  </programme>
-  <programme start="20261121085500 +0000" stop="20261121102500 +0000" channel="MONO.th">
-    <category lang="th">Sport</category>
-    <category>Sports</category>
-    <desc lang="th">เทปบันทึกการแข่งขันฟุตบอลพรีเมียร์ลีก อังกฤษ ชมย้อนหลังทุกแมตช์สำคัญ ช็อตเด็ด และจังหวะยิงประตูสุดตื่นเต้นของทีมโปรดแบบเต็มอิ่ม.</desc>
-    <icon src="https://iptv-epg.org/images/_sgLbhl2oSFEskjpztSMoxNfGpK59V8NF_qsnm3JZa46WdA05-XdsLAO3k1PA7mXUpTSuRyAVho2ttsQqCeZSEw3fiqh76GA85BaiJHbkGazK-ARKmYCAX81jxyZMXwSCcQW6kfIJo2MND97yevvAtCrhTou01xCg8ns3LZxmwbW9cY8" />
-    <title lang="th">เทปบันทึก PREMIER LEAGUE 2026/27</title>
-  </programme>
-  <programme start="20261121102500 +0000" stop="20261121110000 +0000" channel="MONO.th">
-    <category lang="th">Sport</category>
-    <category>Sports</category>
-    <desc lang="th">รายการที่จะมาอัพเดทข่าวสารในโลกแห่งกีฬาฟุตบอล ให้คุณได้ตามเชียร์ ตามเช็ค ตามเม้าท์ ครบทุกมุมพรีเมียร์ลีก.</desc>
-    <icon src="https://iptv-epg.org/images/B2OK1prbhfUewlZm2ut-5gLD6jso4_mFZy27QZQ09xF_vMbaexcjLwXADeyuKdwx-gig820sPVdBkkefVsrcI1EenvJIxdENv52cg0fCrkuN6Isv0ExovJOPkW1WakuGTH1Is_kj4Ae7FVPEJJbeem-CHyzpMtKJfl7DOP57TcQuof1P" />
-    <title lang="th">Max Sport Weekend Preview</title>
-  </programme>
-  <programme start="20261121110000 +0000" stop="20261121122000 +0000" channel="MONO.th">
-    <category lang="th">Sport</category>
-    <category>Sports</category>
-    <desc lang="th">เทปบันทึกการแข่งขันฟุตบอลพรีเมียร์ลีก อังกฤษ ชมย้อนหลังทุกแมตช์สำคัญ ช็อตเด็ด และจังหวะยิงประตูสุดตื่นเต้นของทีมโปรดแบบเต็มอิ่ม.</desc>
-    <icon src="https://iptv-epg.org/images/_sgLbhl2oSFEskjpztSMoxNfGpK59V8NF_qsnm3JZa46WdA05-XdsLAO3k1PA7mXUpTSuRyAVho2ttsQqCeZSEw3fiqh76GA85BaiJHbkGazK-ARKmYCAX81jxyZMXwSCcQW6kfIJo2MND97yevvAtCrhTou01xCg8ns3LZxmwbW9cY8" />
-    <title lang="th">เทปบันทึก PREMIER LEAGUE 2026/27</title>
-  </programme>
-  <programme start="20261121122000 +0000" stop="20261121142000 +0000" channel="MONO.th">
-    <category lang="th">Sport</category>
-    <category>Sports</category>
-    <desc lang="th">ถ่ายทอดสดฟุตบอลอีเอฟแอล แชมเปียนชิป ฤดูกาล 2026 27 ร่วมลุ้นศึกชิงแต้มของเหล่าสโมสรอังกฤษบนเส้นทางสู่การเลื่อนชั้น.</desc>
-    <icon src="https://iptv-epg.org/images/zie1bTRI7kbqtcnAHdYIdx4aFQyRPB95mgGoDGEAaE_UJeRlU_6jKDoumqiubPuGTip__Ga5ecqoAYeqh6wWIe3ds8aSviQo9IVRk3XUr1HJbtGUO9Icex4m4eBRd2ppSXWBqxST0wVLdJJ7RpgPWF7AglGKq1nfp3_jym5p6R91JiyB" />
-    <title lang="th">ถ่ายทอดสด EFL Championship 2026/27</title>
-  </programme>
-  <programme start="20261121142000 +0000" stop="20261121143000 +0000" channel="MONO.th">
-    <category lang="th">News</category>
-    <desc lang="th">รายการข่าวในพระราชสำนัก.</desc>
-    <icon src="https://iptv-epg.org/images/VhD4lKjPgDtrLmM5Y0LYOMe7VKjyu7eCVc0X2cirkwSJtIuaJSVmz724JSk8CdNrRdjkVxy3N7gNLSNOTpoE4BduecLLbLE7IUV_rcArcI5qjIyt6z3Fpu3Sn6ftMnzqZvQG4UeG0Ek5Gj-XWycwRCqGQnR3X_wtdykEu76h370Xysru" />
-    <title lang="th">ข่าวในพระราชสำนัก</title>
-  </programme>
-  <programme start="20261121143000 +0000" stop="20261121170000 +0000" channel="MONO.th">
-    <category lang="th">Sport</category>
-    <category>Sports</category>
-    <desc lang="th">ถ่ายทอดสด Premiere League.</desc>
-    <icon src="https://iptv-epg.org/images/m6R-C9wIQJg1YVUQc65pGkOwKQjYhsVup0Oumbc90R95sNrS90tBMQZXS2p3yJ1u_FVW3KNNjErAyBCRrW3Ff35eZqOme1JYWwOrGxsd1xKWdRr77Bqw7nnrtqe96XMeKLv9UOlfkAo" />
-    <title lang="th">ถ่ายทอดสด Premier League 2026/27</title>
-  </programme>
-  <programme start="20261121170000 +0000" stop="20261121230000 +0000" channel="MONO.th">
-    <category lang="th">Sport</category>
-    <category>Sports</category>
-    <desc lang="th">พบกับไฮไลท์การแข่งขันฟุตบอลพรีเมียร์ลีก.</desc>
-    <icon src="https://iptv-epg.org/images/_K4CiT-AD-rwpwudr1R977hHKKY428LfS0pKWiMbeF9rt3SdRrxkb6jiI_PJv9zddMJT6oLB9vmPz2SB1NSxfLyFkdSmfK0IGUGE-u9820-sdlNN1lOn8wl1SBVcz-wVjW8EwI66JRhQ6DyUC8yGUvFZvPgNeV6FJgR5UYFMdafCI7Er" />
-    <title lang="th">The Big Interview / PL REWIND</title>
-  </programme>
-  <programme start="20261121230000 +0000" stop="20261122000000 +0000" channel="MONO.th">
-    <category lang="th">Sport</category>
-    <category>Sports</category>
-    <desc lang="th">คุยกันแบบสดๆ ถกกันแบบมันส์ๆเถียงแบบได้สาระ เพื่อแฟนกีฬาตัวจริง.</desc>
-    <icon src="https://iptv-epg.org/images/uaIKSN0eN7iZkAbwbuWYiZeyIOPG6a_JUBFmlW-UOEJ4vlcpNwwAaYgmUKqcXKcuF3BSYpn5YR9sL8SqBSUr1n8ZoWZFTVQits0gRGprlWl-Km-D0qJZooIlxYPsscl9A9JpepWyAOhArcpJ8_JyqMcNMqtvnU3p0f6RhYS7hrrFwbEu" />
-    <title lang="th">SPORT ROUNDUP</title>
-  </programme>
-  <programme start="20261122000000 +0000" stop="20261122010000 +0000" channel="MONO.th">
-    <category lang="th">Sport</category>
-    <category>Sports</category>
-    <desc lang="th">ย้อนรอยการแข่งขันฟุตบอลพรีเมียร์ลีก โดยรวบรวมเกมการแข่งขันที่มีความดุเดือด สุดมันส์ เต็มไปด้วยดราม่าและการยิงประตูที่แฟนบอลทั่วโลกประทับใจ.</desc>
-    <icon src="https://iptv-epg.org/images/5l1RIcZQfeDjYM9Zm8SMf1Mwpp0Ke0wKZivhOtqhPhsMvkmqvqgvbpLl3Rdxi-5XVRmEjk7gzoSLlR-75sfcnOyL-I17_E_U_Tj8bk_v1zeUgHn97YCO6KCjKOywCNLpjwAIBb4V9hDMKmhFKxIDWmI2TlZhyw9lgehUG5Mr2u4yBcCW" />
-    <title lang="th">CLASSIC MATCH: Premier League</title>
-  </programme>
-  <programme start="20261122010000 +0000" stop="20261122021500 +0000" channel="MONO.th">
-    <category lang="th">Travel</category>
-    <desc lang="th">ร่วมเดินทางผจญภัยท่องเที่ยวไปกับสองพิธีกรหนุ่มสายลุย บอย ปกรณ์ และ ปั้นจั่น ปรมะ ที่จะพาทุกคนไปท่องเที่ยว ร่วมกับแขกรับเชิญแบบสนุกไม่ซ้ำใคร.</desc>
-    <icon src="https://iptv-epg.org/images/mwNd8FkWVgI_r7c1xLgqq0-dczP0n--ggqqKSd7fFK6rizKI6-_3FOJgNgplul6N7h5NIC7RVPPu7v3lm6vR0OZ5PmqY0jmYnbTHG-OiJQbzzEY0N9PTY0lgPj9_pn_W-i53IZ3xjZFPpdINbBVUFzVpxWovGn7oNQyoyHlyOOTyvE6o" />
-    <title lang="th">Tag เพื่อนเที่ยว</title>
-  </programme>
-  <programme start="20261122021500 +0000" stop="20261122033000 +0000" channel="MONO.th">
-    <category lang="th">Drama</category>
-    <desc lang="th">เรื่องราวของคนสามคน มีดวงชะตาที่ผูกกันไว้ พวกเขาต้องร่วมมือปกป้องกันและกัน รวมถึงตามหาและกำจัดศัตรูตัวสำคัญ.</desc>
-    <icon src="https://iptv-epg.org/images/yu54B_rYCJiQmlq8SUldkHRltkEpVuU13HsHhmcJh_H_xvQsYpG1gPLgm35NFgl0qBQB692e9sXftOEdzWh2TWu3OpUcOfchQu4onEsiaFrHeDxgZfhqZ4UI_470wTfCOGLyjjxH9rDd-ht1Vqaj9uJ99YoKgn0TR1SuTC4Nry0MFGby" />
-    <title lang="th">ชะตา ชาตะ ZODIAC SLAYER</title>
-  </programme>
-  <programme start="20261122033000 +0000" stop="20261122034500 +0000" channel="MONO.th">
-    <category lang="th">Variety</category>
-    <desc lang="th">จะพาคุณไปเจาะลึกทุกประเด็นร้อนรอบตัว เรื่องราวเบื้องหลัง ความคิด ทัศนคติ และจุดเปลี่ยนสำคัญที่ทำให้พวกเขากลายมาเป็นที่จับตามองของคนทั้งโลก.</desc>
-    <icon src="https://iptv-epg.org/images/aImNa3MqCe8Nfx0O3FyKzgpTDa1QpWW9J42QoH6GE1aZiVzyn6E0WKUvtH_-_fH28xCWvkKcQb8JPqRm3TC7EonOJ2SFGehx4-6T7C3WOhOMN6nyHOk0WB-bQudGbJW9MAk48oqCYHFQR4khJCi3FSfzAoFNw95bvPtaasEng7UqSLMg" />
-    <title lang="th">SPOTLIGHT</title>
-  </programme>
-  <programme start="20261122034500 +0000" stop="20261122045500 +0000" channel="MONO.th">
-    <category lang="th">Drama</category>
-    <desc lang="th">เรื่องราวของคนสามคน มีดวงชะตาที่ผูกกันไว้ พวกเขาต้องร่วมมือปกป้องกันและกัน รวมถึงตามหาและกำจัดศัตรูตัวสำคัญ.</desc>
-    <icon src="https://iptv-epg.org/images/yu54B_rYCJiQmlq8SUldkHRltkEpVuU13HsHhmcJh_H_xvQsYpG1gPLgm35NFgl0qBQB692e9sXftOEdzWh2TWu3OpUcOfchQu4onEsiaFrHeDxgZfhqZ4UI_470wTfCOGLyjjxH9rDd-ht1Vqaj9uJ99YoKgn0TR1SuTC4Nry0MFGby" />
-    <title lang="th">ชะตา ชาตะ ZODIAC SLAYER</title>
-  </programme>
-  <programme start="20261122045500 +0000" stop="20261122074000 +0000" channel="MONO.th">
-    <category lang="th">Sport</category>
-    <category>Sports</category>
-    <desc lang="th">ถ่ายทอดสดวอลเลย์บอลเอสวีลีก ญี่ปุ่น ชมสโมสรชั้นนำประชันพลังตบและทีมเวิร์กในศึกสุดเข้มข้นเพื่อคว้าชัยชนะ.</desc>
-    <icon src="https://iptv-epg.org/images/WZNW3IdWqtqpK6CUC4yMr5usZ6RQglzPs1SwxgzrNgdcyXt7m8wDq_eCWIftBWHjBYeVqqGBwhP0Z8CnGT5-FnCR5YjGSd9QTKQ3CCiLZhUj2S47iV5bFAdQ8hzw3uFi1acUIBSm8ML5Qg9N6UYHWrtCTAvf1FV8VKaMVynRchXl1Uay" />
-    <title lang="th">ถ่ายทอดสด SV.LEAGUE</title>
-  </programme>
-  <programme start="20261122074000 +0000" stop="20261122110000 +0000" channel="MONO.th">
-    <category lang="th">Sport</category>
-    <category>Sports</category>
-    <desc lang="th">เทปบันทึกการแข่งขันวอลเลย์บอลเอสวีลีก ญี่ปุ่น ย้อนชมสโมสรชั้นนำดวลพลังตบ เกมรับ และทีมเวิร์กในแมตช์สุดเข้มข้น.</desc>
-    <icon src="https://iptv-epg.org/images/OCXvcjheKKfNTrY5Ob_rHQ--ETdPA7vJ6dt306deU5LuLgFGxqGE4gNXyJtlQOqVn99tKet9RiDncitDsZEItUo1LzmDhLzcNgzm3-Vf0XmCVsuf24uqxfmX-jwbu3Ha7ouwRnmTwYYF085QJKlITW3x1ZPAA5XlKaiqmSgIaJo7T3iG" />
-    <title lang="th">เทปบันทึก SV.LEAGUE</title>
-  </programme>
-  <programme start="20261122110000 +0000" stop="20261122131500 +0000" channel="MONO.th">
-    <category lang="th">Sport</category>
-    <category>Sports</category>
-    <desc lang="th">เทปบันทึกการแข่งขันฟุตบอลพรีเมียร์ลีก อังกฤษ ชมย้อนหลังทุกแมตช์สำคัญ ช็อตเด็ด และจังหวะยิงประตูสุดตื่นเต้นของทีมโปรดแบบเต็มอิ่ม.</desc>
-    <icon src="https://iptv-epg.org/images/_sgLbhl2oSFEskjpztSMoxNfGpK59V8NF_qsnm3JZa46WdA05-XdsLAO3k1PA7mXUpTSuRyAVho2ttsQqCeZSEw3fiqh76GA85BaiJHbkGazK-ARKmYCAX81jxyZMXwSCcQW6kfIJo2MND97yevvAtCrhTou01xCg8ns3LZxmwbW9cY8" />
-    <title lang="th">เทปบันทึก PREMIER LEAGUE 2026/27</title>
-  </programme>
-  <programme start="20261122131500 +0000" stop="20261122132000 +0000" channel="MONO.th">
-    <category lang="th">Sport</category>
-    <category>Sports</category>
-    <desc lang="th">ถ่ายทอดสด Premiere League.</desc>
-    <icon src="https://iptv-epg.org/images/m6R-C9wIQJg1YVUQc65pGkOwKQjYhsVup0Oumbc90R95sNrS90tBMQZXS2p3yJ1u_FVW3KNNjErAyBCRrW3Ff35eZqOme1JYWwOrGxsd1xKWdRr77Bqw7nnrtqe96XMeKLv9UOlfkAo" />
-    <title lang="th">ถ่ายทอดสด Premier League 2026/27</title>
-  </programme>
-  <programme start="20261122132000 +0000" stop="20261122162500 +0000" channel="MONO.th">
-    <category lang="th">News</category>
-    <desc lang="th">รายการข่าวในพระราชสำนัก.</desc>
-    <icon src="https://iptv-epg.org/images/VhD4lKjPgDtrLmM5Y0LYOMe7VKjyu7eCVc0X2cirkwSJtIuaJSVmz724JSk8CdNrRdjkVxy3N7gNLSNOTpoE4BduecLLbLE7IUV_rcArcI5qjIyt6z3Fpu3Sn6ftMnzqZvQG4UeG0Ek5Gj-XWycwRCqGQnR3X_wtdykEu76h370Xysru" />
-    <title lang="th">ข่าวในพระราชสำนัก</title>
-  </programme>
-  <programme start="20261121000000 +0700" stop="20261121020000 +0700" channel="ONE31.HD.th">
+  <programme start="20261120000000 +0700" stop="20261120020000 +0700" channel="ONE31.HD.th">
     <title lang="th">(RERUN) เคหาสน์ดาว</title>
     <desc lang="th">ทุกวันอังคาร - เสาร์ เวลา 00:00 น. ทางช่องวัน 31</desc>
   </programme>
-  <programme start="20261121020000 +0700" stop="20261121030000 +0700" channel="ONE31.HD.th">
+  <programme start="20261120022500 +0700" stop="20261120032500 +0700" channel="ONE31.HD.th">
     <title lang="th">วันนี้มีธรรม</title>
-    <desc lang="th">ทุกวันจันทร์ - อาทิตย์ เริ่ม 02:00 น. ทางช่องวัน 31</desc>
+    <desc lang="th">ทุกวันจันทร์ - อาทิตย์ เริ่ม 02:25 น. ทางช่องวัน 31</desc>
   </programme>
-  <programme start="20261121031500 +0700" stop="20261121041500 +0700" channel="ONE31.HD.th">
-    <title lang="th">เสือ ชะนี เก้ง</title>
-    <desc lang="th">วันเสาร์ - อาทิตย์ เวลา 03:15 น. ทางช่องวัน 31</desc>
+  <programme start="20261120033500 +0700" stop="20261120041000 +0700" channel="ONE31.HD.th">
+    <title lang="th">(RERUN) เฮง เฮง เฮง</title>
+    <desc lang="th">ทุกวันจันทร์ - ศุกร์ เวลา 03:35 น. ทางช่องวัน 31</desc>
   </programme>
-  <programme start="20261121042500 +0700" stop="20261121045000 +0700" channel="ONE31.HD.th">
-    <title lang="th">(RERUN) อนุวัตทั่วไทย</title>
-    <desc lang="th">วันเสาร์ เวลา 04:25 น. ทางช่องวัน 31</desc>
+  <programme start="20261120042500 +0700" stop="20261120050000 +0700" channel="ONE31.HD.th">
+    <title lang="th">เอาให้ชัด</title>
+    <desc lang="th">ทุกวันอังคาร - ศุกร์ เวลา 04:25 น. ทางช่องวัน 31</desc>
   </programme>
-  <programme start="20261121060000 +0700" stop="20261121082000 +0700" channel="ONE31.HD.th">
-    <title lang="th">พ่อจ๋าแม่อยู่ไหน</title>
-    <desc lang="th">ทุกวันเสาร์ - อาทิตย์ เวลา 06:00 น. ทางช่องวัน 31</desc>
+  <programme start="20261120050000 +0700" stop="20261120053000 +0700" channel="ONE31.HD.th">
+    <title lang="th">อนุวัต ทั่วไทย</title>
+    <desc lang="th">ทุกวันจันทร์ - ศุกร์ เวลา 05:00 น. ทางช่องวัน 31</desc>
   </programme>
-  <programme start="20261121082000 +0700" stop="20261121100000 +0700" channel="ONE31.HD.th">
-    <title lang="th">ข่าวช่องวัน เสาร์-อาทิตย์</title>
-    <desc lang="th">วันเสาร์ - อาทิตย์ เวลา 08:20 น. ทางช่องวัน31</desc>
+  <programme start="20261120053000 +0700" stop="20261120063000 +0700" channel="ONE31.HD.th">
+    <title lang="th">(RERUN) ดวลเพลงชิงทุน</title>
+    <desc lang="th">ทุกวันจันทร์ - ศุกร์ เวลา 05:30 น. ทางช่องวัน 31</desc>
   </programme>
-  <programme start="20261121100000 +0700" stop="20261121110000 +0700" channel="ONE31.HD.th">
-    <title lang="th">Club Friday Show</title>
-    <desc lang="th">ทุกวันเสาร์ เวลา 10:00 น. ทางช่องวัน 31</desc>
+  <programme start="20261120063000 +0700" stop="20261120082000 +0700" channel="ONE31.HD.th">
+    <title lang="th">ทะเลริษยา</title>
+    <desc lang="th">ทุกวันจันทร์ - ศุกร์ เวลา 06:30 น. ทางช่องวัน 31</desc>
   </programme>
-  <programme start="20261121110000 +0700" stop="20261121113000 +0700" channel="ONE31.HD.th">
-    <title lang="th">เรื่องใหญ่สุดสัปดาห์</title>
-    <desc lang="th">ทุกวันเสาร์ - อาทิตย์ เวลา 11:00 น. ทางช่องวัน 31</desc>
+  <programme start="20261120082000 +0700" stop="20261120083000 +0700" channel="ONE31.HD.th">
+    <title lang="th">เงินทองของจริง</title>
+    <desc lang="th">วันจันทร์ - ศุกร์ เวลา 08:20 น. ทางช่องวัน 31</desc>
   </programme>
-  <programme start="20261121113000 +0700" stop="20261121123000 +0700" channel="ONE31.HD.th">
-    <title lang="th">คุยแซ่บ SHOW</title>
-    <desc lang="th">ทุกวันเสาร์ - อาทิตย์ เวลา 11:30 น. ทางช่องวัน 31</desc>
+  <programme start="20261120083000 +0700" stop="20261120093000 +0700" channel="ONE31.HD.th">
+    <title lang="th">ข่าวใหญ่วันนี้</title>
+    <desc lang="th">ทุกวันจันทร์ - ศุกร์ เวลา 08:30 น. ทางช่องวัน 31</desc>
   </programme>
-  <programme start="20261121123500 +0700" stop="20261121150000 +0700" channel="ONE31.HD.th">
-    <title lang="th">ตามหารักที่เธอลืม</title>
-    <desc lang="th">ทุกวันเสาร์ - อาทิตย์ เวลา 12:35 น. ทางช่องวัน 31</desc>
+  <programme start="20261120093500 +0700" stop="20261120114000 +0700" channel="ONE31.HD.th">
+    <title lang="th">ชีวิตภาคสอง</title>
+    <desc lang="th">ทุกวันจันทร์ - ศุกร์ เวลา 09:35 น. ทางช่องวัน 31</desc>
   </programme>
-  <programme start="20261121150000 +0700" stop="20261121160000 +0700" channel="ONE31.HD.th">
-    <title lang="th">เก่งจริงชิงค่าเทอม</title>
-    <desc lang="th">วันเสาร์ เวลา 15:00 น. ทางช่องวัน 31</desc>
+  <programme start="20261120114000 +0700" stop="20261120122000 +0700" channel="ONE31.HD.th">
+    <title lang="th">วันนี้</title>
+    <desc lang="th">ทุกวันจันทร์ - ศุกร์ เวลา 11:40 น. ทางช่องวัน 31</desc>
   </programme>
-  <programme start="20261121160000 +0700" stop="20261121163000 +0700" channel="ONE31.HD.th">
-    <title lang="th">SRISUPANG</title>
-    <desc lang="th">วันเสาร์ เวลา 16:00 น. ทางช่องวัน 31</desc>
+  <programme start="20261120122000 +0700" stop="20261120132000 +0700" channel="ONE31.HD.th">
+    <title lang="th">เรื่องใหญ่รายวัน</title>
+    <desc lang="th">ทุกวันจันทร์ - ศุกร์ เวลา 12:20 น. ทางช่องวัน 31</desc>
   </programme>
-  <programme start="20261121163000 +0700" stop="20261121180000 +0700" channel="ONE31.HD.th">
+  <programme start="20261120132500 +0700" stop="20261120154500 +0700" channel="ONE31.HD.th">
+    <title lang="th">ขอเกิดใหม่ใกล้ ๆ เธอ</title>
+    <desc lang="th">ทุกวันจันทร์ - ศุกร์ เวลา 13:25 น. ทางช่องวัน 31</desc>
+  </programme>
+  <programme start="20261120154500 +0700" stop="20261120163000 +0700" channel="ONE31.HD.th">
+    <title lang="th">ถกไม่เถียง</title>
+    <desc lang="th">ทุกวันจันทร์ - ศุกร์ เวลา 15:45 น. ทางช่องวัน 31</desc>
+  </programme>
+  <programme start="20261120163000 +0700" stop="20261120180000 +0700" channel="ONE31.HD.th">
     <title lang="th">ข่าวเย็นช่องวัน</title>
-    <desc lang="th">วันเสาร์ - อาทิตย์ เวลา 16:30 น. ทางช่องวัน 31</desc>
+    <desc lang="th">ทุกวันจันทร์ - ศุกร์ เวลา 16:30 น. ทางช่องวัน 31</desc>
   </programme>
-  <programme start="20261121180000 +0700" stop="20261121190000 +0700" channel="ONE31.HD.th">
-    <title lang="th">หอตัวดี</title>
-    <desc lang="th">ทุกวันเสาร์ เวลา 18:00 น. ทางช่องวัน 31</desc>
+  <programme start="20261120180000 +0700" stop="20261120190000 +0700" channel="ONE31.HD.th">
+    <title lang="th">ดวลเพลงชิงทุน</title>
+    <desc lang="th">ทุกวันจันทร์ - เสาร์ เวลา 18:00 น. ทางช่องวัน 31</desc>
   </programme>
-  <programme start="20261121190000 +0700" stop="20261121200000 +0700" channel="ONE31.HD.th">
-    <title lang="th">สุภาพบุรุษสุดซอย</title>
-    <desc lang="th">ทุกวันเสาร์ เวลา 19:00 น. ทางช่องวัน 31</desc>
+  <programme start="20261120190000 +0700" stop="20261120200000 +0700" channel="ONE31.HD.th">
+    <title lang="th">ข่าววันศุกร์</title>
+    <desc lang="th">ทุกวันศุกร์ เวลา 19:00 น. ทางช่องวัน 31</desc>
   </programme>
-  <programme start="20261121200000 +0700" stop="20261121201500 +0700" channel="ONE31.HD.th">
+  <programme start="20261120200000 +0700" stop="20261120201500 +0700" channel="ONE31.HD.th">
     <title lang="th">ข่าวค่ำช่องวัน และ ข่าวในพระราชสำนัก</title>
     <desc lang="th">ทุกวันจันทร์ - อาทิตย์ เวลา 20:00 น. ทางช่องวัน 31</desc>
   </programme>
-  <programme start="20261121203000 +0700" stop="20261121213000 +0700" channel="ONE31.HD.th">
-    <title lang="th">(ตอนจบ) เขมจิราต้องรอดตลอดกาล Khemjira Forever</title>
-    <desc lang="th">ทุกวันเสาร์ เวลา 20:30 น. ทางช่องวัน 31</desc>
+  <programme start="20261120203000 +0700" stop="20261120213000 +0700" channel="ONE31.HD.th">
+    <title lang="th">หงเสนคลุกฝุ่น Lovers &amp; Gangsters</title>
+    <desc lang="th">ทุกวันศุกร์ เวลา 20:30 น. ทางช่องวัน 31</desc>
   </programme>
-  <programme start="20261121213000 +0700" stop="20261121221500 +0700" channel="ONE31.HD.th">
-    <title lang="th">(RERUN) เป็นต่อ</title>
-    <desc lang="th">ทุกวันเสาร์ เวลา 21:30 น. ทางช่องวัน 31</desc>
+  <programme start="20261120213000 +0700" stop="20261120223000 +0700" channel="ONE31.HD.th">
+    <title lang="th">Club Friday The Series : Bread Crumbing รักเรื่อยเปื่อย</title>
+    <desc lang="th">ทุกวันศุกร์ เวลา 21:30 น. ทางช่องวัน 31</desc>
   </programme>
-  <programme start="20261121223000 +0700" stop="20261121235900 +0700" channel="ONE31.HD.th">
+  <programme start="20261120223000 +0700" stop="20261120233000 +0700" channel="ONE31.HD.th">
+    <title lang="th">THE CROW CLUB อีกาสมาคม</title>
+    <desc lang="th">ทุกวันศุกร์ เวลา 22:30 น. ทางช่องวัน 31</desc>
+  </programme>
+  <programme start="20261122000000 +0700" stop="20261122020000 +0700" channel="ONE31.HD.th">
     <title lang="th">(RERUN) วานวาสนา</title>
-    <desc lang="th">ทุกวันเสาร์ เวลา 22:30 น. ทางช่องวัน 31</desc>
+    <desc lang="th">ทุกวันจันทร์ และ วันอาทิตย์ เวลา 00:00 น. ทางช่องวัน 31</desc>
+  </programme>
+  <programme start="20261122020000 +0700" stop="20261122030000 +0700" channel="ONE31.HD.th">
+    <title lang="th">วันนี้มีธรรม</title>
+    <desc lang="th">ทุกวันจันทร์ - อาทิตย์ เริ่ม 02:00 น. ทางช่องวัน 31</desc>
+  </programme>
+  <programme start="20261122031500 +0700" stop="20261122041500 +0700" channel="ONE31.HD.th">
+    <title lang="th">เสือ ชะนี เก้ง</title>
+    <desc lang="th">วันเสาร์ - อาทิตย์ เวลา 03:15 น. ทางช่องวัน 31</desc>
+  </programme>
+  <programme start="20261122042500 +0700" stop="20261122045000 +0700" channel="ONE31.HD.th">
+    <title lang="th">(RERUN) เรื่องใหญ่สุดสัปดาห์</title>
+    <desc lang="th">วันอาทิตย์ เวลา 04:25 น. ทางช่องวัน 31</desc>
+  </programme>
+  <programme start="20261122060000 +0700" stop="20261122082000 +0700" channel="ONE31.HD.th">
+    <title lang="th">พ่อจ๋าแม่อยู่ไหน</title>
+    <desc lang="th">ทุกวันเสาร์ - อาทิตย์ เวลา 06:00 น. ทางช่องวัน 31</desc>
+  </programme>
+  <programme start="20261122082000 +0700" stop="20261122100000 +0700" channel="ONE31.HD.th">
+    <title lang="th">ข่าวช่องวัน เสาร์-อาทิตย์</title>
+    <desc lang="th">วันเสาร์ - อาทิตย์ เวลา 08:20 น. ทางช่องวัน31</desc>
+  </programme>
+  <programme start="20261122100000 +0700" stop="20261122104500 +0700" channel="ONE31.HD.th">
+    <title lang="th">เฮ็ดอย่างเซียนหรั่ง</title>
+    <desc lang="th">ทุกวันอาทิตย์ เวลา 10:00 น. ทางช่องวัน 31</desc>
+  </programme>
+  <programme start="20261122104500 +0700" stop="20261122113000 +0700" channel="ONE31.HD.th">
+    <title lang="th">เรื่องใหญ่สุดสัปดาห์</title>
+    <desc lang="th">ทุกวันอาทิตย์ เวลา 10:45 น. ทางช่องวัน 31</desc>
+  </programme>
+  <programme start="20261122113000 +0700" stop="20261122123000 +0700" channel="ONE31.HD.th">
+    <title lang="th">คุยแซ่บ SHOW</title>
+    <desc lang="th">ทุกวันเสาร์ - อาทิตย์ เวลา 11:30 น. ทางช่องวัน 31</desc>
+  </programme>
+  <programme start="20261122123500 +0700" stop="20261122150000 +0700" channel="ONE31.HD.th">
+    <title lang="th">หัวใจรักพิทักษ์เธอ</title>
+    <desc lang="th">ทุกวันเสาร์ - อาทิตย์ เวลา 12:35 น. ทางช่องวัน 31</desc>
+  </programme>
+  <programme start="20261122150000 +0700" stop="20261122160000 +0700" channel="ONE31.HD.th">
+    <title lang="th">กี้ซดโอปโซ้ย</title>
+    <desc lang="th">ทุกวันอาทิตย์ เวลา 15:00 น. ทางช่องวัน 31</desc>
+  </programme>
+  <programme start="20261122160000 +0700" stop="20261122163000 +0700" channel="ONE31.HD.th">
+    <title lang="th">SPOTLIGHT</title>
+    <desc lang="th">ทุกวันอาทิตย์ เวลา 16:00 น. ทางช่องวัน 31</desc>
+  </programme>
+  <programme start="20261122163000 +0700" stop="20261122170000 +0700" channel="ONE31.HD.th">
+    <title lang="th">(รายการพิเศษ) สารคดีเฉลิมพระเกียรติ</title>
+    <desc lang="th">วันอาทิตย์ เวลา 16:30 น. ทางช่องวัน 31</desc>
+  </programme>
+  <programme start="20261122170000 +0700" stop="20261122190000 +0700" channel="ONE31.HD.th">
+    <title lang="th">ข่าวเย็นช่องวัน</title>
+    <desc lang="th">วันเสาร์ - อาทิตย์ เวลา 17:00 น. ทางช่องวัน 31</desc>
+  </programme>
+  <programme start="20261122190000 +0700" stop="20261122200000 +0700" channel="ONE31.HD.th">
+    <title lang="th">PROJECT ALPHA NEW CLAN</title>
+    <desc lang="th">ทุกวันอาทิตย์ เวลา 19:00 น. ทางช่องวัน 31</desc>
+  </programme>
+  <programme start="20261122200000 +0700" stop="20261122201500 +0700" channel="ONE31.HD.th">
+    <title lang="th">ข่าวค่ำช่องวัน และ ข่าวในพระราชสำนัก</title>
+    <desc lang="th">ทุกวันจันทร์ - อาทิตย์ เวลา 20:00 น. ทางช่องวัน 31</desc>
+  </programme>
+  <programme start="20261122201500 +0700" stop="20261122221500 +0700" channel="ONE31.HD.th">
+    <title lang="th">รู้ไหมใครโสด 2026</title>
+    <desc lang="th">วันอาทิตย์ เวลา 20:15 น. ทางช่องวัน 31</desc>
+  </programme>
+  <programme start="20261122222300 +0700" stop="20261122233000 +0700" channel="ONE31.HD.th">
+    <title lang="th">(RERUN) เก่งจริงชิงค่าเทอม</title>
+    <desc lang="th">วันอาทิตย์ เวลา 22:23 น. ทางช่องวัน 31</desc>
   </programme>
   <programme start="20261120000000 +0700" stop="20261120014000 +0700" channel="3HD.th">
     <title lang="th">ภ.จีน เพราะรักนี้ยากจะลืม</title>
