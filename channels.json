@@ -85,7 +85,7 @@
     "url": "https://tv.mcot.net/tv/th",
     "fetcher": "ch30_mcot",
     "epg_fetcher": "ch30_mcot",
-    "epg_url": "https://api-service.mcot.net/api/web/v1/tv/program/?date=&categoryId=35"
+    "epg_url": "https://tv.trueid.net/th-th/live/9mcot-hd"
   },
   {
     "chno": "31",
