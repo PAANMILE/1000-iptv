@@ -1,3 +1,3 @@
-from .common import fetch_from_oned_epg
+from .common import fetch_from_one31_api
 def fetch(tvg_id, channel_name, logo_url=""):
-    return fetch_from_oned_epg("https://www.oned.net/live-tv/one31", tvg_id, channel_name, logo_url)
+    return fetch_from_one31_api(tvg_id, channel_name, logo_url)

@@ -248,3 +248,115 @@ def fetch_from_oned_epg(url, tvg_id, channel_name, logo_url=""):
                 pass
 
     return ch_elem, programmes
+
+
+def fetch_from_one31_api(tvg_id, channel_name, logo_url=""):
+    ch_elem = build_channel_element(tvg_id, channel_name, logo_url)
+    programmes = []
+    tz_th = timezone(timedelta(hours=7))
+    now_th = datetime.now(tz_th)
+    ctx = ssl._create_unverified_context()
+
+    for offset in range(3):
+        target_date = (now_th + timedelta(days=offset)).replace(hour=0, minute=0, second=0, microsecond=0)
+        id_day = target_date.isoweekday()  # 1=Mon .. 7=Sun
+        url = f"https://api-web.onehd.net/api/schedule/day/{id_day}"
+        try:
+            req = urllib.request.Request(url, headers={"User-Agent": USER_AGENT})
+            raw = urllib.request.urlopen(req, timeout=15, context=ctx).read().decode("utf-8")
+            data = json.loads(raw)
+            schedules = data.get("detail", {}).get("scheduleDay", {}).get("schedules", [])
+            for item in schedules:
+                if item.get("isDraft") or not item.get("isActive", True):
+                    continue
+                title = (item.get("name") or "").strip()
+                desc = (item.get("description") or "").strip()
+                st_str = (item.get("startTime") or "").strip()
+                et_str = (item.get("endTime") or "").strip()
+                if not (title and st_str and et_str):
+                    continue
+                sh, sm, ss = map(int, st_str.split(":"))
+                eh, em, es = map(int, et_str.split(":"))
+                dt_start = target_date.replace(hour=sh, minute=sm, second=ss)
+                dt_stop = target_date.replace(hour=eh, minute=em, second=es)
+                if dt_stop <= dt_start:
+                    dt_stop += timedelta(days=1)
+
+                p_elem = ET.Element("programme", {
+                    "start": dt_start.strftime("%Y%m%d%H%M%S +0700"),
+                    "stop": dt_stop.strftime("%Y%m%d%H%M%S +0700"),
+                    "channel": tvg_id
+                })
+                t_elem = ET.SubElement(p_elem, "title", {"lang": "th"})
+                t_elem.text = title
+                if desc:
+                    d_elem = ET.SubElement(p_elem, "desc", {"lang": "th"})
+                    d_elem.text = desc
+                programmes.append(p_elem)
+        except Exception as e:
+            print(f"⚠️  [{channel_name}] One31 API day {id_day} error: {e}")
+
+    return ch_elem, programmes
+
+def fetch_from_gmm25_api(tvg_id, channel_name, logo_url=""):
+    ch_elem = build_channel_element(tvg_id, channel_name, logo_url)
+    programmes = []
+    tz_th = timezone(timedelta(hours=7))
+    now_th = datetime.now(tz_th)
+    ctx = ssl._create_unverified_context()
+
+    try:
+        req = urllib.request.Request(
+            "https://www.gmm25.com/firebase/web/api/schedule.php",
+            headers={"User-Agent": USER_AGENT}
+        )
+        raw = urllib.request.urlopen(req, timeout=15, context=ctx).read().decode("utf-8")
+        payload = json.loads(raw)
+        tabs = {str(t.get("tabID")): t.get("tabData", []) for t in payload.get("data", [])}
+
+        for offset in range(3):
+            target_date = (now_th + timedelta(days=offset)).replace(hour=0, minute=0, second=0, microsecond=0)
+            # Python weekday(): Mon=0..Sun=6 -> GMM25 tabID: Sun=0, Mon=1..Sat=6
+            tab_id = str((target_date.weekday() + 1) % 7)
+            next_tab_id = str((target_date.weekday() + 2) % 7)
+            items = tabs.get(tab_id, [])
+
+            parsed = []
+            for it in items:
+                title = (it.get("title") or "").strip()
+                desc = (it.get("description") or "").strip()
+                t_txt = (it.get("textTime") or "").strip()
+                m = re.search(r"(\d{1,2})[:.](\d{2})", t_txt)
+                if title and m:
+                    dt_s = target_date.replace(hour=int(m.group(1)), minute=int(m.group(2)), second=0)
+                    parsed.append((dt_s, title, desc))
+
+            next_items = tabs.get(next_tab_id, [])
+            next_first_dt = (target_date + timedelta(days=1)).replace(hour=0, minute=0, second=0)
+            if next_items:
+                m_next = re.search(r"(\d{1,2})[:.](\d{2})", next_items[0].get("textTime") or "")
+                if m_next:
+                    next_first_dt = (target_date + timedelta(days=1)).replace(
+                        hour=int(m_next.group(1)), minute=int(m_next.group(2)), second=0
+                    )
+
+            for idx, (dt_start, title, desc) in enumerate(parsed):
+                dt_stop = parsed[idx + 1][0] if idx + 1 < len(parsed) else next_first_dt
+                if dt_stop <= dt_start:
+                    dt_stop += timedelta(days=1)
+
+                p_elem = ET.Element("programme", {
+                    "start": dt_start.strftime("%Y%m%d%H%M%S +0700"),
+                    "stop": dt_stop.strftime("%Y%m%d%H%M%S +0700"),
+                    "channel": tvg_id
+                })
+                t_elem = ET.SubElement(p_elem, "title", {"lang": "th"})
+                t_elem.text = title
+                if desc and desc != title:
+                    d_elem = ET.SubElement(p_elem, "desc", {"lang": "th"})
+                    d_elem.text = desc
+                programmes.append(p_elem)
+    except Exception as e:
+        print(f"⚠️  [{channel_name}] GMM25 API error: {e}")
+
+    return ch_elem, programmes
