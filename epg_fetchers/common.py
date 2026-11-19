@@ -258,7 +258,7 @@ def fetch_from_one31_api(tvg_id, channel_name, logo_url=""):
 
     for offset in range(3):
         target_date = (now_th + timedelta(days=offset)).replace(hour=0, minute=0, second=0, microsecond=0)
-        id_day = (target_date.weekday() + 1) % 7  # 0=Sun, 1=Mon .. 6=Sat
+        id_day = target_date.isoweekday()  # 1=Mon .. 7=Sun
         url = f"https://api-web.onehd.net/api/schedule/day/{id_day}"
         try:
             req = urllib.request.Request(url, headers={"User-Agent": USER_AGENT})
