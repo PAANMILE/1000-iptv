@@ -2,90 +2,122 @@
   {
     "chno": "3",
     "name": "Thai PBS",
-    "tvg_id": "Thai.PBS.th",
+    "tvg_id": "ThaiPBS.th",
     "group": "Digital TV",
     "logo": "thaipbs.png",
-    "url": "https://tv.trueid.net/th-th/live/thaipbs"
+    "url": "https://thaipbs-mcx0wm.cdn.byteark.com/vtt-live/variant_1080p.m3u8",
+    "fetcher": "ch03_thaipbs",
+    "epg_fetcher": "ch03_thaipbs"
   },
   {
     "chno": "5",
-    "name": "ททบ.5 HD",
+    "name": "ททบ.5",
     "tvg_id": "TV5.HD.th",
     "group": "Digital TV",
     "logo": "ch5.png",
-    "url": "https://tv.trueid.net/th-th/live/ch5"
+    "url": "https://thaitv5hd.com/live/",
+    "fetcher": "ch05_tv5",
+    "epg_fetcher": "ch05_tv5"
   },
   {
     "chno": "23",
-    "name": "เวิร์คพอยท์ 23",
+    "name": "Workpoint 23",
     "tvg_id": "WORKPOINT.th",
     "group": "Digital TV",
     "logo": "workpointtv.png",
-    "url": "https://tv.trueid.net/th-th/live/workpointtv"
+    "url": "https://tv.trueid.net/th-th/live/workpointtv",
+    "fetcher": "ch23_workpoint",
+    "epg_fetcher": "ch23_workpoint"
   },
   {
     "chno": "24",
     "name": "True4U",
-    "tvg_id": "True4U.th",
+    "tvg_id": "TRUE4U.th",
     "group": "Digital TV",
     "logo": "true4u.png",
-    "url": "https://tv.trueid.net/th-th/live/true4u"
+    "url": "https://true4u.com/live/",
+    "fetcher": "ch24_true4u",
+    "epg_fetcher": "ch24_true4u"
   },
   {
     "chno": "25",
     "name": "GMM25",
-    "tvg_id": "GMM.25.th",
+    "tvg_id": "GMM.th",
     "group": "Digital TV",
     "logo": "gmm25.png",
-    "url": "https://tv.trueid.net/th-th/live/gmm25"
+    "url": "https://www.oned.net/live-tv/gmm25",
+    "fetcher": "ch25_gmm25",
+    "epg_fetcher": "ch25_gmm25"
   },
   {
     "chno": "27",
     "name": "ช่อง 8",
-    "tvg_id": "Channel.8.th",
+    "tvg_id": "CH8.th",
     "group": "Digital TV",
     "logo": "ch8.png",
-    "url": "https://tv.trueid.net/th-th/live/ch8"
+    "url": "https://tv.trueid.net/th-th/live/ch8",
+    "fetcher": "ch27_ch8",
+    "epg_fetcher": "ch27_ch8"
+  },
+  {
+    "chno": "29",
+    "name": "MONO29",
+    "tvg_id": "MONO.th",
+    "group": "Digital TV",
+    "logo": "mono29.png",
+    "url": "https://udn-streamer1.cdn.3bbtv.com:8443/3bb/live/29/29.mpd",
+    "fetcher": "ch29_mono29",
+    "epg_fetcher": "ch29_mono29"
   },
   {
     "chno": "30",
-    "name": "ช่อง 9 MCOT HD",
+    "name": "9 MCOT HD",
     "tvg_id": "MCOT.HD.th",
     "group": "Digital TV",
     "logo": "9mcot-hd.png",
-    "url": "https://tv.trueid.net/th-th/live/9mcot-hd"
+    "url": "https://tv.mcot.net/tv/th",
+    "fetcher": "ch30_mcot",
+    "epg_fetcher": "ch30_mcot"
   },
   {
     "chno": "31",
-    "name": "ช่องวัน 31",
-    "tvg_id": "One.31.th",
+    "name": "ONE 31",
+    "tvg_id": "ONE31.HD.th",
     "group": "Digital TV",
     "logo": "one-hd.png",
-    "url": "https://tv.trueid.net/th-th/live/one-hd"
+    "url": "https://www.oned.net/live-tv/one31",
+    "fetcher": "ch31_one31",
+    "epg_fetcher": "ch31_one31"
   },
   {
     "chno": "33",
-    "name": "ช่อง 3 HD",
-    "tvg_id": "Channel.3.HD.th",
+    "name": "3HD",
+    "tvg_id": "3HD.th",
     "group": "Digital TV",
     "logo": "ch3-hd.png",
-    "url": "https://tv.trueid.net/th-th/live/ch3-hd"
+    "url": "https://ch3plus.com",
+    "fetcher": "ch33_ch3",
+    "epg_fetcher": "ch33_ch3"
   },
   {
     "chno": "34",
     "name": "อมรินทร์ทีวี เอชดี 34",
-    "tvg_id": "Amarin.TV.th",
+    "tvg_id": "AMARIN.th",
     "group": "Digital TV",
     "logo": "amarintv-hd.png",
-    "url": "https://tv.trueid.net/th-th/live/amarintv-hd"
+    "url": "https://www.amarintv.com/live",
+    "fetcher": "ch34_amarin",
+    "epg_fetcher": "ch34_amarin"
   },
   {
     "chno": "35",
-    "name": "ช่อง 7HD",
-    "tvg_id": "Channel.7.HD.th",
+    "name": "7HD",
+    "tvg_id": "7HD.th",
     "group": "Digital TV",
     "logo": "ch7-hd.png",
-    "url": "https://tv.trueid.net/th-th/live/ch7-hd"
+    "url": "https://www.ch7.com/th/live/",
+    "fetcher": "ch35_ch7",
+    "epg_fetcher": "ch35_ch7"
   },
   {
     "chno": "36",
@@ -93,7 +125,9 @@
     "tvg_id": "PPTV.HD.th",
     "group": "Digital TV",
     "logo": "pptv-hd.png",
-    "url": "https://tv.trueid.net/th-th/live/pptv-hd"
+    "url": "https://tv.trueid.net/th-th/live/pptv-hd",
+    "fetcher": "ch36_pptv",
+    "epg_fetcher": "ch36_pptv"
   },
   {
     "chno": "38",
@@ -101,22 +135,28 @@
     "tvg_id": "Boomerang.(Thai).th",
     "group": "Kids & Anime",
     "logo": "boomerang-hd.png",
-    "url": "https://tv.trueid.net/th-th/live/boomerang-hd"
+    "url": "https://tv.trueid.net/th-th/live/boomerang-hd",
+    "fetcher": "ch38_boomerang",
+    "epg_fetcher": "ch38_boomerang"
   },
   {
     "chno": "39",
     "name": "Cartoon Club",
-    "tvg_id": "Cartoon.Club.th",
+    "tvg_id": "CartoonClub.th",
     "group": "Kids & Anime",
     "logo": "tid-cartoon-club-channel.png",
-    "url": "https://tv.trueid.net/th-th/live/tid-cartoon-club-channel"
+    "url": "https://tv.trueid.net/th-th/live/tid-cartoon-club-channel",
+    "fetcher": "ch39_cartoonclub",
+    "epg_fetcher": "ch39_cartoonclub"
   },
   {
-    "chno": "40",
-    "name": "ANIPLUS",
-    "tvg_id": "Aniplus.th",
-    "group": "Kids & Anime",
-    "logo": "aniplus-channel.png",
-    "url": "https://tv.trueid.net/th-th/live/aniplus-channel"
+    "chno": "888",
+    "name": "1000miles TV",
+    "tvg_id": "1000milesTV.th",
+    "group": "Private",
+    "logo": "1000miles_tv.png",
+    "url": "http://127.0.0.1:8888/1000miles_tv/index.m3u8",
+    "fetcher": "local_stream",
+    "epg_fetcher": "ch888_1000milestv"
   }
 ]

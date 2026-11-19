@@ -1,17 +1,10 @@
 #!/bin/bash
 cd "$(dirname "$0")"
-
 echo "=========================================="
-echo "  กำลังอัปเดตลิงก์ช่องรายการจาก TrueID"
+echo "  Updating TV Streams & EPG (Unified)"
 echo "=========================================="
-
-python3 fetch_streams.py
-
+python3 update_channels.py "$@"
 echo ""
-echo "กำลังอัปโหลดขึ้น GitHub..."
-git add channels.json fetch_streams.py update_channels.command true_tv.m3u
-git commit -m "Update TrueID stream tokens"
-git push origin main
-
-echo ""
-echo "เสร็จสิ้น! สามารถกด Refresh ใน Sparkle TV ได้เลย"
+echo "Done! Files ready in ~/Desktop/1000-iptv/:"
+echo "  - Playlist : ~/Desktop/1000-iptv/1000tv.m3u"
+echo "  - EPG Guide: ~/Desktop/1000-iptv/1000epg.xml"
