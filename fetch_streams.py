@@ -1,3 +1,4 @@
+import re
 import base64
 import importlib
 import json
@@ -126,7 +127,13 @@ def run(force_update=False, driver=None):
     for ch in channels:
         name = ch["name"]
         if ch.get("fetcher") == "local_stream":
-            preserved_url = existing_streams.get(name, ch["url"])
+            preserved_url = existing_streams.get(name)
+            if not preserved_url and os.path.exists("1000tv.m3u"):
+                m_local = re.search(r'(http://[^\s]+:8888/1000miles_tv/index\.m3u8)', open("1000tv.m3u", encoding="utf-8").read())
+                if m_local:
+                    preserved_url = m_local.group(1)
+            if not preserved_url:
+                preserved_url = ch["url"]
             print(f"🟢 [LOCAL]  {pad_display(name, 26)} -> Preserved ({preserved_url})")
             results[name] = preserved_url
             seen_urls.add(preserved_url)
