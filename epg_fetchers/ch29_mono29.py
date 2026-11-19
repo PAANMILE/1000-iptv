@@ -10,7 +10,6 @@ def fetch(tvg_id, channel_name, logo_url, driver=None, epg_url=None):
     ch_elem = build_channel_element(tvg_id, channel_name, logo_url)
     programmes = []
     target_url = (epg_url or DEFAULT_XML_URL).strip()
-    valid_ids = {tvg_id, "MONO.th", "MONO29.th", "Mono29.th"}
 
     try:
         ctx = ssl._create_unverified_context()
@@ -23,7 +22,8 @@ def fetch(tvg_id, channel_name, logo_url, driver=None, epg_url=None):
 
         root = ET.fromstring(xml_bytes)
         for prog in root.findall("programme"):
-            if prog.attrib.get("channel") in valid_ids:
+            ch_attr = prog.attrib.get("channel", "")
+            if ch_attr == tvg_id or "mono" in ch_attr.lower():
                 new_p = ET.Element("programme", {
                     "start": prog.attrib.get("start", ""),
                     "stop": prog.attrib.get("stop", ""),
