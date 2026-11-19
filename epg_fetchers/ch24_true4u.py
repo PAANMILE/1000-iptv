@@ -12,7 +12,7 @@ def _make_dt(base_dt, h, m):
         return base_dt + timedelta(days=1, minutes=m)
     return base_dt.replace(hour=h, minute=m)
 
-def fetch(tvg_id, channel_name, logo_url="", driver=None):
+def fetch(tvg_id, channel_name, logo_url="", driver=None, epg_url=None):
     ch_elem = build_channel_element(tvg_id, channel_name, logo_url)
     programmes = []
     tz_th = timezone(timedelta(hours=7))

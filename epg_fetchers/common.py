@@ -293,7 +293,7 @@ def fetch_from_one31_api(tvg_id, channel_name, logo_url=""):
                     d_elem.text = desc
                 programmes.append(p_elem)
         except Exception as e:
-            print(f"⚠️  [{channel_name}] One31 API day {id_day} error: {e}")
+            pass
 
     return ch_elem, programmes
 

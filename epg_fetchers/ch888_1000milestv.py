@@ -2,7 +2,7 @@ import xml.etree.ElementTree as ET
 from datetime import datetime, timezone, timedelta
 from .common import build_channel_element
 
-def fetch(tvg_id, channel_name, logo_url=""):
+def fetch(tvg_id, channel_name, logo_url="", epg_url=None):
     ch_elem = build_channel_element(tvg_id, channel_name, logo_url)
     tz_th = timezone(timedelta(hours=7))
     today_base = datetime.now(tz_th).replace(hour=0, minute=0, second=0, microsecond=0)

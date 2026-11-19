@@ -5,7 +5,7 @@ import xml.etree.ElementTree as ET
 from datetime import datetime, timezone, timedelta
 from .common import USER_AGENT, build_channel_element
 
-def fetch(tvg_id, channel_name, logo_url=""):
+def fetch(tvg_id, channel_name, logo_url="", epg_url=None):
     ch_elem = build_channel_element(tvg_id, channel_name, logo_url)
     programmes = []
     tz_th = timezone(timedelta(hours=7))
