@@ -631,9 +631,6 @@
   <programme start="20261122223000 +0700" stop="20261123004000 +0700" channel="GMM.th">
     <title lang="th">(RERUN) อะจ๊าก</title>
   </programme>
-  <programme start="20261120003500 +0700" stop="20261120013500 +0700" channel="CH8.th">
-    <title lang="th">ละคร กระถินริมรั้ว</title>
-  </programme>
   <programme start="20261120013500 +0700" stop="20261120025000 +0700" channel="CH8.th">
     <title lang="th">ซีรีส์อินเดีย นาคิน แค้นรักนางอสรพิษ ซีซ</title>
   </programme>
@@ -715,8 +712,8 @@
   <programme start="20261120232500 +0700" stop="20261121000000 +0700" channel="CH8.th">
     <title lang="th">ซีรีส์จีน จันทราอัสดง</title>
   </programme>
-  <programme start="20261120003500 +0700" stop="20261120013500 +0700" channel="CH8.th">
-    <title lang="th">ละคร กระถินริมรั้ว</title>
+  <programme start="20261120013500 +0700" stop="20261120025000 +0700" channel="CH8.th">
+    <title lang="th">ซีรีส์อินเดีย นาคิน แค้นรักนางอสรพิษ ซีซ</title>
   </programme>
   <programme start="20261120000000 +0700" stop="20261120020000 +0700" channel="ONE31.HD.th">
     <title lang="th">(RERUN) เคหาสน์ดาว</title>
@@ -801,6 +798,82 @@
   <programme start="20261120223000 +0700" stop="20261120233000 +0700" channel="ONE31.HD.th">
     <title lang="th">THE CROW CLUB อีกาสมาคม</title>
     <desc lang="th">ทุกวันศุกร์ เวลา 22:30 น. ทางช่องวัน 31</desc>
+  </programme>
+  <programme start="20261121000000 +0700" stop="20261121020000 +0700" channel="ONE31.HD.th">
+    <title lang="th">(RERUN) เคหาสน์ดาว</title>
+    <desc lang="th">ทุกวันอังคาร - เสาร์ เวลา 00:00 น. ทางช่องวัน 31</desc>
+  </programme>
+  <programme start="20261121020000 +0700" stop="20261121030000 +0700" channel="ONE31.HD.th">
+    <title lang="th">วันนี้มีธรรม</title>
+    <desc lang="th">ทุกวันจันทร์ - อาทิตย์ เริ่ม 02:00 น. ทางช่องวัน 31</desc>
+  </programme>
+  <programme start="20261121031500 +0700" stop="20261121041500 +0700" channel="ONE31.HD.th">
+    <title lang="th">เสือ ชะนี เก้ง</title>
+    <desc lang="th">วันเสาร์ - อาทิตย์ เวลา 03:15 น. ทางช่องวัน 31</desc>
+  </programme>
+  <programme start="20261121042500 +0700" stop="20261121045000 +0700" channel="ONE31.HD.th">
+    <title lang="th">(RERUN) อนุวัตทั่วไทย</title>
+    <desc lang="th">วันเสาร์ เวลา 04:25 น. ทางช่องวัน 31</desc>
+  </programme>
+  <programme start="20261121060000 +0700" stop="20261121082000 +0700" channel="ONE31.HD.th">
+    <title lang="th">พ่อจ๋าแม่อยู่ไหน</title>
+    <desc lang="th">ทุกวันเสาร์ - อาทิตย์ เวลา 06:00 น. ทางช่องวัน 31</desc>
+  </programme>
+  <programme start="20261121082000 +0700" stop="20261121100000 +0700" channel="ONE31.HD.th">
+    <title lang="th">ข่าวช่องวัน เสาร์-อาทิตย์</title>
+    <desc lang="th">วันเสาร์ - อาทิตย์ เวลา 08:20 น. ทางช่องวัน31</desc>
+  </programme>
+  <programme start="20261121100000 +0700" stop="20261121110000 +0700" channel="ONE31.HD.th">
+    <title lang="th">Club Friday Show</title>
+    <desc lang="th">ทุกวันเสาร์ เวลา 10:00 น. ทางช่องวัน 31</desc>
+  </programme>
+  <programme start="20261121110000 +0700" stop="20261121113000 +0700" channel="ONE31.HD.th">
+    <title lang="th">เรื่องใหญ่สุดสัปดาห์</title>
+    <desc lang="th">ทุกวันเสาร์ - อาทิตย์ เวลา 11:00 น. ทางช่องวัน 31</desc>
+  </programme>
+  <programme start="20261121113000 +0700" stop="20261121123000 +0700" channel="ONE31.HD.th">
+    <title lang="th">คุยแซ่บ SHOW</title>
+    <desc lang="th">ทุกวันเสาร์ - อาทิตย์ เวลา 11:30 น. ทางช่องวัน 31</desc>
+  </programme>
+  <programme start="20261121123500 +0700" stop="20261121150000 +0700" channel="ONE31.HD.th">
+    <title lang="th">ตามหารักที่เธอลืม</title>
+    <desc lang="th">ทุกวันเสาร์ - อาทิตย์ เวลา 12:35 น. ทางช่องวัน 31</desc>
+  </programme>
+  <programme start="20261121150000 +0700" stop="20261121160000 +0700" channel="ONE31.HD.th">
+    <title lang="th">เก่งจริงชิงค่าเทอม</title>
+    <desc lang="th">วันเสาร์ เวลา 15:00 น. ทางช่องวัน 31</desc>
+  </programme>
+  <programme start="20261121160000 +0700" stop="20261121163000 +0700" channel="ONE31.HD.th">
+    <title lang="th">SRISUPANG</title>
+    <desc lang="th">วันเสาร์ เวลา 16:00 น. ทางช่องวัน 31</desc>
+  </programme>
+  <programme start="20261121163000 +0700" stop="20261121180000 +0700" channel="ONE31.HD.th">
+    <title lang="th">ข่าวเย็นช่องวัน</title>
+    <desc lang="th">วันเสาร์ - อาทิตย์ เวลา 16:30 น. ทางช่องวัน 31</desc>
+  </programme>
+  <programme start="20261121180000 +0700" stop="20261121190000 +0700" channel="ONE31.HD.th">
+    <title lang="th">หอตัวดี</title>
+    <desc lang="th">ทุกวันเสาร์ เวลา 18:00 น. ทางช่องวัน 31</desc>
+  </programme>
+  <programme start="20261121190000 +0700" stop="20261121200000 +0700" channel="ONE31.HD.th">
+    <title lang="th">สุภาพบุรุษสุดซอย</title>
+    <desc lang="th">ทุกวันเสาร์ เวลา 19:00 น. ทางช่องวัน 31</desc>
+  </programme>
+  <programme start="20261121200000 +0700" stop="20261121201500 +0700" channel="ONE31.HD.th">
+    <title lang="th">ข่าวค่ำช่องวัน และ ข่าวในพระราชสำนัก</title>
+    <desc lang="th">ทุกวันจันทร์ - อาทิตย์ เวลา 20:00 น. ทางช่องวัน 31</desc>
+  </programme>
+  <programme start="20261121203000 +0700" stop="20261121213000 +0700" channel="ONE31.HD.th">
+    <title lang="th">(ตอนจบ) เขมจิราต้องรอดตลอดกาล Khemjira Forever</title>
+    <desc lang="th">ทุกวันเสาร์ เวลา 20:30 น. ทางช่องวัน 31</desc>
+  </programme>
+  <programme start="20261121213000 +0700" stop="20261121221500 +0700" channel="ONE31.HD.th">
+    <title lang="th">(RERUN) เป็นต่อ</title>
+    <desc lang="th">ทุกวันเสาร์ เวลา 21:30 น. ทางช่องวัน 31</desc>
+  </programme>
+  <programme start="20261121223000 +0700" stop="20261121235900 +0700" channel="ONE31.HD.th">
+    <title lang="th">(RERUN) วานวาสนา</title>
+    <desc lang="th">ทุกวันเสาร์ เวลา 22:30 น. ทางช่องวัน 31</desc>
   </programme>
   <programme start="20261122000000 +0700" stop="20261122020000 +0700" channel="ONE31.HD.th">
     <title lang="th">(RERUN) วานวาสนา</title>
@@ -1801,9 +1874,6 @@
   <programme start="20261126034100 +0700" stop="20261126044100 +0700" channel="7HD.th">
     <title lang="th">ไทยรักษ์สุขภาพ</title>
   </programme>
-  <programme start="20261120003000 +0700" stop="20261120013000 +0700" channel="PPTV.HD.th">
-    <title lang="th">คุยข้ามช็อต Exclusive Talk</title>
-  </programme>
   <programme start="20261120013000 +0700" stop="20261120020000 +0700" channel="PPTV.HD.th">
     <title lang="th">iShopping</title>
   </programme>
@@ -1885,8 +1955,8 @@
   <programme start="20261120230000 +0700" stop="20261121000000 +0700" channel="PPTV.HD.th">
     <title lang="th">World Sports +</title>
   </programme>
-  <programme start="20261120003000 +0700" stop="20261120013000 +0700" channel="PPTV.HD.th">
-    <title lang="th">คุยข้ามช็อต Exclusive Talk</title>
+  <programme start="20261120013000 +0700" stop="20261120020000 +0700" channel="PPTV.HD.th">
+    <title lang="th">iShopping</title>
   </programme>
   <programme start="20261120010000 +0700" stop="20261120020000 +0700" channel="Boomerang.(Thai).th">
     <title lang="th">The Garfield Show S2</title>
@@ -2016,9 +2086,6 @@
   </programme>
   <programme start="20261120010000 +0700" stop="20261120020000 +0700" channel="Boomerang.(Thai).th">
     <title lang="th">The Garfield Show S2</title>
-  </programme>
-  <programme start="20261120010000 +0700" stop="20261120013000 +0700" channel="CartoonClub.th">
-    <title lang="th">โทบอท + Zombie Dumb</title>
   </programme>
   <programme start="20261120013000 +0700" stop="20261120020000 +0700" channel="CartoonClub.th">
     <title lang="th">โกจูเจอร์ + Dinoman</title>
@@ -2155,8 +2222,8 @@
   <programme start="20261120233000 +0700" stop="20261121000000 +0700" channel="CartoonClub.th">
     <title lang="th">เบลย์เบลดเอ็กซ์ (ปี1) + Dinoman</title>
   </programme>
-  <programme start="20261120010000 +0700" stop="20261120013000 +0700" channel="CartoonClub.th">
-    <title lang="th">โทบอท + Zombie Dumb</title>
+  <programme start="20261120013000 +0700" stop="20261120020000 +0700" channel="CartoonClub.th">
+    <title lang="th">โกจูเจอร์ + Dinoman</title>
   </programme>
   <programme start="20261120000000 +0700" stop="20261121000000 +0700" channel="1000milesTV.th">
     <title lang="en">Private Boardcast</title>
