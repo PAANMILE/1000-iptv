@@ -13,7 +13,6 @@ USER_AGENT = "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.
 
 DEFAULT_SOURCES = [
     "https://epgshare01.online/epgshare01/epg_ripper_TH1.xml.gz",
-    "https://iptv-epg.org/files/epg-th.xml",
 ]
 
 _XML_CACHE = {}

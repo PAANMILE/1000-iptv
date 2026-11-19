@@ -3,7 +3,7 @@ import ssl
 import urllib.request
 import xml.etree.ElementTree as ET
 from datetime import datetime, timezone, timedelta
-from .common import USER_AGENT, build_channel_element, fetch_from_xml_sources
+from .common import USER_AGENT, build_channel_element
 
 def fetch(tvg_id, channel_name, logo_url=""):
     ch_elem = build_channel_element(tvg_id, channel_name, logo_url)
@@ -47,6 +47,4 @@ def fetch(tvg_id, channel_name, logo_url=""):
     except Exception as e:
         print(f"⚠️  [{channel_name}] Direct EPG fetch error: {e}")
 
-    if not programmes:
-        return fetch_from_xml_sources(tvg_id, channel_name, logo_url, ["Amarin.TV.HD.th"])
     return ch_elem, programmes

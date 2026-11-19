@@ -3,7 +3,7 @@ import time
 import xml.etree.ElementTree as ET
 from datetime import datetime, timezone, timedelta
 from selenium import webdriver
-from .common import build_channel_element, fetch_from_xml_sources
+from .common import build_channel_element
 
 URL = "https://true4u.com/tvplan/"
 
@@ -66,6 +66,4 @@ def fetch(tvg_id, channel_name, logo_url="", driver=None):
             except Exception:
                 pass
 
-    if not programmes:
-        return fetch_from_xml_sources(tvg_id, channel_name, logo_url, ["True4U.th"])
     return ch_elem, programmes
