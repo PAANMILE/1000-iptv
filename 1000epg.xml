@@ -372,62 +372,185 @@
   <programme start="20261119223000 +0700" stop="20261120003000 +0700" channel="TRUE4U.th">
     <title lang="th">ภาพยนตร์ องค์บาก 3</title>
   </programme>
-  <programme start="20261119043600 +0700" stop="20261119063000 +0700" channel="GMM.th">
-    <title lang="th">วันนี้มีธรรม</title>
-  </programme>
-  <programme start="20261119065000 +0700" stop="20261119075700 +0700" channel="GMM.th">
-    <title lang="th">(RERUN) เฮง เฮง เฮง</title>
-  </programme>
-  <programme start="20261119071800 +0700" stop="20261119091200 +0700" channel="GMM.th">
-    <title lang="th">พบพระธรรม</title>
-  </programme>
-  <programme start="20261119082500 +0700" stop="20261119093200 +0700" channel="GMM.th">
-    <title lang="th">เอาให้ชัด</title>
-  </programme>
-  <programme start="20261119093100 +0700" stop="20261119102800 +0700" channel="GMM.th">
-    <title lang="th">อนุวัต ทั่วไทย</title>
-  </programme>
-  <programme start="20261119102900 +0700" stop="20261119122300 +0700" channel="GMM.th">
-    <title lang="th">(RERUN) ดวลเพลงชิงทุน</title>
-  </programme>
-  <programme start="20261119103800 +0700" stop="20261119125100 +0700" channel="GMM.th">
+  <programme start="20261119002500 +0700" stop="20261119035000 +0700" channel="GMM.th">
     <title lang="th">ไทยทึ่ง WOW THAILAND</title>
   </programme>
-  <programme start="20261119122300 +0700" stop="20261119155300 +0700" channel="GMM.th">
-    <title lang="th">ทะเลริษยา</title>
+  <programme start="20261119035000 +0700" stop="20261119053500 +0700" channel="GMM.th">
+    <title lang="th">พบพระธรรม</title>
   </programme>
-  <programme start="20261119125100 +0700" stop="20261119144500 +0700" channel="GMM.th">
+  <programme start="20261119053500 +0700" stop="20261119064500 +0700" channel="GMM.th">
+    <title lang="th">ไทยทึ่ง WOW THAILAND</title>
+  </programme>
+  <programme start="20261119064500 +0700" stop="20261119074500 +0700" channel="GMM.th">
     <title lang="th">(RERUN) ดวลเพลงชิงทุน</title>
   </programme>
-  <programme start="20261119144600 +0700" stop="20261119172800 +0700" channel="GMM.th">
+  <programme start="20261119074500 +0700" stop="20261119091000 +0700" channel="GMM.th">
     <title lang="th">(RERUN) ข่าวแหกโค้ง</title>
   </programme>
-  <programme start="20261119155200 +0700" stop="20261119161100 +0700" channel="GMM.th">
-    <title lang="th">เงินทองของ...</title>
+  <programme start="20261119091000 +0700" stop="20261119092000 +0700" channel="GMM.th">
+    <title lang="th">เงินทองของจริง</title>
   </programme>
-  <programme start="20261119161100 +0700" stop="20261119180500 +0700" channel="GMM.th">
-    <title lang="th">ข่าวใหญ่วันนี้</title>
-  </programme>
-  <programme start="20261119172800 +0700" stop="20261119174700 +0700" channel="GMM.th">
-    <title lang="th">เงินทองของ...</title>
-  </programme>
-  <programme start="20261119174700 +0700" stop="20261119200000 +0700" channel="GMM.th">
+  <programme start="20261119092000 +0700" stop="20261119103000 +0700" channel="GMM.th">
     <title lang="th">ละคร เรือนเบญจพิษ</title>
   </programme>
-  <programme start="20261119181500 +0700" stop="20261119221300 +0700" channel="GMM.th">
-    <title lang="th">ชีวิตภาคสอง</title>
-  </programme>
-  <programme start="20261119200000 +0700" stop="20261119205700 +0700" channel="GMM.th">
+  <programme start="20261119103000 +0700" stop="20261119110000 +0700" channel="GMM.th">
     <title lang="th">(RERUN) อนุวัต ทั่วไทย</title>
   </programme>
-  <programme start="20261119205700 +0700" stop="20261119225100 +0700" channel="GMM.th">
+  <programme start="20261119110000 +0700" stop="20261119120000 +0700" channel="GMM.th">
     <title lang="th">ข่าวใหญ่วันนี้</title>
   </programme>
-  <programme start="20261119225100 +0700" stop="20261120004500 +0700" channel="GMM.th">
+  <programme start="20261119120000 +0700" stop="20261119130000 +0700" channel="GMM.th">
     <title lang="th">(RERUN) เก่งจริงชิงค่าเทอม</title>
   </programme>
-  <programme start="20261119233000 +0700" stop="20261120012400 +0700" channel="GMM.th">
+  <programme start="20261119130000 +0700" stop="20261119143000 +0700" channel="GMM.th">
+    <title lang="th">(RERUN) แฉ</title>
+    <desc lang="th">แฉ</desc>
+  </programme>
+  <programme start="20261119143000 +0700" stop="20261119153000 +0700" channel="GMM.th">
     <title lang="th">เรื่องใหญ่รายวัน</title>
+  </programme>
+  <programme start="20261119153000 +0700" stop="20261119180000 +0700" channel="GMM.th">
+    <title lang="th">ละคร VIP รักซ่อนชู้</title>
+  </programme>
+  <programme start="20261119180000 +0700" stop="20261119184500 +0700" channel="GMM.th">
+    <title lang="th">ถกไม่เถียง</title>
+  </programme>
+  <programme start="20261119184500 +0700" stop="20261119201500 +0700" channel="GMM.th">
+    <title lang="th">ข่าวแหกโค้ง</title>
+  </programme>
+  <programme start="20261119201500 +0700" stop="20261119203000 +0700" channel="GMM.th">
+    <title lang="th">ข่าวในพระราชสำนัก</title>
+  </programme>
+  <programme start="20261119203000 +0700" stop="20261119213000 +0700" channel="GMM.th">
+    <title lang="th">The Chemistry | จ๊าบเจน</title>
+  </programme>
+  <programme start="20261119213000 +0700" stop="20261119230500 +0700" channel="GMM.th">
+    <title lang="th">แฉ</title>
+  </programme>
+  <programme start="20261119230500 +0700" stop="20261120002500 +0700" channel="GMM.th">
+    <title lang="th">เก่งจริงชิงค่าเทอม</title>
+  </programme>
+  <programme start="20261120002500 +0700" stop="20261120035000 +0700" channel="GMM.th">
+    <title lang="th">ไทยทึ่ง WOW THAILAND</title>
+  </programme>
+  <programme start="20261120035000 +0700" stop="20261120053500 +0700" channel="GMM.th">
+    <title lang="th">พบพระธรรม</title>
+  </programme>
+  <programme start="20261120053500 +0700" stop="20261120064500 +0700" channel="GMM.th">
+    <title lang="th">ไทยทึ่ง WOW THAILAND</title>
+  </programme>
+  <programme start="20261120064500 +0700" stop="20261120074500 +0700" channel="GMM.th">
+    <title lang="th">(RERUN) ดวลเพลงชิงทุน</title>
+  </programme>
+  <programme start="20261120074500 +0700" stop="20261120091000 +0700" channel="GMM.th">
+    <title lang="th">(RERUN) ข่าวแหกโค้ง</title>
+  </programme>
+  <programme start="20261120091000 +0700" stop="20261120092000 +0700" channel="GMM.th">
+    <title lang="th">เงินทองของจริง</title>
+  </programme>
+  <programme start="20261120092000 +0700" stop="20261120103000 +0700" channel="GMM.th">
+    <title lang="th">ละคร เรือนเบญจพิษ</title>
+  </programme>
+  <programme start="20261120103000 +0700" stop="20261120110000 +0700" channel="GMM.th">
+    <title lang="th">(RERUN) อนุวัต ทั่วไทย</title>
+  </programme>
+  <programme start="20261120110000 +0700" stop="20261120120000 +0700" channel="GMM.th">
+    <title lang="th">ข่าวใหญ่วันนี้</title>
+  </programme>
+  <programme start="20261120120000 +0700" stop="20261120130000 +0700" channel="GMM.th">
+    <title lang="th">(RERUN) เก่งจริงชิงค่าเทอม</title>
+  </programme>
+  <programme start="20261120130000 +0700" stop="20261120143000 +0700" channel="GMM.th">
+    <title lang="th">(RERUN) แฉ</title>
+    <desc lang="th">แฉ</desc>
+  </programme>
+  <programme start="20261120143000 +0700" stop="20261120153000 +0700" channel="GMM.th">
+    <title lang="th">เรื่องใหญ่รายวัน</title>
+  </programme>
+  <programme start="20261120153000 +0700" stop="20261120180000 +0700" channel="GMM.th">
+    <title lang="th">ละคร VIP รักซ่อนชู้</title>
+  </programme>
+  <programme start="20261120180000 +0700" stop="20261120184500 +0700" channel="GMM.th">
+    <title lang="th">เรื่องใหญ่รายวัน</title>
+  </programme>
+  <programme start="20261120184500 +0700" stop="20261120201500 +0700" channel="GMM.th">
+    <title lang="th">ข่าวแหกโค้ง</title>
+  </programme>
+  <programme start="20261120201500 +0700" stop="20261120203000 +0700" channel="GMM.th">
+    <title lang="th">ข่าวในพระราชสำนัก</title>
+  </programme>
+  <programme start="20261120203000 +0700" stop="20261120213000 +0700" channel="GMM.th">
+    <title lang="th">(ตอนจบ) ซีรีส์ SOTUS The Series พี่ว้ากตัวร้ายกับนายปีหนึ่ง</title>
+  </programme>
+  <programme start="20261120213000 +0700" stop="20261120233000 +0700" channel="GMM.th">
+    <title lang="th">รู้ไหมใครโสด 2026</title>
+  </programme>
+  <programme start="20261120233000 +0700" stop="20261121005000 +0700" channel="GMM.th">
+    <title lang="th">เก่งจริงชิงค่าเทอม</title>
+  </programme>
+  <programme start="20261121005000 +0700" stop="20261121035000 +0700" channel="GMM.th">
+    <title lang="th">ไทยทึ่ง WOW THAILAND</title>
+  </programme>
+  <programme start="20261121035000 +0700" stop="20261121060000 +0700" channel="GMM.th">
+    <title lang="th">พบพระธรรม</title>
+  </programme>
+  <programme start="20261121060000 +0700" stop="20261121064500 +0700" channel="GMM.th">
+    <title lang="th">DEX CLUB CARTOON</title>
+  </programme>
+  <programme start="20261121064500 +0700" stop="20261121080000 +0700" channel="GMM.th">
+    <title lang="th">(RERUN) ข่าวแหกโค้ง</title>
+  </programme>
+  <programme start="20261121080000 +0700" stop="20261121083000 +0700" channel="GMM.th">
+    <title lang="th">คนหัวกะทิ</title>
+  </programme>
+  <programme start="20261121083000 +0700" stop="20261121090500 +0700" channel="GMM.th">
+    <title lang="th">(RERUN) อะจ๊ากฮามุกเด็ดฮาตับแตก</title>
+  </programme>
+  <programme start="20261121090500 +0700" stop="20261121093500 +0700" channel="GMM.th">
+    <title lang="th">(RERUN) อนุวัตทั่วไทย</title>
+  </programme>
+  <programme start="20261121093500 +0700" stop="20261121103000 +0700" channel="GMM.th">
+    <title lang="th">(RERUN) เก่งจริงชิงค่าเทอม</title>
+  </programme>
+  <programme start="20261121103000 +0700" stop="20261121115500 +0700" channel="GMM.th">
+    <title lang="th">ข่าวช่องวัน เสาร์-อาทิตย์</title>
+  </programme>
+  <programme start="20261121115500 +0700" stop="20261121132000 +0700" channel="GMM.th">
+    <title lang="th">(ถ่ายทอดสด) การแข่งขันวอลเลย์บอลอาชีพ เอสโคล่า วอลเลย์บอล ไทยแลนด์ ลีก ประจำปี พ.ศ. 2570</title>
+  </programme>
+  <programme start="20261121132000 +0700" stop="20261121141500 +0700" channel="GMM.th">
+    <title lang="th">ดวลเพลงชิงทุน</title>
+  </programme>
+  <programme start="20261121141500 +0700" stop="20261121144500 +0700" channel="GMM.th">
+    <title lang="th">อนุวัต ทั่วไทย</title>
+  </programme>
+  <programme start="20261121144500 +0700" stop="20261121153000 +0700" channel="GMM.th">
+    <title lang="th">ลูกทุ่งวันวาน</title>
+  </programme>
+  <programme start="20261121153000 +0700" stop="20261121163000 +0700" channel="GMM.th">
+    <title lang="th">ซิตคอม สุภาพบุรุษสุดซอย</title>
+  </programme>
+  <programme start="20261121163000 +0700" stop="20261121184500 +0700" channel="GMM.th">
+    <title lang="th">ละคร ดั่งธรณี</title>
+  </programme>
+  <programme start="20261121184500 +0700" stop="20261121201500 +0700" channel="GMM.th">
+    <title lang="th">ข่าวแหกโค้ง</title>
+  </programme>
+  <programme start="20261121201500 +0700" stop="20261121203000 +0700" channel="GMM.th">
+    <title lang="th">ข่าวในพระราชสำนัก</title>
+  </programme>
+  <programme start="20261121203000 +0700" stop="20261121213000 +0700" channel="GMM.th">
+    <title lang="th">ซีรีส์ Midnight Motel แอปลับ โรงแรมรัก</title>
+  </programme>
+  <programme start="20261121213000 +0700" stop="20261121223000 +0700" channel="GMM.th">
+    <title lang="th">Oxytoxin จุนใจไอดาว</title>
+  </programme>
+  <programme start="20261121223000 +0700" stop="20261121233000 +0700" channel="GMM.th">
+    <title lang="th">ไทยทึ่ง WOW THAILAND</title>
+  </programme>
+  <programme start="20261121233000 +0700" stop="20261122002000 +0700" channel="GMM.th">
+    <title lang="th">MOVIE GURU</title>
+    <desc lang="th">Movie GURU</desc>
   </programme>
   <programme start="20261119232500 +0700" stop="20261120000000 +0700" channel="CH8.th">
     <title lang="th">ซีรีส์จีน จันทราอัสดง</title>
@@ -913,62 +1036,169 @@
   <programme start="20261119230500 +0700" stop="20261119235900 +0700" channel="MCOT.HD.th">
     <title lang="th">เล่ห์ร้ายทนายอัจฉริยะ</title>
   </programme>
-  <programme start="20261119043600 +0700" stop="20261119063000 +0700" channel="ONE31.HD.th">
+  <programme start="20261119000000 +0700" stop="20261119020000 +0700" channel="ONE31.HD.th">
+    <title lang="th">(RERUN) เคหาสน์ดาว</title>
+    <desc lang="th">ทุกวันอังคาร - เสาร์ เวลา 00:00 น. ทางช่องวัน 31</desc>
+  </programme>
+  <programme start="20261119022500 +0700" stop="20261119032500 +0700" channel="ONE31.HD.th">
     <title lang="th">วันนี้มีธรรม</title>
+    <desc lang="th">ทุกวันจันทร์ - อาทิตย์ เริ่ม 02:25 น. ทางช่องวัน 31</desc>
   </programme>
-  <programme start="20261119065000 +0700" stop="20261119075700 +0700" channel="ONE31.HD.th">
+  <programme start="20261119033500 +0700" stop="20261119041000 +0700" channel="ONE31.HD.th">
     <title lang="th">(RERUN) เฮง เฮง เฮง</title>
+    <desc lang="th">ทุกวันจันทร์ - ศุกร์ เวลา 03:35 น. ทางช่องวัน 31</desc>
   </programme>
-  <programme start="20261119071800 +0700" stop="20261119091200 +0700" channel="ONE31.HD.th">
-    <title lang="th">พบพระธรรม</title>
-  </programme>
-  <programme start="20261119082500 +0700" stop="20261119093200 +0700" channel="ONE31.HD.th">
+  <programme start="20261119042500 +0700" stop="20261119050000 +0700" channel="ONE31.HD.th">
     <title lang="th">เอาให้ชัด</title>
+    <desc lang="th">ทุกวันอังคาร - ศุกร์ เวลา 04:25 น. ทางช่องวัน 31</desc>
   </programme>
-  <programme start="20261119093100 +0700" stop="20261119102800 +0700" channel="ONE31.HD.th">
+  <programme start="20261119050000 +0700" stop="20261119053000 +0700" channel="ONE31.HD.th">
     <title lang="th">อนุวัต ทั่วไทย</title>
+    <desc lang="th">ทุกวันจันทร์ - ศุกร์ เวลา 05:00 น. ทางช่องวัน 31</desc>
   </programme>
-  <programme start="20261119102900 +0700" stop="20261119122300 +0700" channel="ONE31.HD.th">
+  <programme start="20261119053000 +0700" stop="20261119063000 +0700" channel="ONE31.HD.th">
     <title lang="th">(RERUN) ดวลเพลงชิงทุน</title>
+    <desc lang="th">ทุกวันจันทร์ - ศุกร์ เวลา 05:30 น. ทางช่องวัน 31</desc>
   </programme>
-  <programme start="20261119103800 +0700" stop="20261119125100 +0700" channel="ONE31.HD.th">
-    <title lang="th">ไทยทึ่ง WOW THAILAND</title>
-  </programme>
-  <programme start="20261119122300 +0700" stop="20261119155300 +0700" channel="ONE31.HD.th">
+  <programme start="20261119063000 +0700" stop="20261119082000 +0700" channel="ONE31.HD.th">
     <title lang="th">ทะเลริษยา</title>
+    <desc lang="th">ทุกวันจันทร์ - ศุกร์ เวลา 06:30 น. ทางช่องวัน 31</desc>
   </programme>
-  <programme start="20261119125100 +0700" stop="20261119144500 +0700" channel="ONE31.HD.th">
-    <title lang="th">(RERUN) ดวลเพลงชิงทุน</title>
+  <programme start="20261119082000 +0700" stop="20261119083000 +0700" channel="ONE31.HD.th">
+    <title lang="th">เงินทองของจริง</title>
+    <desc lang="th">วันจันทร์ - ศุกร์ เวลา 08:20 น. ทางช่องวัน 31</desc>
   </programme>
-  <programme start="20261119144600 +0700" stop="20261119172800 +0700" channel="ONE31.HD.th">
-    <title lang="th">(RERUN) ข่าวแหกโค้ง</title>
-  </programme>
-  <programme start="20261119155200 +0700" stop="20261119161100 +0700" channel="ONE31.HD.th">
-    <title lang="th">เงินทองของ...</title>
-  </programme>
-  <programme start="20261119161100 +0700" stop="20261119180500 +0700" channel="ONE31.HD.th">
+  <programme start="20261119083000 +0700" stop="20261119093000 +0700" channel="ONE31.HD.th">
     <title lang="th">ข่าวใหญ่วันนี้</title>
+    <desc lang="th">ทุกวันจันทร์ - ศุกร์ เวลา 08:30 น. ทางช่องวัน 31</desc>
   </programme>
-  <programme start="20261119172800 +0700" stop="20261119174700 +0700" channel="ONE31.HD.th">
-    <title lang="th">เงินทองของ...</title>
-  </programme>
-  <programme start="20261119174700 +0700" stop="20261119200000 +0700" channel="ONE31.HD.th">
-    <title lang="th">ละคร เรือนเบญจพิษ</title>
-  </programme>
-  <programme start="20261119181500 +0700" stop="20261119221300 +0700" channel="ONE31.HD.th">
+  <programme start="20261119093500 +0700" stop="20261119114000 +0700" channel="ONE31.HD.th">
     <title lang="th">ชีวิตภาคสอง</title>
+    <desc lang="th">ทุกวันจันทร์ - ศุกร์ เวลา 09:35 น. ทางช่องวัน 31</desc>
   </programme>
-  <programme start="20261119200000 +0700" stop="20261119205700 +0700" channel="ONE31.HD.th">
-    <title lang="th">(RERUN) อนุวัต ทั่วไทย</title>
+  <programme start="20261119114000 +0700" stop="20261119122000 +0700" channel="ONE31.HD.th">
+    <title lang="th">วันนี้</title>
+    <desc lang="th">ทุกวันจันทร์ - ศุกร์ เวลา 11:40 น. ทางช่องวัน 31</desc>
   </programme>
-  <programme start="20261119205700 +0700" stop="20261119225100 +0700" channel="ONE31.HD.th">
-    <title lang="th">ข่าวใหญ่วันนี้</title>
-  </programme>
-  <programme start="20261119225100 +0700" stop="20261120004500 +0700" channel="ONE31.HD.th">
-    <title lang="th">(RERUN) เก่งจริงชิงค่าเทอม</title>
-  </programme>
-  <programme start="20261119233000 +0700" stop="20261120012400 +0700" channel="ONE31.HD.th">
+  <programme start="20261119122000 +0700" stop="20261119132000 +0700" channel="ONE31.HD.th">
     <title lang="th">เรื่องใหญ่รายวัน</title>
+    <desc lang="th">ทุกวันจันทร์ - ศุกร์ เวลา 12:20 น. ทางช่องวัน 31</desc>
+  </programme>
+  <programme start="20261119132500 +0700" stop="20261119154500 +0700" channel="ONE31.HD.th">
+    <title lang="th">ขอเกิดใหม่ใกล้ ๆ เธอ</title>
+    <desc lang="th">ทุกวันจันทร์ - ศุกร์ เวลา 13:25 น. ทางช่องวัน 31</desc>
+  </programme>
+  <programme start="20261119154500 +0700" stop="20261119163000 +0700" channel="ONE31.HD.th">
+    <title lang="th">ถกไม่เถียง</title>
+    <desc lang="th">ทุกวันจันทร์ - ศุกร์ เวลา 15:45 น. ทางช่องวัน 31</desc>
+  </programme>
+  <programme start="20261119163000 +0700" stop="20261119180000 +0700" channel="ONE31.HD.th">
+    <title lang="th">ข่าวเย็นช่องวัน</title>
+    <desc lang="th">ทุกวันจันทร์ - ศุกร์ เวลา 16:30 น. ทางช่องวัน 31</desc>
+  </programme>
+  <programme start="20261119180000 +0700" stop="20261119190000 +0700" channel="ONE31.HD.th">
+    <title lang="th">ดวลเพลงชิงทุน</title>
+    <desc lang="th">ทุกวันจันทร์ - เสาร์ เวลา 18:00 น. ทางช่องวัน 31</desc>
+  </programme>
+  <programme start="20261119190000 +0700" stop="20261119200000 +0700" channel="ONE31.HD.th">
+    <title lang="th">หอมรักบ้านทุ่ง</title>
+    <desc lang="th">ทุกวันจันทร์ - พฤหัสบดี เวลา 19:00 น. ทางช่องวัน 31</desc>
+  </programme>
+  <programme start="20261119200000 +0700" stop="20261119203000 +0700" channel="ONE31.HD.th">
+    <title lang="th">ข่าวค่ำช่องวัน และ ข่าวในพระราชสำนัก</title>
+    <desc lang="th">ทุกวันจันทร์ - อาทิตย์ เวลา 20:00 น. ทางช่องวัน 31</desc>
+  </programme>
+  <programme start="20261119203000 +0700" stop="20261119214500 +0700" channel="ONE31.HD.th">
+    <title lang="th">Scarlet Heart Ullavee ปาฏิหาริย์ข้ามกาลเวลา</title>
+    <desc lang="th">ทุกวันพุธ - พฤหัสบดี เวลา 20:30 น. ทางช่องวัน 31</desc>
+  </programme>
+  <programme start="20261119214500 +0700" stop="20261119223000 +0700" channel="ONE31.HD.th">
+    <title lang="th">เป็นต่อ</title>
+    <desc lang="th">ทุกวันพฤหัสบดี เวลา 21:45 น. ทางช่องวัน 31</desc>
+  </programme>
+  <programme start="20261119223000 +0700" stop="20261119230500 +0700" channel="ONE31.HD.th">
+    <title lang="th">เอาให้ชัด</title>
+    <desc lang="th">ทุกวันจันทร์ - พฤหัสบดี เวลา 22:30 น. ทางช่องวัน 31</desc>
+  </programme>
+  <programme start="20261119230500 +0700" stop="20261119235900 +0700" channel="ONE31.HD.th">
+    <title lang="th">(RERUN) ดวลเพลงชิงทุน</title>
+    <desc lang="th">วันพฤหัสบดี เวลา 23:05 น. ทางช่องวัน 31</desc>
+  </programme>
+  <programme start="20261121000000 +0700" stop="20261121020000 +0700" channel="ONE31.HD.th">
+    <title lang="th">(RERUN) เคหาสน์ดาว</title>
+    <desc lang="th">ทุกวันอังคาร - เสาร์ เวลา 00:00 น. ทางช่องวัน 31</desc>
+  </programme>
+  <programme start="20261121020000 +0700" stop="20261121030000 +0700" channel="ONE31.HD.th">
+    <title lang="th">วันนี้มีธรรม</title>
+    <desc lang="th">ทุกวันจันทร์ - อาทิตย์ เริ่ม 02:00 น. ทางช่องวัน 31</desc>
+  </programme>
+  <programme start="20261121031500 +0700" stop="20261121041500 +0700" channel="ONE31.HD.th">
+    <title lang="th">เสือ ชะนี เก้ง</title>
+    <desc lang="th">วันเสาร์ - อาทิตย์ เวลา 03:15 น. ทางช่องวัน 31</desc>
+  </programme>
+  <programme start="20261121042500 +0700" stop="20261121045000 +0700" channel="ONE31.HD.th">
+    <title lang="th">(RERUN) อนุวัตทั่วไทย</title>
+    <desc lang="th">วันเสาร์ เวลา 04:25 น. ทางช่องวัน 31</desc>
+  </programme>
+  <programme start="20261121060000 +0700" stop="20261121082000 +0700" channel="ONE31.HD.th">
+    <title lang="th">พ่อจ๋าแม่อยู่ไหน</title>
+    <desc lang="th">ทุกวันเสาร์ - อาทิตย์ เวลา 06:00 น. ทางช่องวัน 31</desc>
+  </programme>
+  <programme start="20261121082000 +0700" stop="20261121100000 +0700" channel="ONE31.HD.th">
+    <title lang="th">ข่าวช่องวัน เสาร์-อาทิตย์</title>
+    <desc lang="th">วันเสาร์ - อาทิตย์ เวลา 08:20 น. ทางช่องวัน31</desc>
+  </programme>
+  <programme start="20261121100000 +0700" stop="20261121110000 +0700" channel="ONE31.HD.th">
+    <title lang="th">Club Friday Show</title>
+    <desc lang="th">ทุกวันเสาร์ เวลา 10:00 น. ทางช่องวัน 31</desc>
+  </programme>
+  <programme start="20261121110000 +0700" stop="20261121113000 +0700" channel="ONE31.HD.th">
+    <title lang="th">เรื่องใหญ่สุดสัปดาห์</title>
+    <desc lang="th">ทุกวันเสาร์ - อาทิตย์ เวลา 11:00 น. ทางช่องวัน 31</desc>
+  </programme>
+  <programme start="20261121113000 +0700" stop="20261121123000 +0700" channel="ONE31.HD.th">
+    <title lang="th">คุยแซ่บ SHOW</title>
+    <desc lang="th">ทุกวันเสาร์ - อาทิตย์ เวลา 11:30 น. ทางช่องวัน 31</desc>
+  </programme>
+  <programme start="20261121123500 +0700" stop="20261121150000 +0700" channel="ONE31.HD.th">
+    <title lang="th">ตามหารักที่เธอลืม</title>
+    <desc lang="th">ทุกวันเสาร์ - อาทิตย์ เวลา 12:35 น. ทางช่องวัน 31</desc>
+  </programme>
+  <programme start="20261121150000 +0700" stop="20261121160000 +0700" channel="ONE31.HD.th">
+    <title lang="th">เก่งจริงชิงค่าเทอม</title>
+    <desc lang="th">วันเสาร์ เวลา 15:00 น. ทางช่องวัน 31</desc>
+  </programme>
+  <programme start="20261121160000 +0700" stop="20261121163000 +0700" channel="ONE31.HD.th">
+    <title lang="th">SRISUPANG</title>
+    <desc lang="th">วันเสาร์ เวลา 16:00 น. ทางช่องวัน 31</desc>
+  </programme>
+  <programme start="20261121163000 +0700" stop="20261121180000 +0700" channel="ONE31.HD.th">
+    <title lang="th">ข่าวเย็นช่องวัน</title>
+    <desc lang="th">วันเสาร์ - อาทิตย์ เวลา 16:30 น. ทางช่องวัน 31</desc>
+  </programme>
+  <programme start="20261121180000 +0700" stop="20261121190000 +0700" channel="ONE31.HD.th">
+    <title lang="th">หอตัวดี</title>
+    <desc lang="th">ทุกวันเสาร์ เวลา 18:00 น. ทางช่องวัน 31</desc>
+  </programme>
+  <programme start="20261121190000 +0700" stop="20261121200000 +0700" channel="ONE31.HD.th">
+    <title lang="th">สุภาพบุรุษสุดซอย</title>
+    <desc lang="th">ทุกวันเสาร์ เวลา 19:00 น. ทางช่องวัน 31</desc>
+  </programme>
+  <programme start="20261121200000 +0700" stop="20261121201500 +0700" channel="ONE31.HD.th">
+    <title lang="th">ข่าวค่ำช่องวัน และ ข่าวในพระราชสำนัก</title>
+    <desc lang="th">ทุกวันจันทร์ - อาทิตย์ เวลา 20:00 น. ทางช่องวัน 31</desc>
+  </programme>
+  <programme start="20261121203000 +0700" stop="20261121213000 +0700" channel="ONE31.HD.th">
+    <title lang="th">(ตอนจบ) เขมจิราต้องรอดตลอดกาล Khemjira Forever</title>
+    <desc lang="th">ทุกวันเสาร์ เวลา 20:30 น. ทางช่องวัน 31</desc>
+  </programme>
+  <programme start="20261121213000 +0700" stop="20261121221500 +0700" channel="ONE31.HD.th">
+    <title lang="th">(RERUN) เป็นต่อ</title>
+    <desc lang="th">ทุกวันเสาร์ เวลา 21:30 น. ทางช่องวัน 31</desc>
+  </programme>
+  <programme start="20261121223000 +0700" stop="20261121235900 +0700" channel="ONE31.HD.th">
+    <title lang="th">(RERUN) วานวาสนา</title>
+    <desc lang="th">ทุกวันเสาร์ เวลา 22:30 น. ทางช่องวัน 31</desc>
   </programme>
   <programme start="20261119000000 +0700" stop="20261119014000 +0700" channel="3HD.th">
     <title lang="th">ภ.จีน เพราะรักนี้ยากจะลืม</title>
