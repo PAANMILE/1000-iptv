@@ -1,3 +1,5 @@
+from datetime import datetime, timedelta, timezone
+import shutil
 import importlib
 import inspect
 import json
@@ -136,8 +138,60 @@ def run(force_update=False, driver=None):
     print(f"\n🎉 Saved EPG to: {OUTPUT_EPG} ({channels_with_epg}/{len(channels)} channels with schedules, {len(all_programmes)} total programmes)")
     return driver
 
+
+def sanitize_channel_programmes(tvg_id, programmes):
+    """กลไก 2 & 3: ตัดรายการเก่ากว่าเมื่อวาน 00:00, ตัดซ้ำ, เรียงเวลา และแก้เวลาซ้อนทับ (Overlap)"""
+    tz_th = timezone(timedelta(hours=7))
+    cutoff_dt = (datetime.now(tz_th) - timedelta(days=1)).replace(hour=0, minute=0, second=0, microsecond=0)
+
+    parsed = []
+    seen = set()
+    for p in programmes:
+        st_str = (p.get("start") or "").strip()
+        sp_str = (p.get("stop") or "").strip()
+        t_el = p.find("title")
+        title = (t_el.text or "").strip() if t_el is not None else ""
+        if not (st_str and sp_str and title):
+            continue
+        try:
+            dt_start = datetime.strptime(st_str, "%Y%m%d%H%M%S %z")
+            dt_stop = datetime.strptime(sp_str, "%Y%m%d%H%M%S %z")
+        except Exception:
+            continue
+
+        # ตัดรายการที่เวลาผิดปกติหรือจบไปก่อนเมื่อวาน 00:00 น.
+        if dt_stop <= dt_start or dt_stop <= cutoff_dt:
+            continue
+
+        # ตัดรายการซ้ำ (เวลาเริ่ม + ชื่อรายการเดียวกัน)
+        dedup_key = (dt_start, title)
+        if dedup_key in seen:
+            continue
+        seen.add(dedup_key)
+        parsed.append([dt_start, dt_stop, p])
+
+    # เรียงตามเวลาเริ่มจากน้อยไปมาก
+    parsed.sort(key=lambda x: x[0])
+
+    # แก้เวลาซ้อนทับ (ถ้า prev_stop > curr_start ให้ปรับ prev_stop = curr_start)
+    cleaned = []
+    for i, (dt_start, dt_stop, p) in enumerate(parsed):
+        if i + 1 < len(parsed):
+            next_start = parsed[i + 1][0]
+            if dt_stop > next_start:
+                dt_stop = next_start
+        if dt_stop <= dt_start:
+            continue
+        p.set("start", dt_start.strftime("%Y%m%d%H%M%S +0700"))
+        p.set("stop", dt_stop.strftime("%Y%m%d%H%M%S +0700"))
+        cleaned.append(p)
+
+    return cleaned
+
 def main():
     run(force_update="--force" in sys.argv, driver=None)
 
 if __name__ == "__main__":
+    if "--force" in sys.argv:
+        shutil.rmtree("epg_cache", ignore_errors=True)
     main()
