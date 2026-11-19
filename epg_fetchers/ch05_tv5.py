@@ -27,7 +27,7 @@ def fetch(tvg_id, channel_name, logo_url=""):
         lines = [unescape(re.sub(r"<[^>]+>", "", l)).strip() for l in clean.splitlines()]
         lines = [l for l in lines if l]
 
-        statuses = {"ออกอากาศแล้ว", "กำลังออกอากาศ", "รายการถัดไป", "รายการต่อไป"}
+        statuses = {"ออกอากาศแล้ว", "กำลังออกอากาศ", "ถัดไป", "รายการถัดไป", "รายการต่อไป"}
         i = 0
         while i < len(lines):
             m = re.match(r"^(\d{2}):(\d{2})\s*-\s*(\d{2}):(\d{2})$", lines[i])

@@ -23,9 +23,8 @@ def fetch(tvg_id, channel_name, logo_url=""):
         for m in re.finditer(r"<[^>]+data-date-time=\"([^\"]+)\"[^>]*>", html):
             tag = m.group(0)
             dt_raw = m.group(1)
-            if not dt_raw.startswith(today_str):
-                continue
-            m_prog = re.search(r'data-program-name="([^"]*)"', tag)
+            # Keep all valid dates returned by schedule page
+            m_prog = re.search(r'data-(?:title|program-name)="([^"]*)"', tag)
             m_ep = re.search(r'data-episode-name="([^"]*)"', tag)
             title = unescape(m_prog.group(1)).strip() if m_prog else ""
             ep = unescape(m_ep.group(1)).strip() if m_ep else ""
