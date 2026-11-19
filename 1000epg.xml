@@ -371,6 +371,9 @@
   <programme start="20261120235700 +0700" stop="20261121000000 +0700" channel="WORKPOINT.th">
     <title lang="th">2 ข่าวใหญ่เวิร์คพอยท์ รีรัน</title>
   </programme>
+  <programme start="20261120020000 +0700" stop="20261120030000 +0700" channel="WORKPOINT.th">
+    <title lang="th">หกฉากครับจารย์ CC</title>
+  </programme>
   <programme start="20261120003000 +0700" stop="20261120010000 +0700" channel="TRUE4U.th">
     <title lang="th">เชฟข้างถนน</title>
   </programme>
@@ -709,6 +712,9 @@
   </programme>
   <programme start="20261120232500 +0700" stop="20261121000000 +0700" channel="CH8.th">
     <title lang="th">ซีรีส์จีน จันทราอัสดง</title>
+  </programme>
+  <programme start="20261120013500 +0700" stop="20261120025000 +0700" channel="CH8.th">
+    <title lang="th">ซีรีส์อินเดีย นาคิน แค้นรักนางอสรพิษ ซีซ</title>
   </programme>
   <programme start="20261119000000 +0700" stop="20261119020000 +0700" channel="MONO.th">
     <title lang="th">YOUNGSTER Variety  (Rerun)</title>
@@ -2376,6 +2382,9 @@
   <programme start="20261120230000 +0700" stop="20261121000000 +0700" channel="PPTV.HD.th">
     <title lang="th">World Sports +</title>
   </programme>
+  <programme start="20261120020000 +0700" stop="20261120023000 +0700" channel="PPTV.HD.th">
+    <title lang="th">ทันโลก Express</title>
+  </programme>
   <programme start="20261120020000 +0700" stop="20261120030000 +0700" channel="Boomerang.(Thai).th">
     <title lang="th">Hello Jadoo S2</title>
   </programme>
@@ -2498,6 +2507,9 @@
   </programme>
   <programme start="20261120233000 +0700" stop="20261121000000 +0700" channel="Boomerang.(Thai).th">
     <title lang="th">Boom Animal World</title>
+  </programme>
+  <programme start="20261120020000 +0700" stop="20261120030000 +0700" channel="Boomerang.(Thai).th">
+    <title lang="th">Hello Jadoo S2</title>
   </programme>
   <programme start="20261120020000 +0700" stop="20261120023000 +0700" channel="CartoonClub.th">
     <title lang="th">การ์ดไฟท์แวนการ์ด(GZ) + Bottleman</title>
@@ -2630,6 +2642,9 @@
   </programme>
   <programme start="20261120233000 +0700" stop="20261121000000 +0700" channel="CartoonClub.th">
     <title lang="th">เบลย์เบลดเอ็กซ์ (ปี1) + Dinoman</title>
+  </programme>
+  <programme start="20261120020000 +0700" stop="20261120023000 +0700" channel="CartoonClub.th">
+    <title lang="th">การ์ดไฟท์แวนการ์ด(GZ) + Bottleman</title>
   </programme>
   <programme start="20261120000000 +0700" stop="20261121000000 +0700" channel="1000milesTV.th">
     <title lang="en">Private Boardcast</title>
