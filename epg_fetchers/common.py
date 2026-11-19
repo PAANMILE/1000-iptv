@@ -22,7 +22,7 @@ def get_xml_root(url):
         return _XML_CACHE[url]
     try:
         ctx = ssl._create_unverified_context()
-        req = urllib.request.Request(url, headers={"User-Agent": USER_AGENT})
+        req = urllib.request.Request(url, headers={"User-Agent": USER_AGENT, "Referer": "https://www.one31.net/", "Origin": "https://www.one31.net", "Accept": "application/json"})
         raw = urllib.request.urlopen(req, timeout=25, context=ctx).read()
         if raw[:2] == b"\x1f\x8b":
             raw = gzip.decompress(raw)
@@ -261,7 +261,7 @@ def fetch_from_one31_api(tvg_id, channel_name, logo_url=""):
         id_day = target_date.isoweekday()  # 1=Mon .. 7=Sun
         url = f"https://api-web.onehd.net/api/schedule/day/{id_day}"
         try:
-            req = urllib.request.Request(url, headers={"User-Agent": USER_AGENT})
+            req = urllib.request.Request(url, headers={"User-Agent": USER_AGENT, "Referer": "https://www.one31.net/", "Origin": "https://www.one31.net", "Accept": "application/json"})
             raw = urllib.request.urlopen(req, timeout=15, context=ctx).read().decode("utf-8")
             data = json.loads(raw)
             schedules = ((data.get("detail") or {}).get("scheduleDay") or {}).get("schedules") or []
