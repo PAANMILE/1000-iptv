@@ -846,6 +846,82 @@
     <title lang="th">THE CROW CLUB อีกาสมาคม</title>
     <desc lang="th">ทุกวันศุกร์ เวลา 22:30 น. ทางช่องวัน 31</desc>
   </programme>
+  <programme start="20261121000000 +0700" stop="20261121020000 +0700" channel="ONE31.HD.th">
+    <title lang="th">(RERUN) เคหาสน์ดาว</title>
+    <desc lang="th">ทุกวันอังคาร - เสาร์ เวลา 00:00 น. ทางช่องวัน 31</desc>
+  </programme>
+  <programme start="20261121020000 +0700" stop="20261121030000 +0700" channel="ONE31.HD.th">
+    <title lang="th">วันนี้มีธรรม</title>
+    <desc lang="th">ทุกวันจันทร์ - อาทิตย์ เริ่ม 02:00 น. ทางช่องวัน 31</desc>
+  </programme>
+  <programme start="20261121031500 +0700" stop="20261121041500 +0700" channel="ONE31.HD.th">
+    <title lang="th">เสือ ชะนี เก้ง</title>
+    <desc lang="th">วันเสาร์ - อาทิตย์ เวลา 03:15 น. ทางช่องวัน 31</desc>
+  </programme>
+  <programme start="20261121042500 +0700" stop="20261121045000 +0700" channel="ONE31.HD.th">
+    <title lang="th">(RERUN) อนุวัตทั่วไทย</title>
+    <desc lang="th">วันเสาร์ เวลา 04:25 น. ทางช่องวัน 31</desc>
+  </programme>
+  <programme start="20261121060000 +0700" stop="20261121082000 +0700" channel="ONE31.HD.th">
+    <title lang="th">พ่อจ๋าแม่อยู่ไหน</title>
+    <desc lang="th">ทุกวันเสาร์ - อาทิตย์ เวลา 06:00 น. ทางช่องวัน 31</desc>
+  </programme>
+  <programme start="20261121082000 +0700" stop="20261121100000 +0700" channel="ONE31.HD.th">
+    <title lang="th">ข่าวช่องวัน เสาร์-อาทิตย์</title>
+    <desc lang="th">วันเสาร์ - อาทิตย์ เวลา 08:20 น. ทางช่องวัน31</desc>
+  </programme>
+  <programme start="20261121100000 +0700" stop="20261121110000 +0700" channel="ONE31.HD.th">
+    <title lang="th">Club Friday Show</title>
+    <desc lang="th">ทุกวันเสาร์ เวลา 10:00 น. ทางช่องวัน 31</desc>
+  </programme>
+  <programme start="20261121110000 +0700" stop="20261121113000 +0700" channel="ONE31.HD.th">
+    <title lang="th">เรื่องใหญ่สุดสัปดาห์</title>
+    <desc lang="th">ทุกวันเสาร์ - อาทิตย์ เวลา 11:00 น. ทางช่องวัน 31</desc>
+  </programme>
+  <programme start="20261121113000 +0700" stop="20261121123000 +0700" channel="ONE31.HD.th">
+    <title lang="th">คุยแซ่บ SHOW</title>
+    <desc lang="th">ทุกวันเสาร์ - อาทิตย์ เวลา 11:30 น. ทางช่องวัน 31</desc>
+  </programme>
+  <programme start="20261121123500 +0700" stop="20261121150000 +0700" channel="ONE31.HD.th">
+    <title lang="th">ตามหารักที่เธอลืม</title>
+    <desc lang="th">ทุกวันเสาร์ - อาทิตย์ เวลา 12:35 น. ทางช่องวัน 31</desc>
+  </programme>
+  <programme start="20261121150000 +0700" stop="20261121160000 +0700" channel="ONE31.HD.th">
+    <title lang="th">เก่งจริงชิงค่าเทอม</title>
+    <desc lang="th">วันเสาร์ เวลา 15:00 น. ทางช่องวัน 31</desc>
+  </programme>
+  <programme start="20261121160000 +0700" stop="20261121163000 +0700" channel="ONE31.HD.th">
+    <title lang="th">SRISUPANG</title>
+    <desc lang="th">วันเสาร์ เวลา 16:00 น. ทางช่องวัน 31</desc>
+  </programme>
+  <programme start="20261121163000 +0700" stop="20261121180000 +0700" channel="ONE31.HD.th">
+    <title lang="th">ข่าวเย็นช่องวัน</title>
+    <desc lang="th">วันเสาร์ - อาทิตย์ เวลา 16:30 น. ทางช่องวัน 31</desc>
+  </programme>
+  <programme start="20261121180000 +0700" stop="20261121190000 +0700" channel="ONE31.HD.th">
+    <title lang="th">หอตัวดี</title>
+    <desc lang="th">ทุกวันเสาร์ เวลา 18:00 น. ทางช่องวัน 31</desc>
+  </programme>
+  <programme start="20261121190000 +0700" stop="20261121200000 +0700" channel="ONE31.HD.th">
+    <title lang="th">สุภาพบุรุษสุดซอย</title>
+    <desc lang="th">ทุกวันเสาร์ เวลา 19:00 น. ทางช่องวัน 31</desc>
+  </programme>
+  <programme start="20261121200000 +0700" stop="20261121201500 +0700" channel="ONE31.HD.th">
+    <title lang="th">ข่าวค่ำช่องวัน และ ข่าวในพระราชสำนัก</title>
+    <desc lang="th">ทุกวันจันทร์ - อาทิตย์ เวลา 20:00 น. ทางช่องวัน 31</desc>
+  </programme>
+  <programme start="20261121203000 +0700" stop="20261121213000 +0700" channel="ONE31.HD.th">
+    <title lang="th">(ตอนจบ) เขมจิราต้องรอดตลอดกาล Khemjira Forever</title>
+    <desc lang="th">ทุกวันเสาร์ เวลา 20:30 น. ทางช่องวัน 31</desc>
+  </programme>
+  <programme start="20261121213000 +0700" stop="20261121221500 +0700" channel="ONE31.HD.th">
+    <title lang="th">(RERUN) เป็นต่อ</title>
+    <desc lang="th">ทุกวันเสาร์ เวลา 21:30 น. ทางช่องวัน 31</desc>
+  </programme>
+  <programme start="20261121223000 +0700" stop="20261121235900 +0700" channel="ONE31.HD.th">
+    <title lang="th">(RERUN) วานวาสนา</title>
+    <desc lang="th">ทุกวันเสาร์ เวลา 22:30 น. ทางช่องวัน 31</desc>
+  </programme>
   <programme start="20261120000000 +0700" stop="20261120014000 +0700" channel="3HD.th">
     <title lang="th">ภ.จีน เพราะรักนี้ยากจะลืม</title>
   </programme>
@@ -2018,6 +2094,430 @@
   </programme>
   <programme start="20261120233000 +0700" stop="20261121000000 +0700" channel="CartoonClub.th">
     <title lang="th">เบลย์เบลดเอ็กซ์ (ปี1) + Dinoman</title>
+  </programme>
+  <programme start="20261120003000 +0700" stop="20261120010000 +0700" channel="KBSKorea.kr">
+    <title lang="en">Mission: Mompossible Ep.39</title>
+    <icon src="https://kbsworldimage.kbs.co.kr/images/data_program/1790151157_480.jpg" />
+  </programme>
+  <programme start="20261120010000 +0700" stop="20261120020000 +0700" channel="KBSKorea.kr">
+    <title lang="en">KBS News 9 [LIVE]</title>
+    <icon src="https://kbsworldimage.kbs.co.kr/images/data_program/1499919907_small_400_225.jpg" />
+  </programme>
+  <programme start="20261120020000 +0700" stop="20261120030000 +0700" channel="KBSKorea.kr">
+    <title lang="en">DOCU INSIGHT</title>
+    <icon src="https://kbsworldimage.kbs.co.kr/images/data_program/1571632109_small_400_225.jpg" />
+  </programme>
+  <programme start="20261120030000 +0700" stop="20261120031000 +0700" channel="KBSKorea.kr">
+    <title lang="en">Discovery in Daily Life</title>
+    <icon src="https://kbsworldimage.kbs.co.kr/images/data_program/1623206417_small_400_225.jpg" />
+  </programme>
+  <programme start="20261120031000 +0700" stop="20261120040000 +0700" channel="KBSKorea.kr">
+    <title lang="en">KBS Network Special: Chungcheong</title>
+    <icon src="https://kbsworldimage.kbs.co.kr/images/data_program/1600675047_small_450_253.jpg" />
+  </programme>
+  <programme start="20261120040000 +0700" stop="20261120055000 +0700" channel="KBSKorea.kr">
+    <title lang="en">News Plaza</title>
+    <icon src="https://img.kbs.co.kr/pgm/resource/program/T2000/T2000-0014/T2000-0014.png" />
+  </programme>
+  <programme start="20261120055000 +0700" stop="20261120062500 +0700" channel="KBSKorea.kr">
+    <title lang="en">Screening Humanity</title>
+    <icon src="https://kbsworldimage.kbs.co.kr/images/data_program/1524559804_small_400_225.jpg" />
+  </programme>
+  <programme start="20261120062500 +0700" stop="20261120073000 +0700" channel="KBSKorea.kr">
+    <title lang="en">Morning Forum</title>
+    <icon src="https://kbsworldimage.kbs.co.kr/images/data_program/1667980384_small_960_540.jpeg" />
+  </programme>
+  <programme start="20261120073000 +0700" stop="20261120080000 +0700" channel="KBSKorea.kr">
+    <title lang="en">KBS News 930</title>
+    <icon src="https://kbsworldimage.kbs.co.kr/images/data_program/1552009525_small_400_225.jpg" />
+  </programme>
+  <programme start="20261120080000 +0700" stop="20261120091000 +0700" channel="KBSKorea.kr">
+    <title lang="en">Any Questions [LIVE]</title>
+    <icon src="https://kbsworldimage.kbs.co.kr/images/data_program/1623211949_small_400_225.jpg" />
+  </programme>
+  <programme start="20261120091000 +0700" stop="20261120100000 +0700" channel="KBSKorea.kr">
+    <title lang="en">Field Report Companion</title>
+    <icon src="https://kbsworldimage.kbs.co.kr/images/data_program/1623214508_small_400_225.jpg" />
+  </programme>
+  <programme start="20261120100000 +0700" stop="20261120110000 +0700" channel="KBSKorea.kr">
+    <title lang="en">KBS News 12</title>
+    <icon src="https://kbsworldimage.kbs.co.kr/images/data_program/1526449326_small_400_225.jpg" />
+  </programme>
+  <programme start="20261120110000 +0700" stop="20261120115000 +0700" channel="KBSKorea.kr">
+    <title lang="en">KBS Network Special: Everyday World</title>
+    <icon src="https://kbsworldimage.kbs.co.kr/images/data_program/1623212886_small_400_225.jpg" />
+  </programme>
+  <programme start="20261120115000 +0700" stop="20261120115500 +0700" channel="KBSKorea.kr">
+    <title lang="en">KBS Grand Project: The Business of Death</title>
+    <icon src="https://kbsworldimage.kbs.co.kr/images/data_program/1794979056_480.jpg" />
+  </programme>
+  <programme start="20261120115500 +0700" stop="20261120120000 +0700" channel="KBSKorea.kr">
+    <title lang="en">National Heritage Pilgrimage Deo</title>
+    <icon src="https://kbsworldimage.kbs.co.kr/images/data_program/1786087287_480.jpg" />
+  </programme>
+  <programme start="20261120120000 +0700" stop="20261120121000 +0700" channel="KBSKorea.kr">
+    <title lang="en">KBS News</title>
+    <icon src="https://kbsworldimage.kbs.co.kr/images/data_program/1664326505_small_960_540.jpg" />
+  </programme>
+  <programme start="20261120121000 +0700" stop="20261120130000 +0700" channel="KBSKorea.kr">
+    <title lang="en">Korean Cuisine and Dining Ep.779</title>
+    <icon src="https://kbsworldimage.kbs.co.kr/images/data_program/1525762981_small_400_225.jpg" />
+  </programme>
+  <programme start="20261120130000 +0700" stop="20261120131000 +0700" channel="KBSKorea.kr">
+    <title lang="en">Dialogue Documentary: Lake Life Ep.2</title>
+    <icon src="https://kbsworldimage.kbs.co.kr/images/data_program/1688619635_391.jpg" />
+  </programme>
+  <programme start="20261120131000 +0700" stop="20261120140000 +0700" channel="KBSKorea.kr">
+    <title lang="en">TV Show Authentic Masterpieces</title>
+    <icon src="https://kbsworldimage.kbs.co.kr/images/data_program/1609914950_small_1920_1080.jpg" />
+  </programme>
+  <programme start="20261120140000 +0700" stop="20261120150000 +0700" channel="KBSKorea.kr">
+    <title lang="en">Each and Every Case</title>
+    <icon src="https://kbsworldimage.kbs.co.kr/images/data_program/1551245252_small_960_540.jpg" />
+  </programme>
+  <programme start="20261120150000 +0700" stop="20261120153000 +0700" channel="KBSKorea.kr">
+    <title lang="en">KBS News 5</title>
+    <icon src="https://kbsworldimage.kbs.co.kr/images/data_program/1665453043_small_400_225.jpg" />
+  </programme>
+  <programme start="20261120153000 +0700" stop="20261120160000 +0700" channel="KBSKorea.kr">
+    <title lang="en">Hutos Ep.55</title>
+    <icon src="https://kbsworldimage.kbs.co.kr/images/data_program/1627630090_small_400_225.jpg" />
+  </programme>
+  <programme start="20261120160000 +0700" stop="20261120170000 +0700" channel="KBSKorea.kr">
+    <title lang="en">Hometown Report</title>
+    <icon src="https://kbsworldimage.kbs.co.kr/images/data_program/1688536730_small_391_220.jpg" />
+  </programme>
+  <programme start="20261120170000 +0700" stop="20261120174000 +0700" channel="KBSKorea.kr">
+    <title lang="en">KBS News 7</title>
+    <icon src="https://kbsworldimage.kbs.co.kr/images/data_program/1545107769_small_400_225.png" />
+  </programme>
+  <programme start="20261120174000 +0700" stop="20261120183000 +0700" channel="KBSKorea.kr">
+    <title lang="en">Birth of a Worker Season 3 Ep.5</title>
+    <icon src="https://kbsworldimage.kbs.co.kr/images/data_program/1792388516_480.jpg" />
+  </programme>
+  <programme start="20261120183000 +0700" stop="20261120190000 +0700" channel="KBSKorea.kr">
+    <title lang="en">Mission: Mompossible Ep.40</title>
+    <icon src="https://kbsworldimage.kbs.co.kr/images/data_program/1790151157_480.jpg" />
+  </programme>
+  <programme start="20261120190000 +0700" stop="20261120200000 +0700" channel="KBSKorea.kr">
+    <title lang="en">KBS News 9 [LIVE]</title>
+    <icon src="https://kbsworldimage.kbs.co.kr/images/data_program/1499919907_small_400_225.jpg" />
+  </programme>
+  <programme start="20261120200000 +0700" stop="20261120205000 +0700" channel="KBSKorea.kr">
+    <title lang="en">In-Depth 60 Minutes</title>
+    <icon src="https://kbsworldimage.kbs.co.kr/images/data_program/1688537017_391.jpg" />
+  </programme>
+  <programme start="20261120205000 +0700" stop="20261120214000 +0700" channel="KBSKorea.kr">
+    <title lang="en">KBS Network Special: Chungcheong</title>
+    <icon src="https://kbsworldimage.kbs.co.kr/images/data_program/1600675047_small_450_253.jpg" />
+  </programme>
+  <programme start="20261120214000 +0700" stop="20261120221500 +0700" channel="KBSKorea.kr">
+    <title lang="en">Screening Humanity</title>
+    <icon src="https://kbsworldimage.kbs.co.kr/images/data_program/1524559804_small_400_225.jpg" />
+  </programme>
+  <programme start="20261120221500 +0700" stop="20261120232000 +0700" channel="KBSKorea.kr">
+    <title lang="en">Morning Forum</title>
+    <icon src="https://kbsworldimage.kbs.co.kr/images/data_program/1667980384_small_960_540.jpeg" />
+  </programme>
+  <programme start="20261120232000 +0700" stop="20261120234000 +0700" channel="KBSKorea.kr">
+    <title lang="en">Hutos Ep.55</title>
+    <icon src="https://kbsworldimage.kbs.co.kr/images/data_program/1627630090_small_400_225.jpg" />
+  </programme>
+  <programme start="20261120234000 +0700" stop="20261121004000 +0700" channel="KBSKorea.kr">
+    <title lang="en">Birth of a Worker Season 3 Ep.5</title>
+    <icon src="https://kbsworldimage.kbs.co.kr/images/data_program/1792388516_480.jpg" />
+  </programme>
+  <programme start="20261121003000 +0700" stop="20261121010000 +0700" channel="KBSKorea.kr">
+    <title lang="en">Mission: Mompossible Ep.40</title>
+    <icon src="https://kbsworldimage.kbs.co.kr/images/data_program/1790151157_480.jpg" />
+  </programme>
+  <programme start="20261121010000 +0700" stop="20261121020000 +0700" channel="KBSKorea.kr">
+    <title lang="en">KBS News 9 [LIVE]</title>
+    <icon src="https://kbsworldimage.kbs.co.kr/images/data_program/1499919907_small_400_225.jpg" />
+  </programme>
+  <programme start="20261121020000 +0700" stop="20261121030000 +0700" channel="KBSKorea.kr">
+    <title lang="en">In-Depth 60 Minutes</title>
+    <icon src="https://kbsworldimage.kbs.co.kr/images/data_program/1688537017_391.jpg" />
+  </programme>
+  <programme start="20261121030000 +0700" stop="20261121031000 +0700" channel="KBSKorea.kr">
+    <title lang="en">KBS Disaster Information Center</title>
+    <icon src="https://kbsworldimage.kbs.co.kr/images/data_program/1593567804_small_960_540.jpg" />
+  </programme>
+  <programme start="20261121031000 +0700" stop="20261121040000 +0700" channel="KBSKorea.kr">
+    <title lang="en">Trekking Note: Walk the World</title>
+    <icon src="https://kbsworldimage.kbs.co.kr/images/data_program/1624608291_small_400_225.jpg" />
+  </programme>
+  <programme start="20261121040000 +0700" stop="20261121055000 +0700" channel="KBSKorea.kr">
+    <title lang="en">News Plaza</title>
+    <icon src="https://img.kbs.co.kr/pgm/resource/program/T2000/T2000-0014/T2000-0014.png" />
+  </programme>
+  <programme start="20261121055000 +0700" stop="20261121063000 +0700" channel="KBSKorea.kr">
+    <title lang="en">North Korea Now Ep.1125</title>
+    <icon src="https://kbsworldimage.kbs.co.kr/images/data_program/1551246115_small_960_540.jpg" />
+  </programme>
+  <programme start="20261121063000 +0700" stop="20261121073000 +0700" channel="KBSKorea.kr">
+    <title lang="en">Life Quiz Ep.1</title>
+    <icon src="https://kbsworldimage.kbs.co.kr/images/data_program/1794458143_480.jpg" />
+  </programme>
+  <programme start="20261121073000 +0700" stop="20261121074000 +0700" channel="KBSKorea.kr">
+    <title lang="en">KBS News 930</title>
+    <icon src="https://kbsworldimage.kbs.co.kr/images/data_program/1552009525_small_400_225.jpg" />
+  </programme>
+  <programme start="20261121074000 +0700" stop="20261121083000 +0700" channel="KBSKorea.kr">
+    <title lang="en">Backpack Travels</title>
+    <icon src="https://kbsworldimage.kbs.co.kr/images/data_program/1589269707_small_400_225.jpg" />
+  </programme>
+  <programme start="20261121083000 +0700" stop="20261121091000 +0700" channel="KBSKorea.kr">
+    <title lang="en">Dishes of Korea</title>
+    <icon src="https://kbsworldimage.kbs.co.kr/images/data_program/1551233897_small_400_225.jpg" />
+  </programme>
+  <programme start="20261121091000 +0700" stop="20261121100000 +0700" channel="KBSKorea.kr">
+    <title lang="en">Love Family Ep.3143</title>
+    <icon src="https://kbsworldimage.kbs.co.kr/images/data_program/1623220461_small_400_225.jpg" />
+  </programme>
+  <programme start="20261121100000 +0700" stop="20261121101000 +0700" channel="KBSKorea.kr">
+    <title lang="en">KBS News</title>
+    <icon src="https://kbsworldimage.kbs.co.kr/images/data_program/1664326505_small_960_540.jpg" />
+  </programme>
+  <programme start="20261121101000 +0700" stop="20261121110500 +0700" channel="KBSKorea.kr">
+    <title lang="en">Korean Traditional Music Theater Ep.1629</title>
+    <icon src="https://kbsworldimage.kbs.co.kr/images/data_program/1551765708_small_960_540.jpg" />
+  </programme>
+  <programme start="20261121110500 +0700" stop="20261121115500 +0700" channel="KBSKorea.kr">
+    <title lang="en">KBS Network Special: Baritone Ko Senghyoun’s Wanju Arirang</title>
+    <icon src="https://kbsworldimage.kbs.co.kr/images/common/no_img1.gif" />
+  </programme>
+  <programme start="20261121115500 +0700" stop="20261121125500 +0700" channel="KBSKorea.kr">
+    <title lang="en">Who Sings Better Ep.1034</title>
+    <icon src="https://kbsworldimage.kbs.co.kr/images/data_program/1623215011_small_400_225.jpg" />
+  </programme>
+  <programme start="20261121125500 +0700" stop="20261121131000 +0700" channel="KBSKorea.kr">
+    <title lang="en">Dialogue Documentary: Lake Life Ep.2</title>
+    <icon src="https://kbsworldimage.kbs.co.kr/images/data_program/1688619635_391.jpg" />
+  </programme>
+  <programme start="20261121131000 +0700" stop="20261121140500 +0700" channel="KBSKorea.kr">
+    <title lang="en">Golden Oldies Ep.1973</title>
+    <icon src="https://kbsworldimage.kbs.co.kr/images/data_program/1551243543_small_960_540.jpg" />
+  </programme>
+  <programme start="20261121140500 +0700" stop="20261121143000 +0700" channel="KBSKorea.kr">
+    <title lang="en">Korean Geographic</title>
+    <icon src="https://kbsworldimage.kbs.co.kr/images/data_program/1551934787_small_400_225.jpg" />
+  </programme>
+  <programme start="20261121143000 +0700" stop="20261121152000 +0700" channel="KBSKorea.kr">
+    <title lang="en">Korean Cuisine and Dining Ep.779</title>
+    <icon src="https://kbsworldimage.kbs.co.kr/images/data_program/1525762981_small_400_225.jpg" />
+  </programme>
+  <programme start="20261121152000 +0700" stop="20261121153000 +0700" channel="KBSKorea.kr">
+    <title lang="en">KBS News</title>
+    <icon src="https://kbsworldimage.kbs.co.kr/images/data_program/1664326505_small_960_540.jpg" />
+  </programme>
+  <programme start="20261121153000 +0700" stop="20261121160000 +0700" channel="KBSKorea.kr">
+    <title lang="en">Real Wild Journey Ep.23</title>
+    <icon src="https://kbsworldimage.kbs.co.kr/images/data_program/1626399652_small_400_225.jpg" />
+  </programme>
+  <programme start="20261121160000 +0700" stop="20261121165500 +0700" channel="KBSKorea.kr">
+    <title lang="en">Field Report Companion Ep.584</title>
+    <icon src="https://kbsworldimage.kbs.co.kr/images/data_program/1623214508_small_400_225.jpg" />
+  </programme>
+  <programme start="20261121165500 +0700" stop="20261121170000 +0700" channel="KBSKorea.kr">
+    <title lang="en">KBS Grand Project: The Business of Death</title>
+    <icon src="https://kbsworldimage.kbs.co.kr/images/data_program/1794979056_480.jpg" />
+  </programme>
+  <programme start="20261121170000 +0700" stop="20261121171000 +0700" channel="KBSKorea.kr">
+    <title lang="en">KBS News</title>
+    <icon src="https://kbsworldimage.kbs.co.kr/images/data_program/1664326505_small_960_540.jpg" />
+  </programme>
+  <programme start="20261121171000 +0700" stop="20261121180500 +0700" channel="KBSKorea.kr">
+    <title lang="en">A Walk Around the Neighborhood Ep.395</title>
+    <icon src="https://kbsworldimage.kbs.co.kr/images/data_program/1658475330_small_960_540.jpg" />
+  </programme>
+  <programme start="20261121180500 +0700" stop="20261121181000 +0700" channel="KBSKorea.kr">
+    <title lang="en">KBS Grand Project: The Business of Death</title>
+    <icon src="https://kbsworldimage.kbs.co.kr/images/data_program/1794979056_480.jpg" />
+  </programme>
+  <programme start="20261121181000 +0700" stop="20261121190000 +0700" channel="KBSKorea.kr">
+    <title lang="en">Time Travelers</title>
+    <icon src="https://kbsworldimage.kbs.co.kr/images/data_program/1767342770_480.jpg" />
+  </programme>
+  <programme start="20261121190000 +0700" stop="20261121193000 +0700" channel="KBSKorea.kr">
+    <title lang="en">KBS News 9 [LIVE]</title>
+    <icon src="https://kbsworldimage.kbs.co.kr/images/data_program/1499919907_small_400_225.jpg" />
+  </programme>
+  <programme start="20261121193000 +0700" stop="20261121201500 +0700" channel="KBSKorea.kr">
+    <title lang="en">Dishes of Korea</title>
+    <icon src="https://kbsworldimage.kbs.co.kr/images/data_program/1551233897_small_400_225.jpg" />
+  </programme>
+  <programme start="20261121201500 +0700" stop="20261121210500 +0700" channel="KBSKorea.kr">
+    <title lang="en">Docu ON</title>
+    <icon src="https://kbsworldimage.kbs.co.kr/images/data_program/1608276949_small_960_540.jpg" />
+  </programme>
+  <programme start="20261121210500 +0700" stop="20261121215500 +0700" channel="KBSKorea.kr">
+    <title lang="en">In-Depth 60 Minutes</title>
+    <icon src="https://kbsworldimage.kbs.co.kr/images/data_program/1688537017_391.jpg" />
+  </programme>
+  <programme start="20261121215500 +0700" stop="20261121220000 +0700" channel="KBSKorea.kr">
+    <title lang="en">KBS Grand Project: The Business of Death</title>
+    <icon src="https://kbsworldimage.kbs.co.kr/images/data_program/1794979056_480.jpg" />
+  </programme>
+  <programme start="20261121220000 +0700" stop="20261121221000 +0700" channel="KBSKorea.kr">
+    <title lang="en">KBS News</title>
+    <icon src="https://kbsworldimage.kbs.co.kr/images/data_program/1664326505_small_960_540.jpg" />
+  </programme>
+  <programme start="20261121221000 +0700" stop="20261121230000 +0700" channel="KBSKorea.kr">
+    <title lang="en">Birth of a Worker Season 3 Ep.5</title>
+    <icon src="https://kbsworldimage.kbs.co.kr/images/data_program/1792388516_480.jpg" />
+  </programme>
+  <programme start="20261121230000 +0700" stop="20261121235500 +0700" channel="KBSKorea.kr">
+    <title lang="en">A Walk Around the Neighborhood Ep.395</title>
+    <icon src="https://kbsworldimage.kbs.co.kr/images/data_program/1658475330_small_960_540.jpg" />
+  </programme>
+  <programme start="20261121235500 +0700" stop="20261122005500 +0700" channel="KBSKorea.kr">
+    <title lang="en">Dialogue Documentary: Lake Life Ep.2</title>
+    <icon src="https://kbsworldimage.kbs.co.kr/images/data_program/1688619635_391.jpg" />
+  </programme>
+  <programme start="20261122000500 +0700" stop="20261122010000 +0700" channel="KBSKorea.kr">
+    <title lang="en">Golden Oldies Ep.1973</title>
+    <icon src="https://kbsworldimage.kbs.co.kr/images/data_program/1551243543_small_960_540.jpg" />
+  </programme>
+  <programme start="20261122010000 +0700" stop="20261122012000 +0700" channel="KBSKorea.kr">
+    <title lang="en">KBS News 9 [LIVE]</title>
+    <icon src="https://kbsworldimage.kbs.co.kr/images/data_program/1499919907_small_400_225.jpg" />
+  </programme>
+  <programme start="20261122012000 +0700" stop="20261122030000 +0700" channel="KBSKorea.kr">
+    <title lang="en">Two Days and One Night 4 Ep.289</title>
+    <icon src="https://kbsworldimage.kbs.co.kr/images/data_program/1781570890_480.jpg" />
+  </programme>
+  <programme start="20261122030000 +0700" stop="20261122031000 +0700" channel="KBSKorea.kr">
+    <title lang="en">KBS Disaster Information Center</title>
+    <icon src="https://kbsworldimage.kbs.co.kr/images/data_program/1593567804_small_960_540.jpg" />
+  </programme>
+  <programme start="20261122031000 +0700" stop="20261122040000 +0700" channel="KBSKorea.kr">
+    <title lang="en">KBS Network Special: Our Neighborhood</title>
+    <icon src="https://kbsworldimage.kbs.co.kr/images/data_program/1783066228_480.jpg" />
+  </programme>
+  <programme start="20261122040000 +0700" stop="20261122045000 +0700" channel="KBSKorea.kr">
+    <title lang="en">Mysteries of the Human Body</title>
+    <icon src="https://kbsworldimage.kbs.co.kr/images/data_program/1623213474_small_400_225.jpg" />
+  </programme>
+  <programme start="20261122045000 +0700" stop="20261122045500 +0700" channel="KBSKorea.kr">
+    <title lang="en">KBS Grand Project: The Business of Death</title>
+    <icon src="https://kbsworldimage.kbs.co.kr/images/data_program/1794979056_480.jpg" />
+  </programme>
+  <programme start="20261122045500 +0700" stop="20261122050000 +0700" channel="KBSKorea.kr">
+    <title lang="en">National Heritage Pilgrimage Deo</title>
+    <icon src="https://kbsworldimage.kbs.co.kr/images/data_program/1786087287_480.jpg" />
+  </programme>
+  <programme start="20261122050000 +0700" stop="20261122051000 +0700" channel="KBSKorea.kr">
+    <title lang="en">KBS News</title>
+    <icon src="https://kbsworldimage.kbs.co.kr/images/data_program/1664326505_small_960_540.jpg" />
+  </programme>
+  <programme start="20261122051000 +0700" stop="20261122060000 +0700" channel="KBSKorea.kr">
+    <title lang="en">Korean Language Competition Ep.1100</title>
+    <icon src="https://kbsworldimage.kbs.co.kr/images/data_program/1667980067_small_960_540.jpg" />
+  </programme>
+  <programme start="20261122060000 +0700" stop="20261122070000 +0700" channel="KBSKorea.kr">
+    <title lang="en">Sunday Issue Live</title>
+    <icon src="https://kbsworldimage.kbs.co.kr/images/data_program/1623219011_small_400_225.jpg" />
+  </programme>
+  <programme start="20261122070000 +0700" stop="20261122075500 +0700" channel="KBSKorea.kr">
+    <title lang="en">A Walk Around the Neighborhood</title>
+    <icon src="https://kbsworldimage.kbs.co.kr/images/data_program/1658475330_small_960_540.jpg" />
+  </programme>
+  <programme start="20261122075500 +0700" stop="20261122081000 +0700" channel="KBSKorea.kr">
+    <title lang="en">Dishes of Korea</title>
+    <icon src="https://kbsworldimage.kbs.co.kr/images/data_program/1551233897_small_400_225.jpg" />
+  </programme>
+  <programme start="20261122081000 +0700" stop="20261122091000 +0700" channel="KBSKorea.kr">
+    <title lang="en">TV Critic Viewers' Desk</title>
+    <icon src="https://kbsworldimage.kbs.co.kr/images/data_program/1623219142_small_400_225.jpg" />
+  </programme>
+  <programme start="20261122091000 +0700" stop="20261122100000 +0700" channel="KBSKorea.kr">
+    <title lang="en">TV Show Authentic Masterpieces Ep.1548</title>
+    <icon src="https://kbsworldimage.kbs.co.kr/images/data_program/1609914950_small_1920_1080.jpg" />
+  </programme>
+  <programme start="20261122100000 +0700" stop="20261122101000 +0700" channel="KBSKorea.kr">
+    <title lang="en">KBS News</title>
+    <icon src="https://kbsworldimage.kbs.co.kr/images/data_program/1664326505_small_960_540.jpg" />
+  </programme>
+  <programme start="20261122101000 +0700" stop="20261122113000 +0700" channel="KBSKorea.kr">
+    <title lang="en">Korea Sings</title>
+    <icon src="https://kbsworldimage.kbs.co.kr/images/data_program/1737099260_small_960_540.jpg" />
+  </programme>
+  <programme start="20261122113000 +0700" stop="20261122122000 +0700" channel="KBSKorea.kr">
+    <title lang="en">Next Champion, Mid-sized Company 2 Ep.4</title>
+    <icon src="https://kbsworldimage.kbs.co.kr/images/data_program/1793687311_480.jpg" />
+  </programme>
+  <programme start="20261122122000 +0700" stop="20261122132000 +0700" channel="KBSKorea.kr">
+    <title lang="en">Life Quiz</title>
+    <icon src="https://kbsworldimage.kbs.co.kr/images/data_program/1794458143_480.jpg" />
+  </programme>
+  <programme start="20261122132000 +0700" stop="20261122141000 +0700" channel="KBSKorea.kr">
+    <title lang="en">Birth of a Worker Season 3</title>
+    <icon src="https://kbsworldimage.kbs.co.kr/images/data_program/1792388516_480.jpg" />
+  </programme>
+  <programme start="20261122141000 +0700" stop="20261122150000 +0700" channel="KBSKorea.kr">
+    <title lang="en">Let's Live Together with Hwang Shinhye Ep.42</title>
+    <icon src="https://kbsworldimage.kbs.co.kr/images/data_program/1767574064_480.jpg" />
+  </programme>
+  <programme start="20261122150000 +0700" stop="20261122151000 +0700" channel="KBSKorea.kr">
+    <title lang="en">KBS News</title>
+    <icon src="https://kbsworldimage.kbs.co.kr/images/data_program/1664326505_small_960_540.jpg" />
+  </programme>
+  <programme start="20261122151000 +0700" stop="20261122154000 +0700" channel="KBSKorea.kr">
+    <title lang="en">Real Wild Journey Ep.23</title>
+    <icon src="https://kbsworldimage.kbs.co.kr/images/data_program/1626399652_small_400_225.jpg" />
+  </programme>
+  <programme start="20261122154000 +0700" stop="20261122170000 +0700" channel="KBSKorea.kr">
+    <title lang="en">Open Concert</title>
+    <icon src="https://kbsworldimage.kbs.co.kr/images/data_program/1555567326_small_400_225.jpg" />
+  </programme>
+  <programme start="20261122170000 +0700" stop="20261122171000 +0700" channel="KBSKorea.kr">
+    <title lang="en">KBS News</title>
+    <icon src="https://kbsworldimage.kbs.co.kr/images/data_program/1664326505_small_960_540.jpg" />
+  </programme>
+  <programme start="20261122171000 +0700" stop="20261122180000 +0700" channel="KBSKorea.kr">
+    <title lang="en">TV Show Authentic Masterpieces Ep.1548</title>
+    <icon src="https://kbsworldimage.kbs.co.kr/images/data_program/1609914950_small_1920_1080.jpg" />
+  </programme>
+  <programme start="20261122180000 +0700" stop="20261122181000 +0700" channel="KBSKorea.kr">
+    <title lang="en">Dialogue Documentary: Lake Life Ep.2</title>
+    <icon src="https://kbsworldimage.kbs.co.kr/images/data_program/1688619635_391.jpg" />
+  </programme>
+  <programme start="20261122181000 +0700" stop="20261122190000 +0700" channel="KBSKorea.kr">
+    <title lang="en">Docu ON</title>
+    <icon src="https://kbsworldimage.kbs.co.kr/images/data_program/1608276949_small_960_540.jpg" />
+  </programme>
+  <programme start="20261122190000 +0700" stop="20261122193000 +0700" channel="KBSKorea.kr">
+    <title lang="en">KBS News 9 [LIVE]</title>
+    <icon src="https://kbsworldimage.kbs.co.kr/images/data_program/1499919907_small_400_225.jpg" />
+  </programme>
+  <programme start="20261122193000 +0700" stop="20261122202000 +0700" channel="KBSKorea.kr">
+    <title lang="en">Special Documentary: Talent beyond the Answer</title>
+    <icon src="https://kbsworldimage.kbs.co.kr/images/common/no_img1.gif" />
+  </programme>
+  <programme start="20261122202000 +0700" stop="20261122210000 +0700" channel="KBSKorea.kr">
+    <title lang="en">Real Wild Journey Ep.1</title>
+    <icon src="https://kbsworldimage.kbs.co.kr/images/data_program/1626399652_small_400_225.jpg" />
+  </programme>
+  <programme start="20261122210000 +0700" stop="20261122211000 +0700" channel="KBSKorea.kr">
+    <title lang="en">KBS News</title>
+    <icon src="https://kbsworldimage.kbs.co.kr/images/data_program/1664326505_small_960_540.jpg" />
+  </programme>
+  <programme start="20261122211000 +0700" stop="20261122220000 +0700" channel="KBSKorea.kr">
+    <title lang="en">Mysteries of the Human Body Ep.1016</title>
+    <icon src="https://kbsworldimage.kbs.co.kr/images/data_program/1623213474_small_400_225.jpg" />
+  </programme>
+  <programme start="20261122220000 +0700" stop="20261122225000 +0700" channel="KBSKorea.kr">
+    <title lang="en">In-Depth 60 Minutes</title>
+    <icon src="https://kbsworldimage.kbs.co.kr/images/data_program/1688537017_391.jpg" />
+  </programme>
+  <programme start="20261122225000 +0700" stop="20261122234000 +0700" channel="KBSKorea.kr">
+    <title lang="en">TV Show Authentic Masterpieces Ep.1548</title>
+    <icon src="https://kbsworldimage.kbs.co.kr/images/data_program/1609914950_small_1920_1080.jpg" />
+  </programme>
+  <programme start="20261122234000 +0700" stop="20261123004000 +0700" channel="KBSKorea.kr">
+    <title lang="en">Real Wild Journey Ep.23</title>
+    <icon src="https://kbsworldimage.kbs.co.kr/images/data_program/1626399652_small_400_225.jpg" />
   </programme>
   <programme start="20261120000000 +0700" stop="20261121000000 +0700" channel="1000milesTV.th">
     <title lang="en">Private Boardcast</title>
