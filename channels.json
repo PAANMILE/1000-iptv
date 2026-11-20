@@ -66,17 +66,6 @@
     "epg_url": "https://tv.trueid.net/th-th/live/ch8"
   },
   {
-    "chno": "29",
-    "name": "MONO29",
-    "tvg_id": "MONO.th",
-    "group": "Digital TV",
-    "logo": "mono29.png",
-    "url": "https://udn-streamer1.cdn.3bbtv.com:8443/3bb/live/29/29.mpd",
-    "fetcher": "ch29_mono29",
-    "epg_fetcher": "ch29_mono29",
-    "epg_url": "https://epgshare01.online/epgshare01/epg_ripper_TH1.xml.gz"
-  },
-  {
     "chno": "30",
     "name": "9 MCOT HD",
     "tvg_id": "MCOT.HD.th",
