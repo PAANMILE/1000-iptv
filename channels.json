@@ -295,16 +295,6 @@
     "epg_fetcher": "youtube_live"
   },
   {
-    "chno": 778,
-    "name": "Odd Eagle",
-    "tvg_id": "OddEagle.yt",
-    "group": "Music & Relax",
-    "logo": "logos/oddeagle.png",
-    "url": "https://www.youtube.com/live/y6TZHLAzg5o",
-    "fetcher": "youtube_live",
-    "epg_fetcher": "youtube_live"
-  },
-  {
     "chno": "888",
     "name": "1000miles TV",
     "tvg_id": "1000milesTV.th",
