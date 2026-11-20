@@ -3,6 +3,12 @@ import sys
 import time
 import subprocess
 
+FALLBACK_HANDLES = {
+    "OxQQsIvJTTU": "https://www.youtube.com/@KBSWorldTV/live",
+    "oPonPGALYaU": "https://www.youtube.com/@MrBean/live",
+    "PU4emHQmC2o": "https://www.youtube.com/@SpongeBobOfficial/live",
+}
+
 def _ytdlp_m3u8(target):
     for client in ["ios", "android", "tv_embedded", "mweb"]:
         try:
@@ -25,21 +31,21 @@ def _ytdlp_m3u8(target):
     return None
 
 def fetch(driver, url, channel_name, seen_urls=None):
-    candidates = [
-        url,
-        "https://www.youtube.com/@KBSWorldTV/live"
-    ]
+    candidates = []
+    if url:
+        candidates.append(url)
+        for vid, handle_url in FALLBACK_HANDLES.items():
+            if vid in url and handle_url not in candidates:
+                candidates.append(handle_url)
+
     for target in candidates:
-        if not target:
-            continue
         m3u8 = _ytdlp_m3u8(target)
         if m3u8:
             return m3u8
 
-    # Fallback: ดึง hlsManifestUrl จาก Safari driver
-    if driver is not None:
+    if driver is not None and url:
         try:
-            driver.get(url or "https://www.youtube.com/watch?v=OxQQsIvJTTU")
+            driver.get(url)
             time.sleep(5)
             src = driver.page_source or ""
             m = re.search(r'"hlsManifestUrl"\s*:\s*"([^"]+\.m3u8[^"]*)"', src)
