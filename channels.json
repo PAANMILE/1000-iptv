@@ -161,7 +161,8 @@
     "logo": "https://raw.githubusercontent.com/PAANMILE/1000-iptv/main/logos/kbskorea.png",
     "fetcher": "ch245_kbskorea",
     "url": "https://www.youtube.com/watch?v=OxQQsIvJTTU",
-    "epg_url": "https://kbsworld.kbs.co.kr/schedule/list_korea.php?language=e&time_add=-2"
+    "epg_url": "https://kbsworld.kbs.co.kr/schedule/list_korea.php?language=e&time_add=-2",
+    "epg_fetcher": "ch245_kbskorea"
   },
   {
     "chno": "888",
