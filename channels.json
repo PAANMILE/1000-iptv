@@ -6,8 +6,8 @@
     "group": "Digital TV",
     "logo": "thaipbs.png",
     "url": "https://thaipbs-mcx0wm.cdn.byteark.com/vtt-live/variant_1080p.m3u8",
-    "fetcher": "ch03_thaipbs",
-    "epg_fetcher": "ch03_thaipbs",
+    "fetcher": "thaipbs",
+    "epg_fetcher": "thaipbs",
     "epg_url": "https://www.thaipbs.or.th/program/schedules"
   },
   {
@@ -17,8 +17,8 @@
     "group": "Digital TV",
     "logo": "ch5.png",
     "url": "https://thaitv5hd.com/live/",
-    "fetcher": "ch05_tv5",
-    "epg_fetcher": "ch05_tv5",
+    "fetcher": "tv5",
+    "epg_fetcher": "tv5",
     "epg_url": "https://thaitv5hd.com/schedule/"
   },
   {
@@ -28,8 +28,8 @@
     "group": "Digital TV",
     "logo": "workpointtv.png",
     "url": "https://tv.trueid.net/th-th/live/workpointtv",
-    "fetcher": "ch23_workpoint",
-    "epg_fetcher": "ch23_workpoint",
+    "fetcher": "workpoint",
+    "epg_fetcher": "workpoint",
     "epg_url": "https://tv.trueid.net/th-th/live/workpointtv"
   },
   {
@@ -39,8 +39,8 @@
     "group": "Digital TV",
     "logo": "true4u.png",
     "url": "https://true4u.com/live/",
-    "fetcher": "ch24_true4u",
-    "epg_fetcher": "ch24_true4u",
+    "fetcher": "true4u",
+    "epg_fetcher": "true4u",
     "epg_url": "https://true4u.com/tvplan/"
   },
   {
@@ -50,8 +50,8 @@
     "group": "Digital TV",
     "logo": "gmm25.png",
     "url": "https://www.oned.net/live-tv/gmm25",
-    "fetcher": "ch25_gmm25",
-    "epg_fetcher": "ch25_gmm25",
+    "fetcher": "gmm25",
+    "epg_fetcher": "gmm25",
     "epg_url": "https://www.gmm25.com/firebase/web/api/schedule.php"
   },
   {
@@ -61,8 +61,8 @@
     "group": "Digital TV",
     "logo": "ch8.png",
     "url": "https://tv.trueid.net/th-th/live/ch8",
-    "fetcher": "ch27_ch8",
-    "epg_fetcher": "ch27_ch8",
+    "fetcher": "ch8",
+    "epg_fetcher": "ch8",
     "epg_url": "https://tv.trueid.net/th-th/live/ch8"
   },
   {
@@ -72,8 +72,8 @@
     "group": "Digital TV",
     "logo": "9mcot-hd.png",
     "url": "https://tv.mcot.net/tv/th",
-    "fetcher": "ch30_mcot",
-    "epg_fetcher": "ch30_mcot",
+    "fetcher": "mcot",
+    "epg_fetcher": "mcot",
     "epg_url": "https://tv.trueid.net/th-th/live/9mcot-hd"
   },
   {
@@ -83,8 +83,8 @@
     "group": "Digital TV",
     "logo": "one-hd.png",
     "url": "https://www.oned.net/live-tv/one31",
-    "fetcher": "ch31_one31",
-    "epg_fetcher": "ch31_one31",
+    "fetcher": "one31",
+    "epg_fetcher": "one31",
     "epg_url": "https://api-web.onehd.net/api/schedule/day/"
   },
   {
@@ -94,8 +94,8 @@
     "group": "Digital TV",
     "logo": "ch3-hd.png",
     "url": "https://ch3plus.com",
-    "fetcher": "ch33_ch3",
-    "epg_fetcher": "ch33_ch3",
+    "fetcher": "ch3",
+    "epg_fetcher": "ch3",
     "epg_url": "https://ch3plus.com/schedule"
   },
   {
@@ -105,8 +105,8 @@
     "group": "Digital TV",
     "logo": "amarintv-hd.png",
     "url": "https://www.amarintv.com/live",
-    "fetcher": "ch34_amarin",
-    "epg_fetcher": "ch34_amarin",
+    "fetcher": "amarin",
+    "epg_fetcher": "amarin",
     "epg_url": "https://web-api.amarintv.com/web/schedules/by-date"
   },
   {
@@ -116,8 +116,8 @@
     "group": "Digital TV",
     "logo": "ch7-hd.png",
     "url": "https://www.ch7.com/th/live/",
-    "fetcher": "ch35_ch7",
-    "epg_fetcher": "ch35_ch7",
+    "fetcher": "ch7",
+    "epg_fetcher": "ch7",
     "epg_url": "https://www.ch7.com/th/schedule/"
   },
   {
@@ -127,52 +127,74 @@
     "group": "Digital TV",
     "logo": "pptv-hd.png",
     "url": "https://tv.trueid.net/th-th/live/pptv-hd",
-    "fetcher": "ch36_pptv",
-    "epg_fetcher": "ch36_pptv",
+    "fetcher": "pptv",
+    "epg_fetcher": "pptv",
     "epg_url": "https://tv.trueid.net/th-th/live/pptv-hd"
   },
   {
-    "chno": "38",
+    "chno": "222",
+    "name": "KBS Korea",
+    "tvg_id": "KBSKorea.yt",
+    "group": "Entertainment",
+    "logo": "kbskorea.png",
+    "fetcher": "youtube_live",
+    "url": "https://www.youtube.com/watch?v=OxQQsIvJTTU",
+    "epg_url": "https://kbsworld.kbs.co.kr/schedule/list_korea.php?language=e&time_add=-2",
+    "epg_fetcher": "kbskorea"
+  },
+  {
+    "chno": "333",
     "name": "Boomerang",
     "tvg_id": "Boomerang.(Thai).th",
-    "group": "Kids & Anime",
+    "group": "Kids",
     "logo": "boomerang-hd.png",
     "url": "https://tv.trueid.net/th-th/live/boomerang-hd",
-    "fetcher": "ch38_boomerang",
-    "epg_fetcher": "ch38_boomerang",
+    "fetcher": "boomerang",
+    "epg_fetcher": "boomerang",
     "epg_url": "https://tv.trueid.net/th-th/live/boomerang-hd"
   },
   {
-    "chno": "39",
+    "chno": "334",
     "name": "Cartoon Club",
     "tvg_id": "CartoonClub.th",
-    "group": "Kids & Anime",
+    "group": "Kids",
     "logo": "tid-cartoon-club-channel.png",
     "url": "https://tv.trueid.net/th-th/live/tid-cartoon-club-channel",
-    "fetcher": "ch39_cartoonclub",
-    "epg_fetcher": "ch39_cartoonclub",
+    "fetcher": "cartoonclub",
+    "epg_fetcher": "cartoonclub",
     "epg_url": "https://tv.trueid.net/th-th/live/tid-cartoon-club-channel"
   },
   {
-    "chno": "245",
-    "name": "KBS Korea",
-    "tvg_id": "KBSKorea.kr",
-    "group": "International",
-    "logo": "kbskorea.png",
-    "fetcher": "ch245_kbskorea",
-    "url": "https://www.youtube.com/watch?v=OxQQsIvJTTU",
-    "epg_url": "https://kbsworld.kbs.co.kr/schedule/list_korea.php?language=e&time_add=-2",
-    "epg_fetcher": "ch245_kbskorea"
+    "chno": "777",
+    "name": "Mr. Bean",
+    "tvg_id": "MrBean.yt",
+    "group": "YouTube",
+    "logo": "mrbean.png",
+    "url": "https://www.youtube.com/watch?v=oPonPGALYaU",
+    "fetcher": "youtube_live",
+    "epg_fetcher": "youtube_live",
+    "epg_url": "https://www.youtube.com/watch?v=oPonPGALYaU"
+  },
+  {
+    "chno": "778",
+    "name": "SpongeBob SquarePants",
+    "tvg_id": "SpongeBob.yt",
+    "group": "YouTube",
+    "logo": "spongebob.png",
+    "url": "https://www.youtube.com/watch?v=PU4emHQmC2o",
+    "fetcher": "youtube_live",
+    "epg_fetcher": "youtube_live",
+    "epg_url": "https://www.youtube.com/watch?v=PU4emHQmC2o"
   },
   {
     "chno": "888",
     "name": "1000miles TV",
     "tvg_id": "1000milesTV.th",
-    "group": "Private",
+    "group": "Personal",
     "logo": "1000miles_tv.png",
     "url": "http://127.0.0.1:8888/1000miles_tv/index.m3u8",
     "fetcher": "local_stream",
-    "epg_fetcher": "ch888_1000milestv",
+    "epg_fetcher": "1000milestv",
     "epg_url": ""
   }
 ]
