@@ -285,16 +285,6 @@
     "epg_fetcher": "youtube_live"
   },
   {
-    "chno": 671,
-    "name": "Thairath News - ข่าวไทยรัฐ",
-    "tvg_id": "ThairathNews.yt",
-    "group": "News",
-    "logo": "logos/thairathnews.png",
-    "url": "https://www.youtube.com/@ThairathNews/live",
-    "fetcher": "youtube_live",
-    "epg_fetcher": "youtube_live"
-  },
-  {
     "chno": 777,
     "name": "FOBOS PLANET",
     "tvg_id": "FOBOSPLANET.yt",
