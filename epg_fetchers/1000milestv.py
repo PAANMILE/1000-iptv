@@ -16,7 +16,10 @@ def fetch(tvg_id, channel_name, logo_url="", epg_url=None):
     t_elem = ET.SubElement(p_elem, "title", {"lang": "en"})
     t_elem.text = "Private Boardcast"
 
+    sub_elem = ET.SubElement(p_elem, "sub-title", {"lang": "en"})
+    sub_elem.text = "Content warning SEXUAL and NUDITY"
+
     d_elem = ET.SubElement(p_elem, "desc", {"lang": "en"})
-    d_elem.text = "Content warning SEXUAL and NUDITY\nThe author flagged this channel as showing sensitive content"
+    d_elem.text = "Content warning SEXUAL and NUDITY\n\nThe author flagged this channel as showing sensitive content."
 
     return ch_elem, [p_elem]

@@ -12673,7 +12673,9 @@
   </programme>
   <programme start="20261121000000 +0700" stop="20261122000000 +0700" channel="1000milesTV.th">
     <title lang="en">Private Boardcast</title>
+    <sub-title lang="en">Content warning SEXUAL and NUDITY</sub-title>
     <desc lang="en">Content warning SEXUAL and NUDITY
-The author flagged this channel as showing sensitive content</desc>
+
+The author flagged this channel as showing sensitive content.</desc>
   </programme>
 </tv>
