@@ -114,6 +114,7 @@
   </programme>
   <programme start="20261120180000 +0700" stop="20261120203000 +0700" channel="ThaiPBS.th">
     <title lang="th">ข่าวค่ำ</title>
+    <desc lang="th">ประเด็นข่าว 20 พ.ย. 69</desc>
   </programme>
   <programme start="20261120203000 +0700" stop="20261120210000 +0700" channel="ThaiPBS.th">
     <title lang="th">ตอบโจทย์</title>
@@ -268,36 +269,6 @@
   <programme start="20261120230000 +0700" stop="20261121000000 +0700" channel="TV5.HD.th">
     <title lang="th">สารคดีรู้รอบโลก</title>
   </programme>
-  <programme start="20261120020000 +0700" stop="20261120030000 +0700" channel="WORKPOINT.th">
-    <title lang="th">หกฉากครับจารย์ CC</title>
-  </programme>
-  <programme start="20261120030000 +0700" stop="20261120032500 +0700" channel="WORKPOINT.th">
-    <title lang="th">TV Direct Shopping</title>
-  </programme>
-  <programme start="20261120032500 +0700" stop="20261120040000 +0700" channel="WORKPOINT.th">
-    <title lang="th">โต๊ะหนูแหม่ม รีรัน</title>
-  </programme>
-  <programme start="20261120040000 +0700" stop="20261120045800 +0700" channel="WORKPOINT.th">
-    <title lang="th">โอมเพี้ยงอาจารย์คง</title>
-  </programme>
-  <programme start="20261120045800 +0700" stop="20261120050000 +0700" channel="WORKPOINT.th">
-    <title lang="th">ธรรมสวัสดี</title>
-  </programme>
-  <programme start="20261120050000 +0700" stop="20261120052000 +0700" channel="WORKPOINT.th">
-    <title lang="th">ตลกหกฉาก คลาสสิก CC รีรัน</title>
-  </programme>
-  <programme start="20261120052000 +0700" stop="20261120053000 +0700" channel="WORKPOINT.th">
-    <title lang="th">ของมันต้องมี Daily</title>
-  </programme>
-  <programme start="20261120053000 +0700" stop="20261120063000 +0700" channel="WORKPOINT.th">
-    <title lang="th">ตลาดข่าว</title>
-  </programme>
-  <programme start="20261120063000 +0700" stop="20261120080000 +0700" channel="WORKPOINT.th">
-    <title lang="th">ข่าวเช้าเวิร์คพอยท์</title>
-  </programme>
-  <programme start="20261120080000 +0700" stop="20261120080100 +0700" channel="WORKPOINT.th">
-    <title lang="th">เคารพธงชาติ</title>
-  </programme>
   <programme start="20261120080100 +0700" stop="20261120084500 +0700" channel="WORKPOINT.th">
     <title lang="th">ข่าวเช้าเวิร์คพอยท์</title>
   </programme>
@@ -366,9 +337,6 @@
   </programme>
   <programme start="20261120235700 +0700" stop="20261121000000 +0700" channel="WORKPOINT.th">
     <title lang="th">2 ข่าวใหญ่เวิร์คพอยท์ รีรัน</title>
-  </programme>
-  <programme start="20261120020000 +0700" stop="20261120030000 +0700" channel="WORKPOINT.th">
-    <title lang="th">หกฉากครับจารย์ CC</title>
   </programme>
   <programme start="20261120003000 +0700" stop="20261120010000 +0700" channel="TRUE4U.th">
     <title lang="th">เชฟข้างถนน</title>
@@ -628,30 +596,6 @@
   <programme start="20261122223000 +0700" stop="20261123004000 +0700" channel="GMM.th">
     <title lang="th">(RERUN) อะจ๊าก</title>
   </programme>
-  <programme start="20261120013500 +0700" stop="20261120025000 +0700" channel="CH8.th">
-    <title lang="th">ซีรีส์อินเดีย นาคิน แค้นรักนางอสรพิษ ซีซ</title>
-  </programme>
-  <programme start="20261120025000 +0700" stop="20261120035000 +0700" channel="CH8.th">
-    <title lang="th">ละคร เงาเสน่หา (Adcc)</title>
-  </programme>
-  <programme start="20261120035000 +0700" stop="20261120042000 +0700" channel="CH8.th">
-    <title lang="th">เรื่องว้าวเล่าโลก</title>
-  </programme>
-  <programme start="20261120042000 +0700" stop="20261120043000 +0700" channel="CH8.th">
-    <title lang="th">ชีวิตดี สาระดี</title>
-  </programme>
-  <programme start="20261120043000 +0700" stop="20261120050000 +0700" channel="CH8.th">
-    <title lang="th">ลุยชนข่าว</title>
-  </programme>
-  <programme start="20261120050000 +0700" stop="20261120053000 +0700" channel="CH8.th">
-    <title lang="th">ลุยชนข่าว</title>
-  </programme>
-  <programme start="20261120053000 +0700" stop="20261120054000 +0700" channel="CH8.th">
-    <title lang="th">HAPPY SHOPPING</title>
-  </programme>
-  <programme start="20261120054000 +0700" stop="20261120080000 +0700" channel="CH8.th">
-    <title lang="th">คุยข่าวเช้าช่อง 8</title>
-  </programme>
   <programme start="20261120080000 +0700" stop="20261120085000 +0700" channel="CH8.th">
     <title lang="th">เช้านี้ขยี้ข่าว</title>
   </programme>
@@ -708,42 +652,6 @@
   </programme>
   <programme start="20261120232500 +0700" stop="20261121000000 +0700" channel="CH8.th">
     <title lang="th">ซีรีส์จีน จันทราอัสดง</title>
-  </programme>
-  <programme start="20261120013500 +0700" stop="20261120025000 +0700" channel="CH8.th">
-    <title lang="th">ซีรีส์อินเดีย นาคิน แค้นรักนางอสรพิษ ซีซ</title>
-  </programme>
-  <programme start="20261120020000 +0700" stop="20261120023000 +0700" channel="MCOT.HD.th">
-    <title lang="th">สาธุกัน</title>
-  </programme>
-  <programme start="20261120023000 +0700" stop="20261120030000 +0700" channel="MCOT.HD.th">
-    <title lang="th">Re Design</title>
-  </programme>
-  <programme start="20261120030000 +0700" stop="20261120033000 +0700" channel="MCOT.HD.th">
-    <title lang="th">แปลกแต่จริง</title>
-  </programme>
-  <programme start="20261120033000 +0700" stop="20261120040000 +0700" channel="MCOT.HD.th">
-    <title lang="th">หลงรักไทย</title>
-  </programme>
-  <programme start="20261120040000 +0700" stop="20261120043000 +0700" channel="MCOT.HD.th">
-    <title lang="th">Shop Mania</title>
-  </programme>
-  <programme start="20261120043000 +0700" stop="20261120050000 +0700" channel="MCOT.HD.th">
-    <title lang="th">วิถีอิสลาม</title>
-  </programme>
-  <programme start="20261120050000 +0700" stop="20261120055000 +0700" channel="MCOT.HD.th">
-    <title lang="th">Shop Mania</title>
-  </programme>
-  <programme start="20261120055000 +0700" stop="20261120062000 +0700" channel="MCOT.HD.th">
-    <title lang="th">หอมแผ่นดิน กลิ่นไอเกษตร ประจำปี พศ 2569</title>
-  </programme>
-  <programme start="20261120062000 +0700" stop="20261120070000 +0700" channel="MCOT.HD.th">
-    <title lang="th">ฟังหู ไว้หู</title>
-  </programme>
-  <programme start="20261120070000 +0700" stop="20261120080000 +0700" channel="MCOT.HD.th">
-    <title lang="th">9 ข่าวเช้า</title>
-  </programme>
-  <programme start="20261120080000 +0700" stop="20261120080100 +0700" channel="MCOT.HD.th">
-    <title lang="th">เคารพธงชาติ 08.00 น.</title>
   </programme>
   <programme start="20261120080100 +0700" stop="20261120083000 +0700" channel="MCOT.HD.th">
     <title lang="th">9 ข่าวเช้า (ต่อ)</title>
@@ -1261,102 +1169,6 @@
   </programme>
   <programme start="20261120233500 +0700" stop="20261121000000 +0700" channel="AMARIN.th">
     <title lang="th">ชีวิตดีดี มีได้ทุกวัน</title>
-  </programme>
-  <programme start="20261119043000 +0700" stop="20261119053000 +0700" channel="7HD.th">
-    <title lang="th">จ้อข่าวเช้า</title>
-  </programme>
-  <programme start="20261119053000 +0700" stop="20261119070000 +0700" channel="7HD.th">
-    <title lang="th">เช้านี้...ที่หมอชิต</title>
-  </programme>
-  <programme start="20261119070000 +0700" stop="20261119080000 +0700" channel="7HD.th">
-    <title lang="th">สนามข่าว 7 สี</title>
-  </programme>
-  <programme start="20261119080000 +0700" stop="20261119080400 +0700" channel="7HD.th">
-    <title lang="th">สารคดีทศมราชัน</title>
-  </programme>
-  <programme start="20261119080400 +0700" stop="20261119082500 +0700" channel="7HD.th">
-    <title lang="th">สนามข่าว 7 สี</title>
-  </programme>
-  <programme start="20261119082500 +0700" stop="20261119084000 +0700" channel="7HD.th">
-    <title lang="th">สนามข่าวกีฬา</title>
-  </programme>
-  <programme start="20261119084000 +0700" stop="20261119084500 +0700" channel="7HD.th">
-    <title lang="th">พระพันปีหลวง ในดวงใจ</title>
-  </programme>
-  <programme start="20261119084500 +0700" stop="20261119104700 +0700" channel="7HD.th">
-    <title lang="th">ละคร วิหคหลงลม (Rerun)</title>
-  </programme>
-  <programme start="20261119104700 +0700" stop="20261119105000 +0700" channel="7HD.th">
-    <title lang="th">สารคดีทศมราชัน</title>
-  </programme>
-  <programme start="20261119105000 +0700" stop="20261119122500 +0700" channel="7HD.th">
-    <title lang="th">ห้องข่าวภาคเที่ยง</title>
-  </programme>
-  <programme start="20261119122500 +0700" stop="20261119123900 +0700" channel="7HD.th">
-    <title lang="th">รับจบ</title>
-  </programme>
-  <programme start="20261119123900 +0700" stop="20261119131100 +0700" channel="7HD.th">
-    <title lang="th">เที่ยงบันเทิง ทอล์ก</title>
-  </programme>
-  <programme start="20261119131100 +0700" stop="20261119141000 +0700" channel="7HD.th">
-    <title lang="th">ชุมทางดาวทอง</title>
-  </programme>
-  <programme start="20261119141000 +0700" stop="20261119142000 +0700" channel="7HD.th">
-    <title lang="th">ข่าวเด็ด 7 สี</title>
-  </programme>
-  <programme start="20261119142000 +0700" stop="20261119155500 +0700" channel="7HD.th">
-    <title lang="th">ละคร แผนลวงบ่วงมารยา (Rerun)</title>
-  </programme>
-  <programme start="20261119155500 +0700" stop="20261119170000 +0700" channel="7HD.th">
-    <title lang="th">ข่าวเย็นประเด็นร้อน</title>
-  </programme>
-  <programme start="20261119170000 +0700" stop="20261119180000 +0700" channel="7HD.th">
-    <title lang="th">มีเรื่องต้องคุย</title>
-  </programme>
-  <programme start="20261119180000 +0700" stop="20261119180400 +0700" channel="7HD.th">
-    <title lang="th">สารคดีทศมราชัน</title>
-  </programme>
-  <programme start="20261119180400 +0700" stop="20261119185200 +0700" channel="7HD.th">
-    <title lang="th">ละคร มหาหิน (Rerun)</title>
-  </programme>
-  <programme start="20261119185200 +0700" stop="20261119195000 +0700" channel="7HD.th">
-    <title lang="th">ละคร แม่จอมขวัญ</title>
-  </programme>
-  <programme start="20261119195000 +0700" stop="20261119202600 +0700" channel="7HD.th">
-    <title lang="th">ข่าวภาคค่ำ</title>
-  </programme>
-  <programme start="20261119202600 +0700" stop="20261119203400 +0700" channel="7HD.th">
-    <title lang="th">เส้นทางบันเทิง</title>
-  </programme>
-  <programme start="20261119203400 +0700" stop="20261119213000 +0700" channel="7HD.th">
-    <title lang="th">ซีรีส์ ส่อง สั่ง ตาย</title>
-  </programme>
-  <programme start="20261119213000 +0700" stop="20261119222000 +0700" channel="7HD.th">
-    <title lang="th">ละคร โซ่เวรี (Rerun)</title>
-  </programme>
-  <programme start="20261119222000 +0700" stop="20261119222500 +0700" channel="7HD.th">
-    <title lang="th">ชิดจอ รอดู</title>
-  </programme>
-  <programme start="20261119222500 +0700" stop="20261119225000 +0700" channel="7HD.th">
-    <title lang="th">ประเด็นเด็ด 7 สี</title>
-  </programme>
-  <programme start="20261119225000 +0700" stop="20261119232000 +0700" channel="7HD.th">
-    <title lang="th">ทำดีได้ดี</title>
-  </programme>
-  <programme start="20261119232000 +0700" stop="20261120011000 +0700" channel="7HD.th">
-    <title lang="th">Hell’s Kitchen Thailand Season 3 เฮลล์คิทเช่น ประเทศไทย ซีซั่น 3 (Rerun)</title>
-  </programme>
-  <programme start="20261120011000 +0700" stop="20261120014200 +0700" channel="7HD.th">
-    <title lang="th">เที่ยงบันเทิง ทอล์ก (Rerun)</title>
-  </programme>
-  <programme start="20261120014200 +0700" stop="20261120024000 +0700" channel="7HD.th">
-    <title lang="th">มีเรื่องต้องคุย (Rerun)</title>
-  </programme>
-  <programme start="20261120024000 +0700" stop="20261120034100 +0700" channel="7HD.th">
-    <title lang="th">ละคร ธิดาวานร (Rerun)</title>
-  </programme>
-  <programme start="20261120034100 +0700" stop="20261120043000 +0700" channel="7HD.th">
-    <title lang="th">ไทยรักษ์สุขภาพ</title>
   </programme>
   <programme start="20261120043000 +0700" stop="20261120053000 +0700" channel="7HD.th">
     <title lang="th">จ้อข่าวเช้า</title>
@@ -1934,35 +1746,107 @@
   <programme start="20261126023900 +0700" stop="20261126034100 +0700" channel="7HD.th">
     <title lang="th">ละคร ธิดาวานร (Rerun)</title>
   </programme>
-  <programme start="20261126034100 +0700" stop="20261126044100 +0700" channel="7HD.th">
+  <programme start="20261126034100 +0700" stop="20261126043000 +0700" channel="7HD.th">
     <title lang="th">ไทยรักษ์สุขภาพ</title>
   </programme>
-  <programme start="20261120020000 +0700" stop="20261120023000 +0700" channel="PPTV.HD.th">
-    <title lang="th">ทันโลก Express</title>
+  <programme start="20261126043000 +0700" stop="20261126053000 +0700" channel="7HD.th">
+    <title lang="th">จ้อข่าวเช้า</title>
   </programme>
-  <programme start="20261120023000 +0700" stop="20261120030000 +0700" channel="PPTV.HD.th">
-    <title lang="th">iShopping</title>
+  <programme start="20261126053000 +0700" stop="20261126070000 +0700" channel="7HD.th">
+    <title lang="th">เช้านี้...ที่หมอชิต</title>
   </programme>
-  <programme start="20261120030000 +0700" stop="20261120033000 +0700" channel="PPTV.HD.th">
-    <title lang="th">มองมุมใหม่ Bird's Eye View</title>
+  <programme start="20261126070000 +0700" stop="20261126080000 +0700" channel="7HD.th">
+    <title lang="th">สนามข่าว 7 สี</title>
   </programme>
-  <programme start="20261120033000 +0700" stop="20261120040000 +0700" channel="PPTV.HD.th">
-    <title lang="th">iShopping</title>
+  <programme start="20261126080000 +0700" stop="20261126080300 +0700" channel="7HD.th">
+    <title lang="th">สารคดีทศมราชัน</title>
   </programme>
-  <programme start="20261120040000 +0700" stop="20261120050000 +0700" channel="PPTV.HD.th">
-    <title lang="th">เปิดตำนานกับเผ่าทอง ทองเจือ</title>
+  <programme start="20261126080300 +0700" stop="20261126082000 +0700" channel="7HD.th">
+    <title lang="th">สนามข่าว 7 สี</title>
   </programme>
-  <programme start="20261120050000 +0700" stop="20261120053000 +0700" channel="PPTV.HD.th">
-    <title lang="th">สุขภาพดี ชีวิตมีสุข</title>
+  <programme start="20261126082000 +0700" stop="20261126084100 +0700" channel="7HD.th">
+    <title lang="th">สนามข่าวกีฬา</title>
   </programme>
-  <programme start="20261120053000 +0700" stop="20261120060000 +0700" channel="PPTV.HD.th">
-    <title lang="th">มองมุมใหม่ Bird's Eye View</title>
+  <programme start="20261126084100 +0700" stop="20261126085100 +0700" channel="7HD.th">
+    <title lang="th">พระพันปีหลวง ในดวงใจ</title>
   </programme>
-  <programme start="20261120060000 +0700" stop="20261120061500 +0700" channel="PPTV.HD.th">
-    <title lang="th">iShopping</title>
+  <programme start="20261126085100 +0700" stop="20261126104300 +0700" channel="7HD.th">
+    <title lang="th">ละครดังที่คิดถึง ละคร ดอกหญ้าในพายุ (Rerun)</title>
   </programme>
-  <programme start="20261120061500 +0700" stop="20261120074500 +0700" channel="PPTV.HD.th">
-    <title lang="th">จับข่าวคุย</title>
+  <programme start="20261126104300 +0700" stop="20261126105000 +0700" channel="7HD.th">
+    <title lang="th">สารคดีทศมราชัน</title>
+  </programme>
+  <programme start="20261126105000 +0700" stop="20261126122500 +0700" channel="7HD.th">
+    <title lang="th">ห้องข่าวภาคเที่ยง</title>
+  </programme>
+  <programme start="20261126122500 +0700" stop="20261126124000 +0700" channel="7HD.th">
+    <title lang="th">รับจบ</title>
+  </programme>
+  <programme start="20261126124000 +0700" stop="20261126131000 +0700" channel="7HD.th">
+    <title lang="th">เที่ยงบันเทิง ทอล์ก</title>
+  </programme>
+  <programme start="20261126131000 +0700" stop="20261126141000 +0700" channel="7HD.th">
+    <title lang="th">ชุมทางดาวทอง</title>
+  </programme>
+  <programme start="20261126141000 +0700" stop="20261126142000 +0700" channel="7HD.th">
+    <title lang="th">ข่าวเด็ด 7 สี</title>
+  </programme>
+  <programme start="20261126142000 +0700" stop="20261126150000 +0700" channel="7HD.th">
+    <title lang="th">ละคร แผนลวงบ่วงมารยา (Rerun)</title>
+  </programme>
+  <programme start="20261126150000 +0700" stop="20261126155500 +0700" channel="7HD.th">
+    <title lang="th">ซีรีส์ อันเนื่องมาจาก</title>
+  </programme>
+  <programme start="20261126155500 +0700" stop="20261126170000 +0700" channel="7HD.th">
+    <title lang="th">ข่าวเย็นประเด็นร้อน</title>
+  </programme>
+  <programme start="20261126170000 +0700" stop="20261126180000 +0700" channel="7HD.th">
+    <title lang="th">มีเรื่องต้องคุย</title>
+  </programme>
+  <programme start="20261126180000 +0700" stop="20261126180300 +0700" channel="7HD.th">
+    <title lang="th">สารคดีทศมราชัน</title>
+  </programme>
+  <programme start="20261126180300 +0700" stop="20261126190300 +0700" channel="7HD.th">
+    <title lang="th">ละคร มหาหิน (Rerun)</title>
+  </programme>
+  <programme start="20261126190300 +0700" stop="20261126200400 +0700" channel="7HD.th">
+    <title lang="th">ละคร แม่จอมขวัญ</title>
+  </programme>
+  <programme start="20261126200400 +0700" stop="20261126203100 +0700" channel="7HD.th">
+    <title lang="th">ข่าวภาคค่ำ</title>
+  </programme>
+  <programme start="20261126203100 +0700" stop="20261126203400 +0700" channel="7HD.th">
+    <title lang="th">เส้นทางบันเทิง</title>
+  </programme>
+  <programme start="20261126203400 +0700" stop="20261126213000 +0700" channel="7HD.th">
+    <title lang="th">ซีรีส์ ส่อง สั่ง ตาย</title>
+  </programme>
+  <programme start="20261126213000 +0700" stop="20261126222000 +0700" channel="7HD.th">
+    <title lang="th">โซ่เวรี (Rerun)</title>
+  </programme>
+  <programme start="20261126222000 +0700" stop="20261126222500 +0700" channel="7HD.th">
+    <title lang="th">ชิดจอ รอดู</title>
+  </programme>
+  <programme start="20261126222500 +0700" stop="20261126225000 +0700" channel="7HD.th">
+    <title lang="th">ประเด็นเด็ด 7 สี</title>
+  </programme>
+  <programme start="20261126225000 +0700" stop="20261126232000 +0700" channel="7HD.th">
+    <title lang="th">ทำดีได้ดี</title>
+  </programme>
+  <programme start="20261126232000 +0700" stop="20261127011000 +0700" channel="7HD.th">
+    <title lang="th">Hell’s Kitchen Thailand Season 3 เฮลล์คิทเช่น ประเทศไทย ซีซั่น 3 (Rerun)</title>
+  </programme>
+  <programme start="20261127011000 +0700" stop="20261127014200 +0700" channel="7HD.th">
+    <title lang="th">เที่ยงบันเทิง ทอล์ก (Rerun)</title>
+  </programme>
+  <programme start="20261127014200 +0700" stop="20261127024000 +0700" channel="7HD.th">
+    <title lang="th">มีเรื่องต้องคุย (Rerun)</title>
+  </programme>
+  <programme start="20261127024000 +0700" stop="20261127034100 +0700" channel="7HD.th">
+    <title lang="th">ละคร ธิดาวานร (Rerun)</title>
+  </programme>
+  <programme start="20261127034100 +0700" stop="20261127044100 +0700" channel="7HD.th">
+    <title lang="th">ไทยรักษ์สุขภาพ</title>
   </programme>
   <programme start="20261120074500 +0700" stop="20261120081500 +0700" channel="PPTV.HD.th">
     <title lang="th">ทันโลก Express</title>
@@ -2014,36 +1898,6 @@
   </programme>
   <programme start="20261120230000 +0700" stop="20261121000000 +0700" channel="PPTV.HD.th">
     <title lang="th">World Sports +</title>
-  </programme>
-  <programme start="20261120020000 +0700" stop="20261120023000 +0700" channel="PPTV.HD.th">
-    <title lang="th">ทันโลก Express</title>
-  </programme>
-  <programme start="20261120020000 +0700" stop="20261120030000 +0700" channel="Boomerang.(Thai).th">
-    <title lang="th">Hello Jadoo S2</title>
-  </programme>
-  <programme start="20261120030000 +0700" stop="20261120040000 +0700" channel="Boomerang.(Thai).th">
-    <title lang="th">My Little Pony: Friendship Is Magic S2</title>
-  </programme>
-  <programme start="20261120040000 +0700" stop="20261120050000 +0700" channel="Boomerang.(Thai).th">
-    <title lang="th">Boonie Cubs S2</title>
-  </programme>
-  <programme start="20261120050000 +0700" stop="20261120053000 +0700" channel="Boomerang.(Thai).th">
-    <title lang="th">Chowder</title>
-  </programme>
-  <programme start="20261120053000 +0700" stop="20261120060000 +0700" channel="Boomerang.(Thai).th">
-    <title lang="th">Strawberry Shortcake Berry Bitty Adventures</title>
-  </programme>
-  <programme start="20261120060000 +0700" stop="20261120063000 +0700" channel="Boomerang.(Thai).th">
-    <title lang="th">Super Wings S8</title>
-  </programme>
-  <programme start="20261120063000 +0700" stop="20261120070000 +0700" channel="Boomerang.(Thai).th">
-    <title lang="th">Teletubbies S2</title>
-  </programme>
-  <programme start="20261120070000 +0700" stop="20261120073000 +0700" channel="Boomerang.(Thai).th">
-    <title lang="th">Totally Sprie</title>
-  </programme>
-  <programme start="20261120073000 +0700" stop="20261120080000 +0700" channel="Boomerang.(Thai).th">
-    <title lang="th">Katuri + Snowking</title>
   </programme>
   <programme start="20261120080000 +0700" stop="20261120083000 +0700" channel="Boomerang.(Thai).th">
     <title lang="th">Hello Jadoo S2</title>
@@ -2141,45 +1995,6 @@
   <programme start="20261120233000 +0700" stop="20261121000000 +0700" channel="Boomerang.(Thai).th">
     <title lang="th">Boom Animal World</title>
   </programme>
-  <programme start="20261120020000 +0700" stop="20261120030000 +0700" channel="Boomerang.(Thai).th">
-    <title lang="th">Hello Jadoo S2</title>
-  </programme>
-  <programme start="20261120020000 +0700" stop="20261120023000 +0700" channel="CartoonClub.th">
-    <title lang="th">การ์ดไฟท์แวนการ์ด(GZ) + Bottleman</title>
-  </programme>
-  <programme start="20261120023000 +0700" stop="20261120030000 +0700" channel="CartoonClub.th">
-    <title lang="th">เบลย์เบลดเอ็กซ์ (ปี1) + Zombie Dumb</title>
-  </programme>
-  <programme start="20261120030000 +0700" stop="20261120033000 +0700" channel="CartoonClub.th">
-    <title lang="th">คิงส์โอเจอร์ + Bottleman</title>
-  </programme>
-  <programme start="20261120033000 +0700" stop="20261120040000 +0700" channel="CartoonClub.th">
-    <title lang="th">นินจาฮาโตริ รีเทิร์น (ปี1) + Mushymon Days</title>
-  </programme>
-  <programme start="20261120040000 +0700" stop="20261120043000 +0700" channel="CartoonClub.th">
-    <title lang="th">บัดดี้ไฟท์ (ปี2) + Zombie Dumb</title>
-  </programme>
-  <programme start="20261120043000 +0700" stop="20261120050000 +0700" channel="CartoonClub.th">
-    <title lang="th">เบลย์เบลดเอ็กซ์ (ปี2) + Mushymon Days</title>
-  </programme>
-  <programme start="20261120050000 +0700" stop="20261120053000 +0700" channel="CartoonClub.th">
-    <title lang="th">โกจูเจอร์ + Bottleman</title>
-  </programme>
-  <programme start="20261120053000 +0700" stop="20261120060000 +0700" channel="CartoonClub.th">
-    <title lang="th">เบลย์เบลดเอ็กซ์ (ปี1) + Dinoman</title>
-  </programme>
-  <programme start="20261120060000 +0700" stop="20261120063000 +0700" channel="CartoonClub.th">
-    <title lang="th">นินจาฮาโตริ รีเทิร์น + Mushymon Days</title>
-  </programme>
-  <programme start="20261120063000 +0700" stop="20261120070000 +0700" channel="CartoonClub.th">
-    <title lang="th">โพโรโระ + Bottleman</title>
-  </programme>
-  <programme start="20261120070000 +0700" stop="20261120073000 +0700" channel="CartoonClub.th">
-    <title lang="th">โทบอท + Zombie Dumb</title>
-  </programme>
-  <programme start="20261120073000 +0700" stop="20261120080000 +0700" channel="CartoonClub.th">
-    <title lang="th">โกจูเจอร์ + Dinoman</title>
-  </programme>
   <programme start="20261120080000 +0700" stop="20261120083000 +0700" channel="CartoonClub.th">
     <title lang="th">การ์ดไฟท์แวนการ์ด(GZ) + Bottleman</title>
   </programme>
@@ -2275,9 +2090,6 @@
   </programme>
   <programme start="20261120233000 +0700" stop="20261121000000 +0700" channel="CartoonClub.th">
     <title lang="th">เบลย์เบลดเอ็กซ์ (ปี1) + Dinoman</title>
-  </programme>
-  <programme start="20261120020000 +0700" stop="20261120023000 +0700" channel="CartoonClub.th">
-    <title lang="th">การ์ดไฟท์แวนการ์ด(GZ) + Bottleman</title>
   </programme>
   <programme start="20261120000000 +0700" stop="20261121000000 +0700" channel="1000milesTV.th">
     <title lang="en">Private Boardcast</title>
