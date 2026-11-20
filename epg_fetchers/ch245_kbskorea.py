@@ -1,5 +1,6 @@
 import re
 import ssl
+import html as html_lib
 import urllib.request
 from datetime import datetime, timedelta, timezone
 import xml.etree.ElementTree as ET
@@ -23,27 +24,40 @@ def fetch(tvg_id, channel_name, logo_url="", driver=None, epg_url=None):
 
         try:
             req = urllib.request.Request(url, headers={"User-Agent": USER_AGENT})
-            html = urllib.request.urlopen(req, timeout=20, context=ctx).read().decode("utf-8", errors="ignore")
+            raw_html = urllib.request.urlopen(req, timeout=20, context=ctx).read().decode("utf-8", errors="ignore")
 
-            rows = re.findall(r"<tr[^>]*>(.*?)</tr>", html, flags=re.DOTALL | re.IGNORECASE)
+            ul_match = re.search(r'<ul[^>]*class=["\'][^"\']*schedule-list[^"\']*["\'][^>]*>(.*?)</ul>', raw_html, flags=re.DOTALL | re.IGNORECASE)
+            section = ul_match.group(1) if ul_match else raw_html
+
+            blocks = re.findall(r'<li[^>]*>(.*?)</li>', section, flags=re.DOTALL | re.IGNORECASE)
             day_items = []
-            for row in rows:
-                t_match = re.search(r"\b([01]?\d|2[0-3]):([0-5]\d)\b", row)
-                if not t_match:
-                    continue
-                hh, mm = int(t_match.group(1)), int(t_match.group(2))
-                clean_cells = [re.sub(r"<[^>]+>", " ", c).strip() for c in re.findall(r"<td[^>]*>(.*?)</td>", row, flags=re.DOTALL | re.IGNORECASE)]
-                clean_cells = [re.sub(r"\s+", " ", c) for c in clean_cells if c and not re.match(r"^([01]?\d|2[0-3]):[0-5]\d$", c)]
-                if not clean_cells:
-                    continue
-                title = max(clean_cells, key=len)
-                if len(title) < 2:
-                    continue
-                start_dt = target_date.replace(hour=hh, minute=mm, second=0, microsecond=0)
-                day_items.append((start_dt, title))
+            last_minutes = -1
+            day_shift = 0
 
-            day_items.sort(key=lambda x: x[0])
-            for idx, (st_dt, title) in enumerate(day_items):
+            for blk in blocks:
+                t_m = re.search(r'<span[^>]*class=["\']time["\'][^>]*>\s*(\d{1,2}):(\d{2})\s*</span>', blk, flags=re.IGNORECASE)
+                title_m = re.search(r'<div[^>]*class=["\']title["\'][^>]*>(.*?)</div>', blk, flags=re.DOTALL | re.IGNORECASE)
+                if not t_m or not title_m:
+                    continue
+
+                hh, mm = int(t_m.group(1)), int(t_m.group(2))
+                cur_minutes = hh * 60 + mm
+                if last_minutes != -1 and cur_minutes < last_minutes:
+                    day_shift += 1
+                last_minutes = cur_minutes
+
+                title_clean = html_lib.unescape(re.sub(r'<[^>]+>', ' ', title_m.group(1)))
+                title_clean = re.sub(r'\s+', ' ', title_clean).strip()
+                if not title_clean:
+                    continue
+
+                img_m = re.search(r'<img[^>]*src=["\']([^"\']+)["\']', blk, flags=re.IGNORECASE)
+                icon_url = img_m.group(1).strip() if img_m else ""
+
+                st_dt = (target_date + timedelta(days=day_shift)).replace(hour=hh, minute=mm, second=0, microsecond=0)
+                day_items.append((st_dt, title_clean, icon_url))
+
+            for idx, (st_dt, title_clean, icon_url) in enumerate(day_items):
                 if idx + 1 < len(day_items) and day_items[idx + 1][0] > st_dt:
                     et_dt = day_items[idx + 1][0]
                 else:
@@ -55,7 +69,9 @@ def fetch(tvg_id, channel_name, logo_url="", driver=None, epg_url=None):
                     "channel": tvg_id
                 })
                 t_el = ET.SubElement(p, "title", {"lang": "en"})
-                t_el.text = title
+                t_el.text = title_clean
+                if icon_url.startswith("http"):
+                    ET.SubElement(p, "icon", {"src": icon_url})
                 programmes.append(p)
         except Exception as e:
             print(f"⚠️  [{channel_name}] EPG fetch error ({sdate}): {e}")
