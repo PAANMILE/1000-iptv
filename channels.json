@@ -280,7 +280,7 @@
     "tvg_id": "SkyNews.yt",
     "group": "News",
     "logo": "logos/skynews.png",
-    "url": "https://www.youtube.com/@SkyNews/live",
+    "url": "https://www.youtube.com/watch?v=53SxFKpbKDE",
     "fetcher": "youtube_live",
     "epg_fetcher": "youtube_live"
   },
