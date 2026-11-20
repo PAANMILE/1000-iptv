@@ -7,8 +7,8 @@
     "logo": "thaipbs.png",
     "url": "https://thaipbs-mcx0wm.cdn.byteark.com/vtt-live/variant_1080p.m3u8",
     "fetcher": "thaipbs",
-    "epg_fetcher": "thaipbs",
-    "epg_url": "https://www.thaipbs.or.th/program/schedules"
+    "epg_fetcher": "nbtc_dttguide",
+    "epg_url": "nbtc:3"
   },
   {
     "chno": "5",
@@ -18,8 +18,8 @@
     "logo": "ch5.png",
     "url": "https://thaitv5hd.com/live/",
     "fetcher": "tv5",
-    "epg_fetcher": "tv5",
-    "epg_url": "https://thaitv5hd.com/schedule/"
+    "epg_fetcher": "nbtc_dttguide",
+    "epg_url": "nbtc:5"
   },
   {
     "chno": "23",
@@ -29,8 +29,8 @@
     "logo": "workpointtv.png",
     "url": "https://tv.trueid.net/th-th/live/workpointtv",
     "fetcher": "workpoint",
-    "epg_fetcher": "workpoint",
-    "epg_url": "https://tv.trueid.net/th-th/live/workpointtv"
+    "epg_fetcher": "nbtc_dttguide",
+    "epg_url": "nbtc:23"
   },
   {
     "chno": "24",
@@ -40,8 +40,8 @@
     "logo": "true4u.png",
     "url": "https://true4u.com/live/",
     "fetcher": "true4u",
-    "epg_fetcher": "true4u",
-    "epg_url": "https://true4u.com/tvplan/"
+    "epg_fetcher": "nbtc_dttguide",
+    "epg_url": "nbtc:24"
   },
   {
     "chno": "25",
@@ -51,8 +51,8 @@
     "logo": "gmm25.png",
     "url": "https://www.oned.net/live-tv/gmm25",
     "fetcher": "gmm25",
-    "epg_fetcher": "gmm25",
-    "epg_url": "https://www.gmm25.com/firebase/web/api/schedule.php"
+    "epg_fetcher": "nbtc_dttguide",
+    "epg_url": "nbtc:25"
   },
   {
     "chno": "27",
@@ -62,8 +62,8 @@
     "logo": "ch8.png",
     "url": "https://tv.trueid.net/th-th/live/ch8",
     "fetcher": "ch8",
-    "epg_fetcher": "ch8",
-    "epg_url": "https://tv.trueid.net/th-th/live/ch8"
+    "epg_fetcher": "nbtc_dttguide",
+    "epg_url": "nbtc:27"
   },
   {
     "chno": "30",
@@ -73,8 +73,8 @@
     "logo": "9mcot-hd.png",
     "url": "https://tv.mcot.net/tv/th",
     "fetcher": "mcot",
-    "epg_fetcher": "mcot",
-    "epg_url": "https://tv.trueid.net/th-th/live/9mcot-hd"
+    "epg_fetcher": "nbtc_dttguide",
+    "epg_url": "nbtc:30"
   },
   {
     "chno": "31",
@@ -84,8 +84,8 @@
     "logo": "one-hd.png",
     "url": "https://www.oned.net/live-tv/one31",
     "fetcher": "one31",
-    "epg_fetcher": "one31",
-    "epg_url": "https://api-web.onehd.net/api/schedule/day/"
+    "epg_fetcher": "nbtc_dttguide",
+    "epg_url": "nbtc:31"
   },
   {
     "chno": "33",
@@ -95,8 +95,8 @@
     "logo": "ch3-hd.png",
     "url": "https://ch3plus.com",
     "fetcher": "ch3",
-    "epg_fetcher": "ch3",
-    "epg_url": "https://ch3plus.com/schedule"
+    "epg_fetcher": "nbtc_dttguide",
+    "epg_url": "nbtc:33"
   },
   {
     "chno": "34",
@@ -106,8 +106,8 @@
     "logo": "amarintv-hd.png",
     "url": "https://www.amarintv.com/live",
     "fetcher": "amarin",
-    "epg_fetcher": "amarin",
-    "epg_url": "https://web-api.amarintv.com/web/schedules/by-date"
+    "epg_fetcher": "nbtc_dttguide",
+    "epg_url": "nbtc:34"
   },
   {
     "chno": "35",
@@ -117,8 +117,8 @@
     "logo": "ch7-hd.png",
     "url": "https://www.ch7.com/th/live/",
     "fetcher": "ch7",
-    "epg_fetcher": "ch7",
-    "epg_url": "https://www.ch7.com/th/schedule/"
+    "epg_fetcher": "nbtc_dttguide",
+    "epg_url": "nbtc:35"
   },
   {
     "chno": "36",
@@ -128,8 +128,8 @@
     "logo": "pptv-hd.png",
     "url": "https://tv.trueid.net/th-th/live/pptv-hd",
     "fetcher": "pptv",
-    "epg_fetcher": "pptv",
-    "epg_url": "https://tv.trueid.net/th-th/live/pptv-hd"
+    "epg_fetcher": "nbtc_dttguide",
+    "epg_url": "nbtc:36"
   },
   {
     "chno": "222",
