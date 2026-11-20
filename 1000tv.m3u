@@ -23,8 +23,6 @@ https://fastly.live.brightcove.com/6392745120112/ap-southeast-1/6415628290001/ey
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.6 Safari/605.1.15
 #EXTVLCOPT:http-referrer=https://tv.trueid.net/
 https://cdn140.stm.trueid.net/p301aes/d62_multi_w_auto_tidapp.smil/playlist.m3u8?appid=trueid&type=live&visitor=web&drm=aes&uid=f35ea9e57a&did=bzR5Y09TQlhIR0t4X1pUdHBmLWlhd2xCbHBhV1c2amw&mpass=xIH1Tg2QKsg5IWywQVpuFDiByeIxhSiixSkWoYbo-n4QtJ9Jxg_efB5Kg4vQVGNnQTZ0gtSE5KqbjPOD7jMXlDw4d_x3BRa35O61kDHKW5kgIItJvsBMYulXrqvSQLGZ030&sid=732af115b0&rt=1795133640&ds=25200&tk=mhZPWBqpbJOMs8tUZcivO12YjO-o437yFIiz7Ly7IVE
-#EXTVLCOPT:http-referrer=https://udn-streamer1.cdn.3bbtv.com:8443/
-https://udn-streamer1.cdn.3bbtv.com:8443/3bb/live/29/29.mpd
 #EXTINF:-1 tvg-chno="30" tvg-id="MCOT.HD.th" tvg-name="9 MCOT HD" tvg-logo="https://raw.githubusercontent.com/PAANMILE/1000-iptv/main/logos/9mcot-hd.png" group-title="Digital TV",9 MCOT HD
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.6 Safari/605.1.15
 #EXTVLCOPT:http-referrer=https://tv.mcot.net/
