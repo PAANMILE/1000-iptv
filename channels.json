@@ -143,6 +143,16 @@
     "epg_fetcher": "kbskorea"
   },
   {
+    "chno": 223,
+    "name": "Disney Channel",
+    "tvg_id": "DisneyChannel.yt",
+    "group": "Entertainment",
+    "logo": "logos/disneychannel.png",
+    "url": "https://www.youtube.com/watch?v=dt6dEz1rDzo",
+    "fetcher": "youtube_live",
+    "epg_fetcher": "youtube_live"
+  },
+  {
     "chno": "333",
     "name": "Boomerang",
     "tvg_id": "Boomerang.(Thai).th",
@@ -165,26 +175,144 @@
     "epg_url": "https://tv.trueid.net/th-th/live/tid-cartoon-club-channel"
   },
   {
-    "chno": "777",
-    "name": "Mr. Bean",
-    "tvg_id": "MrBean.yt",
-    "group": "YouTube",
-    "logo": "mrbean.png",
-    "url": "https://www.youtube.com/watch?v=oPonPGALYaU",
+    "chno": 335,
+    "name": "Disney Channel Animation",
+    "tvg_id": "DisneyChannelAnimation.yt",
+    "group": "Kids",
+    "logo": "logos/disneychannelanimation.png",
+    "url": "https://www.youtube.com/live/_HviSyC7zSU",
     "fetcher": "youtube_live",
-    "epg_fetcher": "youtube_live",
-    "epg_url": "https://www.youtube.com/watch?v=oPonPGALYaU"
+    "epg_fetcher": "youtube_live"
   },
   {
-    "chno": "778",
+    "chno": 336,
+    "name": "Disney Kids",
+    "tvg_id": "DisneyKids.yt",
+    "group": "Kids",
+    "logo": "logos/disneykids.png",
+    "url": "https://www.youtube.com/live/F4Tnje7wi-o",
+    "fetcher": "youtube_live",
+    "epg_fetcher": "youtube_live"
+  },
+  {
+    "chno": 337,
+    "name": "Mr. Bean",
+    "tvg_id": "MrBean.yt",
+    "group": "Kids",
+    "logo": "logos/mrbean.png",
+    "url": "https://www.youtube.com/watch?v=oPonPGALYaU",
+    "fetcher": "youtube_live",
+    "epg_fetcher": "youtube_live"
+  },
+  {
+    "chno": 338,
     "name": "SpongeBob SquarePants",
     "tvg_id": "SpongeBob.yt",
-    "group": "YouTube",
-    "logo": "spongebob.png",
+    "group": "Kids",
+    "logo": "logos/spongebob.png",
     "url": "https://www.youtube.com/watch?v=PU4emHQmC2o",
     "fetcher": "youtube_live",
-    "epg_fetcher": "youtube_live",
-    "epg_url": "https://www.youtube.com/watch?v=PU4emHQmC2o"
+    "epg_fetcher": "youtube_live"
+  },
+  {
+    "chno": 444,
+    "name": "Love Nature",
+    "tvg_id": "LoveNature.yt",
+    "group": "Documentary",
+    "logo": "logos/lovenature.png",
+    "url": "https://www.youtube.com/live/Zns4k_dICzs",
+    "fetcher": "youtube_live",
+    "epg_fetcher": "youtube_live"
+  },
+  {
+    "chno": 445,
+    "name": "NASA",
+    "tvg_id": "NASA.yt",
+    "group": "Documentary",
+    "logo": "logos/nasa.png",
+    "url": "https://www.youtube.com/watch?v=ROboUHfPUrU",
+    "fetcher": "youtube_live",
+    "epg_fetcher": "youtube_live"
+  },
+  {
+    "chno": 666,
+    "name": "CNA",
+    "tvg_id": "CNA.yt",
+    "group": "News",
+    "logo": "logos/cna.png",
+    "url": "https://www.youtube.com/@channelnewsasia/live",
+    "fetcher": "youtube_live",
+    "epg_fetcher": "youtube_live"
+  },
+  {
+    "chno": 667,
+    "name": "DW News",
+    "tvg_id": "DWNews.yt",
+    "group": "News",
+    "logo": "logos/dwnews.png",
+    "url": "https://www.youtube.com/@dwnews/live",
+    "fetcher": "youtube_live",
+    "epg_fetcher": "youtube_live"
+  },
+  {
+    "chno": 668,
+    "name": "FRANCE 24",
+    "tvg_id": "FRANCE24.yt",
+    "group": "News",
+    "logo": "logos/france24.png",
+    "url": "https://www.youtube.com/@FRANCE24/live",
+    "fetcher": "youtube_live",
+    "epg_fetcher": "youtube_live"
+  },
+  {
+    "chno": 669,
+    "name": "NBC News",
+    "tvg_id": "NBCNews.yt",
+    "group": "News",
+    "logo": "logos/nbcnews.png",
+    "url": "https://www.youtube.com/@NBCNews/live",
+    "fetcher": "youtube_live",
+    "epg_fetcher": "youtube_live"
+  },
+  {
+    "chno": 670,
+    "name": "Sky News",
+    "tvg_id": "SkyNews.yt",
+    "group": "News",
+    "logo": "logos/skynews.png",
+    "url": "https://www.youtube.com/@SkyNews/live",
+    "fetcher": "youtube_live",
+    "epg_fetcher": "youtube_live"
+  },
+  {
+    "chno": 671,
+    "name": "Thairath News - ข่าวไทยรัฐ",
+    "tvg_id": "ThairathNews.yt",
+    "group": "News",
+    "logo": "logos/thairathnews.png",
+    "url": "https://www.youtube.com/@ThairathNews/live",
+    "fetcher": "youtube_live",
+    "epg_fetcher": "youtube_live"
+  },
+  {
+    "chno": 777,
+    "name": "FOBOS PLANET",
+    "tvg_id": "FOBOSPLANET.yt",
+    "group": "Music & Relax",
+    "logo": "logos/fobosplanet.png",
+    "url": "https://www.youtube.com/live/mKCieTImjvU",
+    "fetcher": "youtube_live",
+    "epg_fetcher": "youtube_live"
+  },
+  {
+    "chno": 778,
+    "name": "Odd Eagle",
+    "tvg_id": "OddEagle.yt",
+    "group": "Music & Relax",
+    "logo": "logos/oddeagle.png",
+    "url": "https://www.youtube.com/live/y6TZHLAzg5o",
+    "fetcher": "youtube_live",
+    "epg_fetcher": "youtube_live"
   },
   {
     "chno": "888",
