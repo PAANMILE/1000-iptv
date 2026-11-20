@@ -192,7 +192,7 @@
     "tvg_id": "1000milesTV.th",
     "group": "Personal",
     "logo": "1000miles_tv.png",
-    "url": "http://127.0.0.1:8888/1000miles_tv/index.m3u8",
+    "url": "http://192.168.1.16:8888/1000miles_tv/index.m3u8",
     "fetcher": "local_stream",
     "epg_fetcher": "1000milestv",
     "epg_url": ""
