@@ -154,11 +154,11 @@
     "epg_url": "https://tv.trueid.net/th-th/live/tid-cartoon-club-channel"
   },
   {
-    "chno": 245,
+    "chno": "245",
     "name": "KBS Korea",
     "tvg_id": "KBSKorea.kr",
     "group": "International",
-    "logo": "https://raw.githubusercontent.com/PAANMILE/1000-iptv/main/logos/kbskorea.png",
+    "logo": "kbskorea.png",
     "fetcher": "ch245_kbskorea",
     "url": "https://www.youtube.com/watch?v=OxQQsIvJTTU",
     "epg_url": "https://kbsworld.kbs.co.kr/schedule/list_korea.php?language=e&time_add=-2",
