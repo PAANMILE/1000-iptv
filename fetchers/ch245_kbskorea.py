@@ -1,7 +1,8 @@
 import sys
 import subprocess
 
-def fetch(driver=None, url="https://www.youtube.com/watch?v=OxQQsIvJTTU"):
+def fetch(*args, **kwargs):
+    url = kwargs.get("url") or next((a for a in args if isinstance(a, str) and a.startswith("http")), "https://www.youtube.com/watch?v=OxQQsIvJTTU")
     candidates = [
         url,
         "https://www.youtube.com/@KBSWorldTV/live"
