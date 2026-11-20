@@ -147,7 +147,7 @@
     "name": "Disney Channel",
     "tvg_id": "DisneyChannel.yt",
     "group": "Entertainment",
-    "logo": "logos/disneychannel.png",
+    "logo": "disneychannel.png",
     "url": "https://www.youtube.com/watch?v=dt6dEz1rDzo",
     "fetcher": "youtube_live",
     "epg_fetcher": "youtube_live"
@@ -179,7 +179,7 @@
     "name": "Disney Channel Animation",
     "tvg_id": "DisneyChannelAnimation.yt",
     "group": "Kids",
-    "logo": "logos/disneychannelanimation.png",
+    "logo": "disneychannelanimation.png",
     "url": "https://www.youtube.com/live/_HviSyC7zSU",
     "fetcher": "youtube_live",
     "epg_fetcher": "youtube_live"
@@ -189,7 +189,7 @@
     "name": "Disney Kids",
     "tvg_id": "DisneyKids.yt",
     "group": "Kids",
-    "logo": "logos/disneykids.png",
+    "logo": "disneykids.png",
     "url": "https://www.youtube.com/live/F4Tnje7wi-o",
     "fetcher": "youtube_live",
     "epg_fetcher": "youtube_live"
@@ -199,7 +199,7 @@
     "name": "Mr. Bean",
     "tvg_id": "MrBean.yt",
     "group": "Kids",
-    "logo": "logos/mrbean.png",
+    "logo": "mrbean.png",
     "url": "https://www.youtube.com/watch?v=oPonPGALYaU",
     "fetcher": "youtube_live",
     "epg_fetcher": "youtube_live"
@@ -209,7 +209,7 @@
     "name": "SpongeBob SquarePants",
     "tvg_id": "SpongeBob.yt",
     "group": "Kids",
-    "logo": "logos/spongebob.png",
+    "logo": "spongebob.png",
     "url": "https://www.youtube.com/watch?v=PU4emHQmC2o",
     "fetcher": "youtube_live",
     "epg_fetcher": "youtube_live"
@@ -219,7 +219,7 @@
     "name": "Love Nature",
     "tvg_id": "LoveNature.yt",
     "group": "Documentary",
-    "logo": "logos/lovenature.png",
+    "logo": "lovenature.png",
     "url": "https://www.youtube.com/live/Zns4k_dICzs",
     "fetcher": "youtube_live",
     "epg_fetcher": "youtube_live"
@@ -229,7 +229,7 @@
     "name": "NASA",
     "tvg_id": "NASA.yt",
     "group": "Documentary",
-    "logo": "logos/nasa.png",
+    "logo": "nasa.png",
     "url": "https://www.youtube.com/watch?v=ROboUHfPUrU",
     "fetcher": "youtube_live",
     "epg_fetcher": "youtube_live"
@@ -239,7 +239,7 @@
     "name": "CNA",
     "tvg_id": "CNA.yt",
     "group": "News",
-    "logo": "logos/cna.png",
+    "logo": "cna.png",
     "url": "https://www.youtube.com/@channelnewsasia/live",
     "fetcher": "youtube_live",
     "epg_fetcher": "youtube_live"
@@ -249,7 +249,7 @@
     "name": "DW News",
     "tvg_id": "DWNews.yt",
     "group": "News",
-    "logo": "logos/dwnews.png",
+    "logo": "dwnews.png",
     "url": "https://www.youtube.com/@dwnews/live",
     "fetcher": "youtube_live",
     "epg_fetcher": "youtube_live"
@@ -259,7 +259,7 @@
     "name": "FRANCE 24",
     "tvg_id": "FRANCE24.yt",
     "group": "News",
-    "logo": "logos/france24.png",
+    "logo": "france24.png",
     "url": "https://www.youtube.com/@FRANCE24/live",
     "fetcher": "youtube_live",
     "epg_fetcher": "youtube_live"
@@ -269,7 +269,7 @@
     "name": "NBC News",
     "tvg_id": "NBCNews.yt",
     "group": "News",
-    "logo": "logos/nbcnews.png",
+    "logo": "nbcnews.png",
     "url": "https://www.youtube.com/@NBCNews/live",
     "fetcher": "youtube_live",
     "epg_fetcher": "youtube_live"
@@ -279,7 +279,7 @@
     "name": "Sky News",
     "tvg_id": "SkyNews.yt",
     "group": "News",
-    "logo": "logos/skynews.png",
+    "logo": "skynews.png",
     "url": "https://www.youtube.com/watch?v=53SxFKpbKDE",
     "fetcher": "youtube_live",
     "epg_fetcher": "youtube_live"
@@ -289,7 +289,7 @@
     "name": "FOBOS PLANET",
     "tvg_id": "FOBOSPLANET.yt",
     "group": "Music & Relax",
-    "logo": "logos/fobosplanet.png",
+    "logo": "fobosplanet.png",
     "url": "https://www.youtube.com/live/mKCieTImjvU",
     "fetcher": "youtube_live",
     "epg_fetcher": "youtube_live"

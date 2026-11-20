@@ -26,23 +26,15 @@ def _extract_trueid_epg_from_driver(driver, cache_key):
         if not raw:
             return
         data = json.loads(raw)
+        epg_list = data.get("props", {}).get("pageProps", {}).get("epgList", [])
         progs = []
-        def walk(obj):
-            if isinstance(obj, dict):
-                if "start_date" in obj and "end_date" in obj and ("title" in obj or "program_name" in obj):
-                    title = (obj.get("title") or obj.get("program_name") or "").strip()
-                    desc = (obj.get("synopsis") or obj.get("description") or "").strip()
-                    st = obj.get("start_date")
-                    et = obj.get("end_date")
-                    if title and st and et:
-                        progs.append({"start": st, "stop": et, "title": title, "desc": desc})
-                else:
-                    for v in obj.values():
-                        walk(v)
-            elif isinstance(obj, list):
-                for item in obj:
-                    walk(item)
-        walk(data)
+        for obj in epg_list:
+            title = (obj.get("title") or obj.get("program_name") or "").strip()
+            desc = (obj.get("detail") or obj.get("synopsis") or obj.get("description") or "").strip()
+            st = obj.get("start_date")
+            et = obj.get("end_date")
+            if title and st and et:
+                progs.append({"start": st, "stop": et, "title": title, "desc": desc})
         if progs:
             _save_epg_cache(cache_key, progs)
             print(f"   💾 Cached {len(progs)} EPG items from same page")

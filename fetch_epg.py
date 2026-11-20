@@ -125,6 +125,7 @@ def run(force_update=False, driver=None):
         if ch_elem is not None:
             out_root.append(ch_elem)
         if progs:
+            progs = sanitize_channel_programmes(ch_elem.get("id", ""), progs)
             all_programmes.extend(progs)
             channels_with_epg += 1
 
