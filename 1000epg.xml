@@ -52,6 +52,10 @@
     <display-name lang="th">KBS Korea</display-name>
     <icon src="https://raw.githubusercontent.com/PAANMILE/1000-iptv/main/logos/kbskorea.png" />
   </channel>
+  <channel id="DisneyChannel.yt">
+    <display-name lang="th">Disney Channel</display-name>
+    <icon src="https://raw.githubusercontent.com/PAANMILE/1000-iptv/main/logos/logos/disneychannel.png" />
+  </channel>
   <channel id="Boomerang.(Thai).th">
     <display-name lang="th">Boomerang</display-name>
     <icon src="https://raw.githubusercontent.com/PAANMILE/1000-iptv/main/logos/boomerang-hd.png" />
@@ -60,13 +64,53 @@
     <display-name lang="th">Cartoon Club</display-name>
     <icon src="https://raw.githubusercontent.com/PAANMILE/1000-iptv/main/logos/tid-cartoon-club-channel.png" />
   </channel>
+  <channel id="DisneyChannelAnimation.yt">
+    <display-name lang="th">Disney Channel Animation</display-name>
+    <icon src="https://raw.githubusercontent.com/PAANMILE/1000-iptv/main/logos/logos/disneychannelanimation.png" />
+  </channel>
+  <channel id="DisneyKids.yt">
+    <display-name lang="th">Disney Kids</display-name>
+    <icon src="https://raw.githubusercontent.com/PAANMILE/1000-iptv/main/logos/logos/disneykids.png" />
+  </channel>
   <channel id="MrBean.yt">
     <display-name lang="th">Mr. Bean</display-name>
-    <icon src="https://raw.githubusercontent.com/PAANMILE/1000-iptv/main/logos/mrbean.png" />
+    <icon src="https://raw.githubusercontent.com/PAANMILE/1000-iptv/main/logos/logos/mrbean.png" />
   </channel>
   <channel id="SpongeBob.yt">
     <display-name lang="th">SpongeBob SquarePants</display-name>
-    <icon src="https://raw.githubusercontent.com/PAANMILE/1000-iptv/main/logos/spongebob.png" />
+    <icon src="https://raw.githubusercontent.com/PAANMILE/1000-iptv/main/logos/logos/spongebob.png" />
+  </channel>
+  <channel id="LoveNature.yt">
+    <display-name lang="th">Love Nature</display-name>
+    <icon src="https://raw.githubusercontent.com/PAANMILE/1000-iptv/main/logos/logos/lovenature.png" />
+  </channel>
+  <channel id="NASA.yt">
+    <display-name lang="th">NASA</display-name>
+    <icon src="https://raw.githubusercontent.com/PAANMILE/1000-iptv/main/logos/logos/nasa.png" />
+  </channel>
+  <channel id="CNA.yt">
+    <display-name lang="th">CNA</display-name>
+    <icon src="https://raw.githubusercontent.com/PAANMILE/1000-iptv/main/logos/logos/cna.png" />
+  </channel>
+  <channel id="DWNews.yt">
+    <display-name lang="th">DW News</display-name>
+    <icon src="https://raw.githubusercontent.com/PAANMILE/1000-iptv/main/logos/logos/dwnews.png" />
+  </channel>
+  <channel id="FRANCE24.yt">
+    <display-name lang="th">FRANCE 24</display-name>
+    <icon src="https://raw.githubusercontent.com/PAANMILE/1000-iptv/main/logos/logos/france24.png" />
+  </channel>
+  <channel id="NBCNews.yt">
+    <display-name lang="th">NBC News</display-name>
+    <icon src="https://raw.githubusercontent.com/PAANMILE/1000-iptv/main/logos/logos/nbcnews.png" />
+  </channel>
+  <channel id="SkyNews.yt">
+    <display-name lang="th">Sky News</display-name>
+    <icon src="https://raw.githubusercontent.com/PAANMILE/1000-iptv/main/logos/logos/skynews.png" />
+  </channel>
+  <channel id="FOBOSPLANET.yt">
+    <display-name lang="th">FOBOS PLANET</display-name>
+    <icon src="https://raw.githubusercontent.com/PAANMILE/1000-iptv/main/logos/logos/fobosplanet.png" />
   </channel>
   <channel id="1000milesTV.th">
     <display-name lang="th">1000miles TV</display-name>
@@ -5099,6 +5143,195 @@
   <programme start="20261123223000 +0700" stop="20261123235959 +0700" channel="TRUE4U.th">
     <title lang="th">ภาพยนตร์ แสงกระสือ 2</title>
     <desc lang="th">30 ปีหลังจากเหตุการณ์กระสือโคกอีนวลความรักต่างสายพันธ์ุ ระหว่างมนุษย์และกระสือกำลังจะเริ่มต้นอีกครั้ง</desc>
+  </programme>
+  <programme start="20261124000000 +0700" stop="20261124003000 +0700" channel="TRUE4U.th">
+    <title lang="th">ภาพยนตร์ แสงกระสือ 2</title>
+    <desc lang="th">30 ปีหลังจากเหตุการณ์กระสือโคกอีนวลความรักต่างสายพันธ์ุ ระหว่างมนุษย์และกระสือกำลังจะเริ่มต้นอีกครั้ง</desc>
+  </programme>
+  <programme start="20261124003000 +0700" stop="20261124010000 +0700" channel="TRUE4U.th">
+    <title lang="th">เชฟข้างถนน</title>
+    <desc lang="th">รายการที่จะพาไปสัมผัสลิ้มรสอาหารริมทางแสนอร่อยและเหล่านักปรุงอาหารมือฉมังผู้ล้วนสร้างแรงบัลดาลใจให้กับผู้คนซึ่งอยากเปิดร้านเป็นของตนเอง</desc>
+  </programme>
+  <programme start="20261124010000 +0700" stop="20261124013000 +0700" channel="TRUE4U.th">
+    <title lang="th">เรื่องดีดีทั่วไทย 2026</title>
+  </programme>
+  <programme start="20261124013000 +0700" stop="20261124023000 +0700" channel="TRUE4U.th">
+    <title lang="th">สามเณรปลูกปัญญาธรรม ปี8</title>
+    <desc lang="th">รายการธรรมะที่มุ่งเผยแพร่ความรู้ คุณธรรม และจริยธรรม ตามแนวทางพระพุทธศาสนาเพื่อส่งต่อให้เยาวชนคนรุ่นใหม่ในโครงการบรรพชาสามเณรภาคฤดูร้อน</desc>
+  </programme>
+  <programme start="20261124023000 +0700" stop="20261124033000 +0700" channel="TRUE4U.th">
+    <title lang="th">TNN ข่าวเที่ยง 2026</title>
+    <desc lang="th">รายการนำเสนอข่าวสารล่าสุดแบบเจาะลึกทุกประเด็นที่ล้วนมีความน่าสนใจเป็นอย่างยิ่ง</desc>
+  </programme>
+  <programme start="20261124033000 +0700" stop="20261124043000 +0700" channel="TRUE4U.th">
+    <title lang="th">สามเณรปลูกปัญญาธรรม ปี8</title>
+    <desc lang="th">รายการธรรมะที่มุ่งเผยแพร่ความรู้ คุณธรรม และจริยธรรม ตามแนวทางพระพุทธศาสนาเพื่อส่งต่อให้เยาวชนคนรุ่นใหม่ในโครงการบรรพชาสามเณรภาคฤดูร้อน</desc>
+  </programme>
+  <programme start="20261124043000 +0700" stop="20261124050000 +0700" channel="TRUE4U.th">
+    <title lang="th">เรื่องดีดีทั่วไทย 2026</title>
+  </programme>
+  <programme start="20261124050000 +0700" stop="20261124060000 +0700" channel="TRUE4U.th">
+    <title lang="th">ซีรีส์ ส้มตำแฮมเบอร์เกอร์</title>
+    <desc lang="th">ซีรีส์เรียกรอยยิ้มและปัญญา จากปลายปากกา ท่าน ว.วชิรเมธี</desc>
+  </programme>
+  <programme start="20261124060000 +0700" stop="20261124070000 +0700" channel="TRUE4U.th">
+    <title lang="th">ซีรีส์  ดังหนีดับ</title>
+    <desc lang="th">เมื่อเขาโดนหมายหัวเอาชีวิต เขาจึงต้องเลือกที่จะดังอยู่ท่ามกลางแสงไฟเพื่อที่จะหนีดับ</desc>
+  </programme>
+  <programme start="20261124070000 +0700" stop="20261124080000 +0700" channel="TRUE4U.th">
+    <title lang="th">สามเณรปลูกปัญญาธรรม ปี8</title>
+    <desc lang="th">รายการธรรมะที่มุ่งเผยแพร่ความรู้ คุณธรรม และจริยธรรม ตามแนวทางพระพุทธศาสนาเพื่อส่งต่อให้เยาวชนคนรุ่นใหม่ในโครงการบรรพชาสามเณรภาคฤดูร้อน</desc>
+  </programme>
+  <programme start="20261124080000 +0700" stop="20261124080100 +0700" channel="TRUE4U.th">
+    <title lang="th">เพลงชาติไทย</title>
+    <desc lang="th">เพลงชาติไทย</desc>
+  </programme>
+  <programme start="20261124080100 +0700" stop="20261124083000 +0700" channel="TRUE4U.th">
+    <title lang="th">I-SHOPPING</title>
+    <desc lang="th">รายการทีวีช้อปปิ้ง ของดี ราคาโดน สำหรับคนชอบช้อป ส่งตรงถึงบ้าน</desc>
+  </programme>
+  <programme start="20261124083000 +0700" stop="20261124090000 +0700" channel="TRUE4U.th">
+    <title lang="th">เรื่องดีดีทั่วไทย 2026</title>
+  </programme>
+  <programme start="20261124090000 +0700" stop="20261124110000 +0700" channel="TRUE4U.th">
+    <title lang="th">ภาพยนตร์ อาปัติ</title>
+    <desc lang="th">เด็กหนุ่มวัยรุ่นถูกบังคับให้มาเป็นเณร ซึ่งการบวชอย่างไม่เต็มใจไร้ศรัทธาได้นำความอาบัติและบาปมหันต์มาสู่จนเกิดเป็นเรื่องชวนขนหัวลุกต่างๆมากมาย</desc>
+  </programme>
+  <programme start="20261124110000 +0700" stop="20261124113000 +0700" channel="TRUE4U.th">
+    <title lang="th">I-SHOPPING</title>
+    <desc lang="th">รายการทีวีช้อปปิ้ง ของดี ราคาโดน สำหรับคนชอบช้อป ส่งตรงถึงบ้าน</desc>
+  </programme>
+  <programme start="20261124113000 +0700" stop="20261124123000 +0700" channel="TRUE4U.th">
+    <title lang="th">TNN ข่าวเที่ยง 2026</title>
+    <desc lang="th">รายการนำเสนอข่าวสารล่าสุดแบบเจาะลึกทุกประเด็นที่ล้วนมีความน่าสนใจเป็นอย่างยิ่ง</desc>
+  </programme>
+  <programme start="20261124123000 +0700" stop="20261124143000 +0700" channel="TRUE4U.th">
+    <title lang="th">ภาพยนตร์ ดิ่งน่านฟ้า เดือดเกาะนรก</title>
+  </programme>
+  <programme start="20261124143000 +0700" stop="20261124150000 +0700" channel="TRUE4U.th">
+    <title lang="th">I-SHOPPING</title>
+    <desc lang="th">รายการทีวีช้อปปิ้ง ของดี ราคาโดน สำหรับคนชอบช้อป ส่งตรงถึงบ้าน</desc>
+  </programme>
+  <programme start="20261124150000 +0700" stop="20261124170000 +0700" channel="TRUE4U.th">
+    <title lang="th">ภาพยนตร์ เบรุตนรกแตก</title>
+  </programme>
+  <programme start="20261124170000 +0700" stop="20261124180000 +0700" channel="TRUE4U.th">
+    <title lang="th">MATCH DAY</title>
+    <desc lang="th">รายการเทปแข่งขันกีฬาหลากหลายประเภท</desc>
+  </programme>
+  <programme start="20261124180000 +0700" stop="20261124180100 +0700" channel="TRUE4U.th">
+    <title lang="th">เพลงชาติไทย</title>
+    <desc lang="th">เพลงชาติไทย</desc>
+  </programme>
+  <programme start="20261124180100 +0700" stop="20261124200000 +0700" channel="TRUE4U.th">
+    <title lang="th">มวยมันส์สนั่นเมือง 2026</title>
+  </programme>
+  <programme start="20261124200000 +0700" stop="20261124203000 +0700" channel="TRUE4U.th">
+    <title lang="th">ข่าวในพระราชสำนัก</title>
+    <desc lang="th">ข่าวในพระราชสำนัก</desc>
+  </programme>
+  <programme start="20261124203000 +0700" stop="20261124223000 +0700" channel="TRUE4U.th">
+    <title lang="th">ภาพยนตร์ สาปอสรพิษ</title>
+  </programme>
+  <programme start="20261124223000 +0700" stop="20261124235959 +0700" channel="TRUE4U.th">
+    <title lang="th">ภาพยนตร์ ปิดเมืองล่า</title>
+  </programme>
+  <programme start="20261125000000 +0700" stop="20261125003000 +0700" channel="TRUE4U.th">
+    <title lang="th">ภาพยนตร์ ปิดเมืองล่า</title>
+  </programme>
+  <programme start="20261125003000 +0700" stop="20261125010000 +0700" channel="TRUE4U.th">
+    <title lang="th">เชฟข้างถนน</title>
+    <desc lang="th">รายการที่จะพาไปสัมผัสลิ้มรสอาหารริมทางแสนอร่อยและเหล่านักปรุงอาหารมือฉมังผู้ล้วนสร้างแรงบัลดาลใจให้กับผู้คนซึ่งอยากเปิดร้านเป็นของตนเอง</desc>
+  </programme>
+  <programme start="20261125010000 +0700" stop="20261125013000 +0700" channel="TRUE4U.th">
+    <title lang="th">เรื่องดีดีทั่วไทย 2026</title>
+  </programme>
+  <programme start="20261125013000 +0700" stop="20261125023000 +0700" channel="TRUE4U.th">
+    <title lang="th">สามเณรปลูกปัญญาธรรม ปี8</title>
+    <desc lang="th">รายการธรรมะที่มุ่งเผยแพร่ความรู้ คุณธรรม และจริยธรรม ตามแนวทางพระพุทธศาสนาเพื่อส่งต่อให้เยาวชนคนรุ่นใหม่ในโครงการบรรพชาสามเณรภาคฤดูร้อน</desc>
+  </programme>
+  <programme start="20261125023000 +0700" stop="20261125033000 +0700" channel="TRUE4U.th">
+    <title lang="th">TNN ข่าวเที่ยง 2026</title>
+    <desc lang="th">รายการนำเสนอข่าวสารล่าสุดแบบเจาะลึกทุกประเด็นที่ล้วนมีความน่าสนใจเป็นอย่างยิ่ง</desc>
+  </programme>
+  <programme start="20261125033000 +0700" stop="20261125043000 +0700" channel="TRUE4U.th">
+    <title lang="th">สามเณรปลูกปัญญาธรรม ปี8</title>
+    <desc lang="th">รายการธรรมะที่มุ่งเผยแพร่ความรู้ คุณธรรม และจริยธรรม ตามแนวทางพระพุทธศาสนาเพื่อส่งต่อให้เยาวชนคนรุ่นใหม่ในโครงการบรรพชาสามเณรภาคฤดูร้อน</desc>
+  </programme>
+  <programme start="20261125043000 +0700" stop="20261125050000 +0700" channel="TRUE4U.th">
+    <title lang="th">เรื่องดีดีทั่วไทย 2026</title>
+  </programme>
+  <programme start="20261125050000 +0700" stop="20261125060000 +0700" channel="TRUE4U.th">
+    <title lang="th">ซีรีส์ ส้มตำแฮมเบอร์เกอร์</title>
+    <desc lang="th">ซีรีส์เรียกรอยยิ้มและปัญญา จากปลายปากกา ท่าน ว.วชิรเมธี</desc>
+  </programme>
+  <programme start="20261125060000 +0700" stop="20261125070000 +0700" channel="TRUE4U.th">
+    <title lang="th">ซีรีส์  ดังหนีดับ</title>
+    <desc lang="th">เมื่อเขาโดนหมายหัวเอาชีวิต เขาจึงต้องเลือกที่จะดังอยู่ท่ามกลางแสงไฟเพื่อที่จะหนีดับ</desc>
+  </programme>
+  <programme start="20261125070000 +0700" stop="20261125080000 +0700" channel="TRUE4U.th">
+    <title lang="th">สามเณรปลูกปัญญาธรรม ปี8</title>
+    <desc lang="th">รายการธรรมะที่มุ่งเผยแพร่ความรู้ คุณธรรม และจริยธรรม ตามแนวทางพระพุทธศาสนาเพื่อส่งต่อให้เยาวชนคนรุ่นใหม่ในโครงการบรรพชาสามเณรภาคฤดูร้อน</desc>
+  </programme>
+  <programme start="20261125080000 +0700" stop="20261125080100 +0700" channel="TRUE4U.th">
+    <title lang="th">เพลงชาติไทย</title>
+    <desc lang="th">เพลงชาติไทย</desc>
+  </programme>
+  <programme start="20261125080100 +0700" stop="20261125083000 +0700" channel="TRUE4U.th">
+    <title lang="th">I-SHOPPING</title>
+    <desc lang="th">รายการทีวีช้อปปิ้ง ของดี ราคาโดน สำหรับคนชอบช้อป ส่งตรงถึงบ้าน</desc>
+  </programme>
+  <programme start="20261125083000 +0700" stop="20261125090000 +0700" channel="TRUE4U.th">
+    <title lang="th">เรื่องดีดีทั่วไทย 2026</title>
+  </programme>
+  <programme start="20261125090000 +0700" stop="20261125110000 +0700" channel="TRUE4U.th">
+    <title lang="th">ภาพยนตร์ คนหิ้วหัว</title>
+    <desc lang="th">เรื่องราวของชายติดสุราที่ร่วมปล้นกับผู้ร้ายเพื่อหวังเอาเงินมาใช้หนี้และเป็นค่าเล่าเรียนให้ลูกแต่กลับถูกหักหลังโดนสังหารตัดศีรษะจนกลายเป็นผีหัวขาดเร่ร่อน</desc>
+  </programme>
+  <programme start="20261125110000 +0700" stop="20261125113000 +0700" channel="TRUE4U.th">
+    <title lang="th">I-SHOPPING</title>
+    <desc lang="th">รายการทีวีช้อปปิ้ง ของดี ราคาโดน สำหรับคนชอบช้อป ส่งตรงถึงบ้าน</desc>
+  </programme>
+  <programme start="20261125113000 +0700" stop="20261125123000 +0700" channel="TRUE4U.th">
+    <title lang="th">TNN ข่าวเที่ยง 2026</title>
+    <desc lang="th">รายการนำเสนอข่าวสารล่าสุดแบบเจาะลึกทุกประเด็นที่ล้วนมีความน่าสนใจเป็นอย่างยิ่ง</desc>
+  </programme>
+  <programme start="20261125123000 +0700" stop="20261125143000 +0700" channel="TRUE4U.th">
+    <title lang="th">ภาพยนตร์ โรงแรมโคตรมหาโจร</title>
+  </programme>
+  <programme start="20261125143000 +0700" stop="20261125150000 +0700" channel="TRUE4U.th">
+    <title lang="th">I-SHOPPING</title>
+    <desc lang="th">รายการทีวีช้อปปิ้ง ของดี ราคาโดน สำหรับคนชอบช้อป ส่งตรงถึงบ้าน</desc>
+  </programme>
+  <programme start="20261125150000 +0700" stop="20261125170000 +0700" channel="TRUE4U.th">
+    <title lang="th">ภาพยนตร์ ฝังแค้นแรงระห่ำนรก</title>
+  </programme>
+  <programme start="20261125170000 +0700" stop="20261125180000 +0700" channel="TRUE4U.th">
+    <title lang="th">MATCH DAY</title>
+    <desc lang="th">รายการเทปแข่งขันกีฬาหลากหลายประเภท</desc>
+  </programme>
+  <programme start="20261125180000 +0700" stop="20261125180100 +0700" channel="TRUE4U.th">
+    <title lang="th">เพลงชาติไทย</title>
+    <desc lang="th">เพลงชาติไทย</desc>
+  </programme>
+  <programme start="20261125180100 +0700" stop="20261125190000 +0700" channel="TRUE4U.th">
+    <title lang="th">รายการพิเศษ</title>
+    <desc lang="th">รายการพิเศษ</desc>
+  </programme>
+  <programme start="20261125190000 +0700" stop="20261125200000 +0700" channel="TRUE4U.th">
+    <title lang="th">MATCH DAY</title>
+    <desc lang="th">รายการเทปแข่งขันกีฬาหลากหลายประเภท</desc>
+  </programme>
+  <programme start="20261125200000 +0700" stop="20261125203000 +0700" channel="TRUE4U.th">
+    <title lang="th">ข่าวในพระราชสำนัก</title>
+    <desc lang="th">ข่าวในพระราชสำนัก</desc>
+  </programme>
+  <programme start="20261125203000 +0700" stop="20261125223000 +0700" channel="TRUE4U.th">
+    <title lang="th">ภาพยนตร์ อนงค์</title>
+  </programme>
+  <programme start="20261125223000 +0700" stop="20261125235959 +0700" channel="TRUE4U.th">
+    <title lang="th">ภาพยนตร์ สาระแนสิบล้อ</title>
+    <desc lang="th">ภาพยนตร์แนวตลกอารมณ์ขันที่แสนพิลึกพิลั่นและเต็มไปด้วยเรื่องราวเหนือความคาดหมาย</desc>
   </programme>
   <programme start="20261117000000 +0700" stop="20261117001000 +0700" channel="GMM.th">
     <title lang="th">O SHOPPING</title>
@@ -15481,7 +15714,7 @@
     <icon src="https://kbsworldimage.kbs.co.kr/images/data_program/1545107769_small_400_225.png" />
   </programme>
   <programme start="20261120174000 +0700" stop="20261120183000 +0700" channel="KBSKorea.yt">
-    <title lang="en">Birth of a Worker Season 3 Ep.5 [LIVE]</title>
+    <title lang="en">Birth of a Worker Season 3 Ep.5</title>
     <icon src="https://kbsworldimage.kbs.co.kr/images/data_program/1792388516_480.jpg" />
   </programme>
   <programme start="20261120183000 +0700" stop="20261120190000 +0700" channel="KBSKorea.yt">
@@ -15513,7 +15746,7 @@
     <icon src="https://kbsworldimage.kbs.co.kr/images/data_program/1627630090_small_400_225.jpg" />
   </programme>
   <programme start="20261120234000 +0700" stop="20261121004000 +0700" channel="KBSKorea.yt">
-    <title lang="en">Birth of a Worker Season 3 Ep.5</title>
+    <title lang="en">Birth of a Worker Season 3 Ep.5 [LIVE]</title>
     <icon src="https://kbsworldimage.kbs.co.kr/images/data_program/1792388516_480.jpg" />
   </programme>
   <programme start="20261121003000 +0700" stop="20261121010000 +0700" channel="KBSKorea.yt">
@@ -15808,83 +16041,53 @@
     <title lang="en">Real Wild Journey Ep.23</title>
     <icon src="https://kbsworldimage.kbs.co.kr/images/data_program/1626399652_small_400_225.jpg" />
   </programme>
-  <programme start="20261120180000 +0700" stop="20261120183000 +0700" channel="Boomerang.(Thai).th">
-    <title lang="th">The Garfield Show S2</title>
+  <programme start="20261120000000 +0700" stop="20261121000000 +0700" channel="DisneyChannel.yt">
+    <title lang="en">Disney Channel (24/7 Live)</title>
+    <desc lang="en">YouTube 24/7 Live Stream: Disney Channel (24/7 Live)</desc>
   </programme>
-  <programme start="20261120183000 +0700" stop="20261120190000 +0700" channel="Boomerang.(Thai).th">
-    <title lang="th">Infinity Nado S7</title>
+  <programme start="20261121000000 +0700" stop="20261122000000 +0700" channel="DisneyChannel.yt">
+    <title lang="en">Disney Channel (24/7 Live)</title>
+    <desc lang="en">YouTube 24/7 Live Stream: Disney Channel (24/7 Live)</desc>
   </programme>
-  <programme start="20261120190000 +0700" stop="20261120193000 +0700" channel="Boomerang.(Thai).th">
-    <title lang="th">Hello Jadoo S2</title>
-  </programme>
-  <programme start="20261120193000 +0700" stop="20261120200000 +0700" channel="Boomerang.(Thai).th">
-    <title lang="th">Robocar Poli S5</title>
-  </programme>
-  <programme start="20261120200000 +0700" stop="20261120203000 +0700" channel="Boomerang.(Thai).th">
-    <title lang="th">Teletubbies S2</title>
-  </programme>
-  <programme start="20261120203000 +0700" stop="20261120210000 +0700" channel="Boomerang.(Thai).th">
-    <title lang="th">Kreepy Bizarre Tales</title>
-  </programme>
-  <programme start="20261120210000 +0700" stop="20261120213000 +0700" channel="Boomerang.(Thai).th">
-    <title lang="th">Chowder</title>
-  </programme>
-  <programme start="20261120213000 +0700" stop="20261120220000 +0700" channel="Boomerang.(Thai).th">
-    <title lang="th">Hello Jadoo S2</title>
-  </programme>
-  <programme start="20261120220000 +0700" stop="20261120223000 +0700" channel="Boomerang.(Thai).th">
-    <title lang="th">The Smurf</title>
-  </programme>
-  <programme start="20261120223000 +0700" stop="20261120230000 +0700" channel="Boomerang.(Thai).th">
-    <title lang="th">Johnny Test</title>
-  </programme>
-  <programme start="20261120230000 +0700" stop="20261120233000 +0700" channel="Boomerang.(Thai).th">
-    <title lang="th">New Adtventure of Peter Pan</title>
+  <programme start="20261122000000 +0700" stop="20261123000000 +0700" channel="DisneyChannel.yt">
+    <title lang="en">Disney Channel (24/7 Live)</title>
+    <desc lang="en">YouTube 24/7 Live Stream: Disney Channel (24/7 Live)</desc>
   </programme>
   <programme start="20261120233000 +0700" stop="20261121000000 +0700" channel="Boomerang.(Thai).th">
     <title lang="th">Boom Animal World</title>
   </programme>
-  <programme start="20261120180000 +0700" stop="20261120183000 +0700" channel="Boomerang.(Thai).th">
-    <title lang="th">The Garfield Show S2</title>
-  </programme>
-  <programme start="20261120180000 +0700" stop="20261120183000 +0700" channel="CartoonClub.th">
-    <title lang="th">นินจาฮาโตริ รีเทิร์น + Mushymon Days</title>
-  </programme>
-  <programme start="20261120183000 +0700" stop="20261120190000 +0700" channel="CartoonClub.th">
-    <title lang="th">โพโรโระ + Bottleman</title>
-  </programme>
-  <programme start="20261120190000 +0700" stop="20261120193000 +0700" channel="CartoonClub.th">
-    <title lang="th">โทบอท + Zombie Dumb</title>
-  </programme>
-  <programme start="20261120193000 +0700" stop="20261120200000 +0700" channel="CartoonClub.th">
-    <title lang="th">โกจูเจอร์ + Dinoman</title>
-  </programme>
-  <programme start="20261120200000 +0700" stop="20261120203000 +0700" channel="CartoonClub.th">
-    <title lang="th">การ์ดไฟท์แวนการ์ด(GZ) + Bottleman</title>
-  </programme>
-  <programme start="20261120203000 +0700" stop="20261120210000 +0700" channel="CartoonClub.th">
-    <title lang="th">เบลย์เบลดเอ็กซ์ (ปี1) + Zombie Dumb</title>
-  </programme>
-  <programme start="20261120210000 +0700" stop="20261120213000 +0700" channel="CartoonClub.th">
-    <title lang="th">คิงส์โอเจอร์ + Bottleman</title>
-  </programme>
-  <programme start="20261120213000 +0700" stop="20261120220000 +0700" channel="CartoonClub.th">
-    <title lang="th">นินจาฮาโตริ รีเทิร์น (ปี1) + Mushymon Days</title>
-  </programme>
-  <programme start="20261120220000 +0700" stop="20261120223000 +0700" channel="CartoonClub.th">
-    <title lang="th">บัดดี้ไฟท์ (ปี2) + Zombie Dumb</title>
-  </programme>
-  <programme start="20261120223000 +0700" stop="20261120230000 +0700" channel="CartoonClub.th">
-    <title lang="th">เบลย์เบลดเอ็กซ์ (ปี2) + Mushymon Days</title>
-  </programme>
-  <programme start="20261120230000 +0700" stop="20261120233000 +0700" channel="CartoonClub.th">
-    <title lang="th">โกจูเจอร์ + Bottleman</title>
+  <programme start="20261120233000 +0700" stop="20261121000000 +0700" channel="Boomerang.(Thai).th">
+    <title lang="th">Boom Animal World</title>
   </programme>
   <programme start="20261120233000 +0700" stop="20261121000000 +0700" channel="CartoonClub.th">
     <title lang="th">เบลย์เบลดเอ็กซ์ (ปี1) + Dinoman</title>
   </programme>
-  <programme start="20261120180000 +0700" stop="20261120183000 +0700" channel="CartoonClub.th">
-    <title lang="th">นินจาฮาโตริ รีเทิร์น + Mushymon Days</title>
+  <programme start="20261120233000 +0700" stop="20261121000000 +0700" channel="CartoonClub.th">
+    <title lang="th">เบลย์เบลดเอ็กซ์ (ปี1) + Dinoman</title>
+  </programme>
+  <programme start="20261120000000 +0700" stop="20261121000000 +0700" channel="DisneyChannelAnimation.yt">
+    <title lang="en">Disney Channel Animation (24/7 Live)</title>
+    <desc lang="en">YouTube 24/7 Live Stream: Disney Channel Animation (24/7 Live)</desc>
+  </programme>
+  <programme start="20261121000000 +0700" stop="20261122000000 +0700" channel="DisneyChannelAnimation.yt">
+    <title lang="en">Disney Channel Animation (24/7 Live)</title>
+    <desc lang="en">YouTube 24/7 Live Stream: Disney Channel Animation (24/7 Live)</desc>
+  </programme>
+  <programme start="20261122000000 +0700" stop="20261123000000 +0700" channel="DisneyChannelAnimation.yt">
+    <title lang="en">Disney Channel Animation (24/7 Live)</title>
+    <desc lang="en">YouTube 24/7 Live Stream: Disney Channel Animation (24/7 Live)</desc>
+  </programme>
+  <programme start="20261120000000 +0700" stop="20261121000000 +0700" channel="DisneyKids.yt">
+    <title lang="en">Disney Kids (24/7 Live)</title>
+    <desc lang="en">YouTube 24/7 Live Stream: Disney Kids (24/7 Live)</desc>
+  </programme>
+  <programme start="20261121000000 +0700" stop="20261122000000 +0700" channel="DisneyKids.yt">
+    <title lang="en">Disney Kids (24/7 Live)</title>
+    <desc lang="en">YouTube 24/7 Live Stream: Disney Kids (24/7 Live)</desc>
+  </programme>
+  <programme start="20261122000000 +0700" stop="20261123000000 +0700" channel="DisneyKids.yt">
+    <title lang="en">Disney Kids (24/7 Live)</title>
+    <desc lang="en">YouTube 24/7 Live Stream: Disney Kids (24/7 Live)</desc>
   </programme>
   <programme start="20261120000000 +0700" stop="20261121000000 +0700" channel="MrBean.yt">
     <title lang="en">Mr. Bean (24/7 Live)</title>
@@ -15909,6 +16112,102 @@
   <programme start="20261122000000 +0700" stop="20261123000000 +0700" channel="SpongeBob.yt">
     <title lang="en">SpongeBob SquarePants (24/7 Live)</title>
     <desc lang="en">YouTube 24/7 Live Stream: SpongeBob SquarePants (24/7 Live)</desc>
+  </programme>
+  <programme start="20261120000000 +0700" stop="20261121000000 +0700" channel="LoveNature.yt">
+    <title lang="en">Love Nature (24/7 Live)</title>
+    <desc lang="en">YouTube 24/7 Live Stream: Love Nature (24/7 Live)</desc>
+  </programme>
+  <programme start="20261121000000 +0700" stop="20261122000000 +0700" channel="LoveNature.yt">
+    <title lang="en">Love Nature (24/7 Live)</title>
+    <desc lang="en">YouTube 24/7 Live Stream: Love Nature (24/7 Live)</desc>
+  </programme>
+  <programme start="20261122000000 +0700" stop="20261123000000 +0700" channel="LoveNature.yt">
+    <title lang="en">Love Nature (24/7 Live)</title>
+    <desc lang="en">YouTube 24/7 Live Stream: Love Nature (24/7 Live)</desc>
+  </programme>
+  <programme start="20261120000000 +0700" stop="20261121000000 +0700" channel="NASA.yt">
+    <title lang="en">NASA (24/7 Live)</title>
+    <desc lang="en">YouTube 24/7 Live Stream: NASA (24/7 Live)</desc>
+  </programme>
+  <programme start="20261121000000 +0700" stop="20261122000000 +0700" channel="NASA.yt">
+    <title lang="en">NASA (24/7 Live)</title>
+    <desc lang="en">YouTube 24/7 Live Stream: NASA (24/7 Live)</desc>
+  </programme>
+  <programme start="20261122000000 +0700" stop="20261123000000 +0700" channel="NASA.yt">
+    <title lang="en">NASA (24/7 Live)</title>
+    <desc lang="en">YouTube 24/7 Live Stream: NASA (24/7 Live)</desc>
+  </programme>
+  <programme start="20261120000000 +0700" stop="20261121000000 +0700" channel="CNA.yt">
+    <title lang="en">CNA (24/7 Live)</title>
+    <desc lang="en">YouTube 24/7 Live Stream: CNA (24/7 Live)</desc>
+  </programme>
+  <programme start="20261121000000 +0700" stop="20261122000000 +0700" channel="CNA.yt">
+    <title lang="en">CNA (24/7 Live)</title>
+    <desc lang="en">YouTube 24/7 Live Stream: CNA (24/7 Live)</desc>
+  </programme>
+  <programme start="20261122000000 +0700" stop="20261123000000 +0700" channel="CNA.yt">
+    <title lang="en">CNA (24/7 Live)</title>
+    <desc lang="en">YouTube 24/7 Live Stream: CNA (24/7 Live)</desc>
+  </programme>
+  <programme start="20261120000000 +0700" stop="20261121000000 +0700" channel="DWNews.yt">
+    <title lang="en">DW News (24/7 Live)</title>
+    <desc lang="en">YouTube 24/7 Live Stream: DW News (24/7 Live)</desc>
+  </programme>
+  <programme start="20261121000000 +0700" stop="20261122000000 +0700" channel="DWNews.yt">
+    <title lang="en">DW News (24/7 Live)</title>
+    <desc lang="en">YouTube 24/7 Live Stream: DW News (24/7 Live)</desc>
+  </programme>
+  <programme start="20261122000000 +0700" stop="20261123000000 +0700" channel="DWNews.yt">
+    <title lang="en">DW News (24/7 Live)</title>
+    <desc lang="en">YouTube 24/7 Live Stream: DW News (24/7 Live)</desc>
+  </programme>
+  <programme start="20261120000000 +0700" stop="20261121000000 +0700" channel="FRANCE24.yt">
+    <title lang="en">FRANCE 24 (24/7 Live)</title>
+    <desc lang="en">YouTube 24/7 Live Stream: FRANCE 24 (24/7 Live)</desc>
+  </programme>
+  <programme start="20261121000000 +0700" stop="20261122000000 +0700" channel="FRANCE24.yt">
+    <title lang="en">FRANCE 24 (24/7 Live)</title>
+    <desc lang="en">YouTube 24/7 Live Stream: FRANCE 24 (24/7 Live)</desc>
+  </programme>
+  <programme start="20261122000000 +0700" stop="20261123000000 +0700" channel="FRANCE24.yt">
+    <title lang="en">FRANCE 24 (24/7 Live)</title>
+    <desc lang="en">YouTube 24/7 Live Stream: FRANCE 24 (24/7 Live)</desc>
+  </programme>
+  <programme start="20261120000000 +0700" stop="20261121000000 +0700" channel="NBCNews.yt">
+    <title lang="en">NBC News (24/7 Live)</title>
+    <desc lang="en">YouTube 24/7 Live Stream: NBC News (24/7 Live)</desc>
+  </programme>
+  <programme start="20261121000000 +0700" stop="20261122000000 +0700" channel="NBCNews.yt">
+    <title lang="en">NBC News (24/7 Live)</title>
+    <desc lang="en">YouTube 24/7 Live Stream: NBC News (24/7 Live)</desc>
+  </programme>
+  <programme start="20261122000000 +0700" stop="20261123000000 +0700" channel="NBCNews.yt">
+    <title lang="en">NBC News (24/7 Live)</title>
+    <desc lang="en">YouTube 24/7 Live Stream: NBC News (24/7 Live)</desc>
+  </programme>
+  <programme start="20261120000000 +0700" stop="20261121000000 +0700" channel="SkyNews.yt">
+    <title lang="en">Sky News (24/7 Live)</title>
+    <desc lang="en">YouTube 24/7 Live Stream: Sky News (24/7 Live)</desc>
+  </programme>
+  <programme start="20261121000000 +0700" stop="20261122000000 +0700" channel="SkyNews.yt">
+    <title lang="en">Sky News (24/7 Live)</title>
+    <desc lang="en">YouTube 24/7 Live Stream: Sky News (24/7 Live)</desc>
+  </programme>
+  <programme start="20261122000000 +0700" stop="20261123000000 +0700" channel="SkyNews.yt">
+    <title lang="en">Sky News (24/7 Live)</title>
+    <desc lang="en">YouTube 24/7 Live Stream: Sky News (24/7 Live)</desc>
+  </programme>
+  <programme start="20261120000000 +0700" stop="20261121000000 +0700" channel="FOBOSPLANET.yt">
+    <title lang="en">FOBOS PLANET (24/7 Live)</title>
+    <desc lang="en">YouTube 24/7 Live Stream: FOBOS PLANET (24/7 Live)</desc>
+  </programme>
+  <programme start="20261121000000 +0700" stop="20261122000000 +0700" channel="FOBOSPLANET.yt">
+    <title lang="en">FOBOS PLANET (24/7 Live)</title>
+    <desc lang="en">YouTube 24/7 Live Stream: FOBOS PLANET (24/7 Live)</desc>
+  </programme>
+  <programme start="20261122000000 +0700" stop="20261123000000 +0700" channel="FOBOSPLANET.yt">
+    <title lang="en">FOBOS PLANET (24/7 Live)</title>
+    <desc lang="en">YouTube 24/7 Live Stream: FOBOS PLANET (24/7 Live)</desc>
   </programme>
   <programme start="20261120000000 +0700" stop="20261121000000 +0700" channel="1000milesTV.th">
     <title lang="en">Private Boardcast</title>
