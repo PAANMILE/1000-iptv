@@ -8,6 +8,10 @@ import fetch_epg
 def main():
     start_time = time.time()
     force_update = "--force" in sys.argv
+    if force_update:
+        cache_dir = os.path.join(os.path.dirname(os.path.abspath(__file__)), "epg_cache")
+        shutil.rmtree(cache_dir, ignore_errors=True)
+        os.makedirs(cache_dir, exist_ok=True)
     driver = None
     try:
         driver = fetch_streams.run(force_update=force_update, driver=driver)
