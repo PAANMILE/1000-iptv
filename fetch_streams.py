@@ -117,6 +117,11 @@ def _get_chno(ch):
     except (ValueError, TypeError):
         return 9999
 
+
+def _pad_label(label, width=32):
+    vis_len = sum(0 if unicodedata.combining(ch) else 1 for ch in label)
+    return label + (" " * max(1, width - vis_len))
+
 def _fmt_ch(ch):
     c = _get_chno(ch)
     name = ch.get("name", "Unknown")
@@ -158,7 +163,7 @@ def run(force_update=False, driver=None):
     channels = sorted(channels, key=_get_chno)
 
     if existing_streams:
-        print("🔍 Checking stream health & YouTube token expiration (sorted by channel number)...")
+        print("🔍 Checking stream health & YouTube token expiration...")
         safari_results = {}
         safari_candidates = []
 
@@ -190,41 +195,41 @@ def run(force_update=False, driver=None):
 
             if fetcher == "local_stream":
                 url = ch.get("url", "")
-                print(f"🟢 [LOCAL]  {label:<32} -> Preserved ({url})")
+                print(f"🟢 [LOCAL]  {_pad_label(label, 32)} -> Preserved ({url})")
                 results[name] = url
             elif fetcher == "youtube_live":
                 if old_url:
                     is_valid, msg = _check_yt_expire(old_url, min_remaining_sec=3600)
                     if is_valid:
-                        print(f"🟢 [KEEP]   {label:<32} -> {msg}")
+                        print(f"🟢 [KEEP]   {_pad_label(label, 32)} -> {msg}")
                         results[name] = old_url
                     else:
-                        print(f"🟡 [UPDATE] {label:<32} -> {msg}")
+                        print(f"🟡 [UPDATE] {_pad_label(label, 32)} -> {msg}")
                         to_fetch.append(ch)
                 else:
-                    print(f"🟡 [UPDATE] {label:<32} -> No existing stream")
+                    print(f"🟡 [UPDATE] {_pad_label(label, 32)} -> No existing stream")
                     to_fetch.append(ch)
             else:
                 if old_url and name in safari_results:
                     healthy, reason = safari_results[name]
                     if healthy:
-                        print(f"🟢 [KEEP]   {label:<32} -> Healthy")
+                        print(f"🟢 [KEEP]   {_pad_label(label, 32)} -> Healthy")
                         results[name] = old_url
                         seen_urls.add(old_url)
                     else:
-                        print(f"🟡 [UPDATE] {label:<32} -> {reason}")
+                        print(f"🟡 [UPDATE] {_pad_label(label, 32)} -> {reason}")
                         to_fetch.append(ch)
                 else:
-                    print(f"🟡 [UPDATE] {label:<32} -> No existing stream")
+                    print(f"🟡 [UPDATE] {_pad_label(label, 32)} -> No existing stream")
                     to_fetch.append(ch)
     else:
-        print("🔄 Force update enabled: refreshing all non-local channels (sorted by channel number)...")
+        print("🔄 Force update enabled: refreshing all non-local channels...")
         for ch in channels:
             name = ch.get("name", "Unknown")
             label = _fmt_ch(ch)
             if ch.get("fetcher") == "local_stream":
                 url = ch.get("url", "")
-                print(f"🟢 [LOCAL]  {label:<32} -> Preserved ({url})")
+                print(f"🟢 [LOCAL]  {_pad_label(label, 32)} -> Preserved ({url})")
                 results[name] = url
             else:
                 to_fetch.append(ch)
