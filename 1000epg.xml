@@ -11822,7 +11822,7 @@
     <desc lang="th">การแข่งขันมวยไทย</desc>
   </programme>
   <programme start="20261121003000 +0700" stop="20261121010000 +0700" channel="KBSKorea.yt">
-    <title lang="en">Mission: Mompossible Ep.40 [LIVE]</title>
+    <title lang="en">Mission: Mompossible Ep.40</title>
     <icon src="https://kbsworldimage.kbs.co.kr/images/data_program/1790151157_480.jpg" />
   </programme>
   <programme start="20261121010000 +0700" stop="20261121020000 +0700" channel="KBSKorea.yt">
@@ -11874,7 +11874,7 @@
     <icon src="https://kbsworldimage.kbs.co.kr/images/data_program/1664326505_small_960_540.jpg" />
   </programme>
   <programme start="20261121101000 +0700" stop="20261121110500 +0700" channel="KBSKorea.yt">
-    <title lang="en">Korean Traditional Music Theater Ep.1629</title>
+    <title lang="en">Korean Traditional Music Theater Ep.1629 [LIVE]</title>
     <icon src="https://kbsworldimage.kbs.co.kr/images/data_program/1551765708_small_960_540.jpg" />
   </programme>
   <programme start="20261121110500 +0700" stop="20261121115500 +0700" channel="KBSKorea.yt">
@@ -12257,54 +12257,6 @@
     <title lang="en">Disney Channel (24/7 Live)</title>
     <desc lang="en">YouTube 24/7 Live Stream: Disney Channel (24/7 Live)</desc>
   </programme>
-  <programme start="20261121000000 +0700" stop="20261121010000 +0700" channel="Boomerang.(Thai).th">
-    <title lang="th">Super Wings S6</title>
-  </programme>
-  <programme start="20261121010000 +0700" stop="20261121020000 +0700" channel="Boomerang.(Thai).th">
-    <title lang="th">The Garfield Show S2</title>
-  </programme>
-  <programme start="20261121020000 +0700" stop="20261121030000 +0700" channel="Boomerang.(Thai).th">
-    <title lang="th">Hello Jadoo S2</title>
-  </programme>
-  <programme start="20261121030000 +0700" stop="20261121040000 +0700" channel="Boomerang.(Thai).th">
-    <title lang="th">My Little Pony: Friendship Is Magic S2</title>
-  </programme>
-  <programme start="20261121040000 +0700" stop="20261121050000 +0700" channel="Boomerang.(Thai).th">
-    <title lang="th">Boonie Cubs S2</title>
-  </programme>
-  <programme start="20261121050000 +0700" stop="20261121053000 +0700" channel="Boomerang.(Thai).th">
-    <title lang="th">Robocar Poli S5</title>
-  </programme>
-  <programme start="20261121053000 +0700" stop="20261121060000 +0700" channel="Boomerang.(Thai).th">
-    <title lang="th">Johnny Test</title>
-  </programme>
-  <programme start="20261121060000 +0700" stop="20261121063000 +0700" channel="Boomerang.(Thai).th">
-    <title lang="th">The Smurf</title>
-  </programme>
-  <programme start="20261121063000 +0700" stop="20261121070000 +0700" channel="Boomerang.(Thai).th">
-    <title lang="th">New Adtventure of Peter Pan</title>
-  </programme>
-  <programme start="20261121070000 +0700" stop="20261121073000 +0700" channel="Boomerang.(Thai).th">
-    <title lang="th">Boonie Cubs S2</title>
-  </programme>
-  <programme start="20261121073000 +0700" stop="20261121080000 +0700" channel="Boomerang.(Thai).th">
-    <title lang="th">Strawberry Shortcake Berry Bitty Adventures</title>
-  </programme>
-  <programme start="20261121080000 +0700" stop="20261121083000 +0700" channel="Boomerang.(Thai).th">
-    <title lang="th">The Snoopy Show</title>
-  </programme>
-  <programme start="20261121083000 +0700" stop="20261121090000 +0700" channel="Boomerang.(Thai).th">
-    <title lang="th">Infinity Nado S7</title>
-  </programme>
-  <programme start="20261121090000 +0700" stop="20261121093000 +0700" channel="Boomerang.(Thai).th">
-    <title lang="th">Teletubbies</title>
-  </programme>
-  <programme start="20261121093000 +0700" stop="20261121100000 +0700" channel="Boomerang.(Thai).th">
-    <title lang="th">The Garfield Show S2</title>
-  </programme>
-  <programme start="20261121100000 +0700" stop="20261121103000 +0700" channel="Boomerang.(Thai).th">
-    <title lang="th">Totally Sprie</title>
-  </programme>
   <programme start="20261121103000 +0700" stop="20261121110000 +0700" channel="Boomerang.(Thai).th">
     <title lang="th">Robocar Poli S5</title>
   </programme>
@@ -12385,66 +12337,6 @@
   </programme>
   <programme start="20261121233000 +0700" stop="20261122000000 +0700" channel="Boomerang.(Thai).th">
     <title lang="th">Boom Animal World</title>
-  </programme>
-  <programme start="20261121003000 +0700" stop="20261121010000 +0700" channel="CartoonClub.th">
-    <title lang="th">แอสโทบอย + Mushymon Days</title>
-  </programme>
-  <programme start="20261121010000 +0700" stop="20261121013000 +0700" channel="CartoonClub.th">
-    <title lang="th">คิงส์โอเจอร์ + Bottleman</title>
-  </programme>
-  <programme start="20261121013000 +0700" stop="20261121020000 +0700" channel="CartoonClub.th">
-    <title lang="th">เบลย์เบลด (ปี2) + Bottleman</title>
-  </programme>
-  <programme start="20261121020000 +0700" stop="20261121023000 +0700" channel="CartoonClub.th">
-    <title lang="th">โปเกมอน (ปี27) + Mushymon Days</title>
-  </programme>
-  <programme start="20261121023000 +0700" stop="20261121030000 +0700" channel="CartoonClub.th">
-    <title lang="th">จูราสิคคอปป์</title>
-  </programme>
-  <programme start="20261121030000 +0700" stop="20261121033000 +0700" channel="CartoonClub.th">
-    <title lang="th">เซนไคเจอร์ + Dinoman</title>
-  </programme>
-  <programme start="20261121033000 +0700" stop="20261121040000 +0700" channel="CartoonClub.th">
-    <title lang="th">เบลย์เบลด (ปี1) + Zombie Dumb</title>
-  </programme>
-  <programme start="20261121040000 +0700" stop="20261121043000 +0700" channel="CartoonClub.th">
-    <title lang="th">โปเกมอน (ปี25) + Bottleman</title>
-  </programme>
-  <programme start="20261121043000 +0700" stop="20261121050000 +0700" channel="CartoonClub.th">
-    <title lang="th">บูบู่ + Zombie Dumb</title>
-  </programme>
-  <programme start="20261121050000 +0700" stop="20261121053000 +0700" channel="CartoonClub.th">
-    <title lang="th">นินจาฮาโตริ (ปี1) + Mushymon Days</title>
-  </programme>
-  <programme start="20261121053000 +0700" stop="20261121060000 +0700" channel="CartoonClub.th">
-    <title lang="th">ริวโซลเจอร์ + Bottleman</title>
-  </programme>
-  <programme start="20261121060000 +0700" stop="20261121063000 +0700" channel="CartoonClub.th">
-    <title lang="th">การ์ดไฟท์แวนการ์ด(ปี5) + Bottleman</title>
-  </programme>
-  <programme start="20261121063000 +0700" stop="20261121070000 +0700" channel="CartoonClub.th">
-    <title lang="th">แอสโทบอย + Mushymon Days</title>
-  </programme>
-  <programme start="20261121070000 +0700" stop="20261121073000 +0700" channel="CartoonClub.th">
-    <title lang="th">คิงส์โอเจอร์ + Bottleman</title>
-  </programme>
-  <programme start="20261121073000 +0700" stop="20261121080000 +0700" channel="CartoonClub.th">
-    <title lang="th">เบลย์เบลด (ปี2) + Bottleman</title>
-  </programme>
-  <programme start="20261121080000 +0700" stop="20261121083000 +0700" channel="CartoonClub.th">
-    <title lang="th">โปเกมอน (ปี27) + Mushymon Days</title>
-  </programme>
-  <programme start="20261121083000 +0700" stop="20261121090000 +0700" channel="CartoonClub.th">
-    <title lang="th">จูราสิคคอปป์</title>
-  </programme>
-  <programme start="20261121090000 +0700" stop="20261121093000 +0700" channel="CartoonClub.th">
-    <title lang="th">เซนไคเจอร์ + Dinoman</title>
-  </programme>
-  <programme start="20261121093000 +0700" stop="20261121100000 +0700" channel="CartoonClub.th">
-    <title lang="th">เบลย์เบลด (ปี1) + Zombie Dumb</title>
-  </programme>
-  <programme start="20261121100000 +0700" stop="20261121103000 +0700" channel="CartoonClub.th">
-    <title lang="th">โปเกมอน (ปี25) + Bottleman</title>
   </programme>
   <programme start="20261121103000 +0700" stop="20261121110000 +0700" channel="CartoonClub.th">
     <title lang="th">บูบู่ + Zombie Dumb</title>
