@@ -119,6 +119,8 @@ def run(force_update=False, driver=None):
     existing_streams = {} if force_update else load_existing_streams()
     if force_update:
         print("🔄 Force update mode enabled (--force)")
+    results = {}
+    to_fetch = []
     print("🔄 Preparing full refresh for all channels (skipping old link health check)...")
     for ch in channels:
         name = ch.get("name", "Unknown")
