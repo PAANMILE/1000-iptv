@@ -46,7 +46,7 @@ https://live-cdn.ch7.com/out/v1/eafeb02c55b64a15b278b1e66c7fc776/playlist.m3u8
 #EXTINF:-1 tvg-chno="36" tvg-id="PPTV.HD.th" tvg-name="PPTV HD 36" tvg-logo="https://raw.githubusercontent.com/PAANMILE/1000-iptv/main/logos/pptv-hd.png" group-title="Digital TV",PPTV HD 36
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.6 Safari/605.1.15
 #EXTVLCOPT:http-referrer=https://tv.trueid.net/
-https://cdn139.stm.trueid.net/p101aes/da7_multi_w_auto_tidapp.smil/playlist.m3u8?appid=trueid&type=live&visitor=web&drm=aes&uid=4cbb5b8ebc&did=RVNlakRUcFM4WUc2STBOOUY5RVRwWWxMMWw0VmxyZEE&mpass=WEgudaP35FV085U4rt0oOSdvwAVMTqMWSIom8jcUMdVnpop9YtS6JViK_StdMbA_0bAp0-VErqGUNVidQxEramc_U3i0Yv3TP5xu-t83TXcgIAyoNod7LnMlw_I11cXp_RI&sid=5ea6be3ac3&rt=1795228838&ds=25200&tk=d_1sp8iw91wnA7ULcR30DVnpYscjmtloWJzNj1IkyyQ
+https://cdn732.stm.trueid.net/p101aes/da7_multi_w_auto_tidapp.smil/playlist.m3u8?appid=trueid&type=live&visitor=web&drm=aes&uid=8c9dac2adc&did=NWtuV0Ywcnp2aXBJeU5tNmJmeDE2RHVBSzdJNDZzSlc&mpass=_rk9xpvjwAhjdx-rSPd-62TPpJI_mB6Fpu---5y3HlxRAT0105TmX6DwN7x0bz7jNigcR5wR0PnoIOF-t-YAqPyWb0WDQcSQuLwgJqnZCrcgICG4L9S6YP-_MbML_R0l9d0&sid=ea64bab655&rt=1795229775&ds=25200&tk=lLm1cFkgdmfxnt2zHE0-Manjuvmwls1MIe2QZVE_M24
 #EXTINF:-1 tvg-chno="222" tvg-id="KBSKorea.yt" tvg-name="KBS Korea" tvg-logo="https://raw.githubusercontent.com/PAANMILE/1000-iptv/main/logos/kbskorea.png" group-title="Entertainment",KBS Korea
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.6 Safari/605.1.15
 #EXTVLCOPT:http-referrer=https://www.youtube.com/
