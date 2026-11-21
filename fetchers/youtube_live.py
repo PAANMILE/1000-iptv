@@ -1,73 +1,53 @@
-import subprocess
+import re
+import sys
 import time
+import subprocess
 
-_UA_SET = False
+FALLBACK_HANDLES = {
+    "OxQQsIvJTTU": "https://www.youtube.com/@KBSWorldTV/live",
+    "oPonPGALYaU": "https://www.youtube.com/@MrBean/live",
+    "PU4emHQmC2o": "https://www.youtube.com/@SpongeBobOfficial/live",
+}
 
-def _ensure_ipad_user_agent():
-    global _UA_SET
-    if _UA_SET:
-        return
-    script = '''
-    tell application "Safari" to activate
-    delay 0.3
-    tell application "System Events"
-        tell process "Safari"
-            try
-                set uaMenu to menu 1 of menu item "User Agent" of menu 1 of menu bar item "Develop" of menu bar 1
-                repeat with mi in menu items of uaMenu
-                    set mName to name of mi as text
-                    if mName contains "iPad" then
-                        click mi
-                        exit repeat
-                    end if
-                end repeat
-            end try
-        end tell
-    end tell
-    '''
-    try:
-        subprocess.run(["osascript", "-e", script], stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL, timeout=5)
-        _UA_SET = True
-    except Exception:
-        pass
+def _ytdlp_m3u8(target):
+    for client in ["tv_embedded", "android", "mweb", "ios"]:
+        try:
+            cmd = [
+                sys.executable, "-m", "yt_dlp",
+                "--extractor-args", f"youtube:player_client={client}",
+                "--no-playlist",
+                "-g", "--no-warnings", target
+            ]
+            out = subprocess.check_output(cmd, stderr=subprocess.DEVNULL, timeout=15).decode("utf-8").strip()
+            for line in out.splitlines():
+                line = line.strip()
+                if line.startswith("http") and ".m3u8" in line:
+                    return line
+        except Exception:
+            continue
+    return None
 
 def fetch(driver, url, channel_name, seen_urls=None):
-    if driver is None or not url:
-        return None
-    if seen_urls is None:
-        seen_urls = set()
+    candidates = []
+    if url:
+        candidates.append(url)
+        for vid, handle_url in FALLBACK_HANDLES.items():
+            if vid in url and handle_url not in candidates:
+                candidates.append(handle_url)
 
-    _ensure_ipad_user_agent()
+    for target in candidates:
+        m3u8 = _ytdlp_m3u8(target)
+        if m3u8:
+            return m3u8
 
-    try:
-        driver.execute_script("performance.clearResourceTimings();")
-    except Exception:
-        pass
-
-    driver.get(url)
-    for _ in range(16):
-        time.sleep(0.5)
+    if driver is not None and url:
         try:
-            m3u8 = driver.execute_script("""
-                const res = performance.getEntriesByType('resource')
-                    .map(r => r.name)
-                    .find(u => u.includes('googlevideo.com') && u.includes('.m3u8'));
-                if (res) return res;
-                try {
-                    if (window.ytInitialPlayerResponse &&
-                        ytInitialPlayerResponse.streamingData &&
-                        ytInitialPlayerResponse.streamingData.hlsManifestUrl) {
-                        return ytInitialPlayerResponse.streamingData.hlsManifestUrl;
-                    }
-                } catch (e) {}
-                const html = document.documentElement.innerHTML || "";
-                const m = html.match(/https?:\\\\?\/\\\\?\/manifest\\.googlevideo\\.com\\\\?\/api\\\\?\/manifest\\\\?\/hls_variant[^"'\\s<>]+\\.m3u8[^"'\\s<>]*/);
-                return m ? m[0] : null;
-            """)
-            if m3u8:
-                clean = m3u8.replace("\\u0026", "&").replace("\\/", "/")
-                if clean not in seen_urls:
-                    return clean
+            driver.get(url)
+            time.sleep(5)
+            src = driver.page_source or ""
+            m = re.search(r'"hlsManifestUrl"\s*:\s*"([^"]+\.m3u8[^"]*)"', src)
+            if m:
+                return m.group(1).replace("\\u0026", "&").replace("\\/", "/")
         except Exception:
             pass
     return None
