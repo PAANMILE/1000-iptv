@@ -119,116 +119,37 @@ def run(force_update=False, driver=None):
     existing_streams = {} if force_update else load_existing_streams()
     if force_update:
         print("🔄 Force update mode enabled (--force)")
-    else:
-        results = {}
-        to_update = []
-        print("🔄 Preparing full refresh for all channels (skipping old link health check)...")
-        for ch in channels:
-            name = ch.get("name", "Unknown")
-            fetcher = ch.get("fetcher", "")
-            if fetcher == "local_stream":
-                url = ch.get("url", "")
-                print(f"🟢 [LOCAL]  {name:<26} -> Preserved ({url})")
-                results[name] = url
-            else:
-                to_update.append(ch)
-
-    results = {}
-    to_fetch = []
-    seen_urls = set()
-
-    health_results = {}
-    to_check = []
-    for idx, ch in enumerate(channels):
-        name = ch["name"]
-        if ch.get("fetcher") == "local_stream":
-            continue
-        old_data = existing_streams.get(name)
-        if old_data:
-            to_check.append((idx, ch, old_data["stream_url"], get_referer(ch["url"])))
-
-    if to_check:
-        with ThreadPoolExecutor(max_workers=10) as ex:
-            futs = {ex.submit(check_stream_health, s_url, ref): idx for idx, ch, s_url, ref in to_check}
-            for fut in as_completed(futs):
-                health_results[futs[fut]] = fut.result()
-
-    for idx, ch in enumerate(channels):
-        name = ch["name"]
-        if ch.get("fetcher") == "local_stream":
-            existing_entry = existing_streams.get(name)
-            if isinstance(existing_entry, dict):
-                s_url = existing_entry.get("stream_url", "")
-            else:
-                s_url = existing_entry or ""
-
-            if not s_url and os.path.exists("1000tv.m3u"):
-                m_local = re.search(r'(http://[^\s]+:8888/1000miles_tv/index\.m3u8)', open("1000tv.m3u", encoding="utf-8").read())
-                if m_local:
-                    s_url = m_local.group(1)
-
-            if not s_url:
-                s_url = ch["url"]
-
-            print(f"🟢 [LOCAL]  {pad_display(name, 26)} -> Preserved ({s_url})")
-            results[name] = s_url
-            seen_urls.add(s_url)
-            continue
-
-        old_data = existing_streams.get(name)
-        if old_data:
-            is_ok, reason = health_results[idx]
-            if is_ok and old_data["stream_url"] not in seen_urls:
-                print(f"🟢 [KEEP]   {pad_display(name, 26)} -> {reason}")
-                results[name] = old_data["stream_url"]
-                seen_urls.add(old_data["stream_url"])
-                continue
-            else:
-                print(f"🟡 [UPDATE] {pad_display(name, 26)} -> {reason}")
+    print("🔄 Preparing full refresh for all channels (skipping old link health check)...")
+    for ch in channels:
+        name = ch.get("name", "Unknown")
+        fetcher = ch.get("fetcher", "")
+        if fetcher == "local_stream":
+            url = ch.get("url", "")
+            print(f"🟢 [LOCAL]  {name:<26} -> Preserved ({url})")
+            results[name] = url
         else:
-            print(f"🟡 [UPDATE] {pad_display(name, 26)} -> Missing from playlist")
-
-        to_fetch.append(ch)
+            to_fetch.append(ch)
 
     yt_tasks = [ch for ch in to_fetch if ch.get("fetcher") == "youtube_live"]
     safari_tasks = [ch for ch in to_fetch if ch.get("fetcher") != "youtube_live"]
 
     if yt_tasks:
-        print(f"\n🚀 Fetching {len(yt_channels)} YouTube Live channel(s) sequentially via Streamlink...")
-        import time as _time
-        for idx, ch in enumerate(yt_channels, 1):
+        print(f"\n🚀 Fetching {len(yt_tasks)} YouTube Live channel(s) sequentially via Streamlink...")
+        mod = importlib.import_module("fetchers.youtube_live")
+        for idx, ch in enumerate(yt_tasks, 1):
             name = ch.get("name", "Unknown")
             url = ch.get("url", "")
-            m3u8 = youtube_live.fetch(None, url, name)
+            m3u8 = mod.fetch(None, url, name)
             if m3u8:
-                print(f"✅ [{idx}/{len(yt_channels)}] Updated: {name}")
+                print(f"✅ [{idx}/{len(yt_tasks)}] Updated: {name}")
                 results[name] = m3u8
             else:
-                print(f"⚠️ [{idx}/{len(yt_channels)}] Failed: {name} (keeping previous fallback)")
+                print(f"⚠️ [{idx}/{len(yt_tasks)}] Failed: {name} (keeping previous fallback)")
                 if name in existing_streams:
-                    results[name] = existing_streams[name]
-            if idx < len(yt_channels):
-                _time.sleep(0.5)
-        def _run_yt(ch):
-            mod = importlib.import_module("fetchers.youtube_live")
-            return ch, mod.fetch(None, ch["url"], ch["name"], seen_urls)
+                    results[name] = existing_streams[name]["stream_url"]
+            if idx < len(yt_tasks):
+                time.sleep(0.5)
 
-        with ThreadPoolExecutor(max_workers=3) as ex:
-            futs = [ex.submit(_run_yt, ch) for ch in yt_tasks]
-            for fut in as_completed(futs):
-                ch, stream_url = fut.result()
-                name = ch["name"]
-                if stream_url and stream_url not in seen_urls:
-                    print(f"✅ Updated: {name}")
-                    results[name] = stream_url
-                    seen_urls.add(stream_url)
-                else:
-                    print(f"⚠️ Failed to fetch new stream: {name}")
-                    if name in existing_streams:
-                        print("   ↪ Keeping previous stream as fallback")
-                        results[name] = existing_streams[name]["stream_url"]
-
-    own_driver = False
     if safari_tasks:
         if driver is None:
             print(f"\n🌐 Launching Safari to update {len(safari_tasks)} channel(s)...")
