@@ -108,6 +108,24 @@ def check_stream_health(stream_url, referer):
     except Exception as e:
         return False, f"Connection failed ({type(e).__name__})"
 
+
+def _check_yt_expire(url, min_remaining_sec=3600):
+    m = re.search(r"/expire/(\d+)", url or "")
+    if not m:
+        return False, "No expire timestamp"
+    exp_ts = int(m.group(1))
+    now_ts = int(time.time())
+    rem = exp_ts - now_ts
+    exp_str = time.strftime("%H:%M", time.localtime(exp_ts))
+    if rem > min_remaining_sec:
+        hrs, mins = divmod(rem // 60, 60)
+        return True, f"Valid until {exp_str} ({hrs}h {mins}m left)"
+    elif rem > 0:
+        mins = rem // 60
+        return False, f"Expiring soon at {exp_str} ({mins}m left < 1h)"
+    else:
+        return False, f"Expired at {exp_str}"
+
 def run(force_update=False, driver=None):
     if not CHANNELS_FILE.exists():
         print("❌ Error: channels.json not found")
@@ -122,16 +140,66 @@ def run(force_update=False, driver=None):
     results = {}
     to_fetch = []
     seen_urls = set()
-    print("🔄 Preparing full refresh for all channels (skipping old link health check)...")
-    for ch in channels:
-        name = ch.get("name", "Unknown")
-        fetcher = ch.get("fetcher", "")
-        if fetcher == "local_stream":
-            url = ch.get("url", "")
-            print(f"🟢 [LOCAL]  {name:<26} -> Preserved ({url})")
-            results[name] = url
-        else:
-            to_fetch.append(ch)
+
+    if existing_streams:
+        print("🔍 Checking stream health & YouTube token expiration...")
+        safari_candidates = []
+        for ch in channels:
+            name = ch.get("name", "Unknown")
+            fetcher = ch.get("fetcher", "")
+            old_data = existing_streams.get(name)
+            old_url = old_data.get("stream_url", "") if old_data else ""
+
+            if fetcher == "local_stream":
+                url = ch.get("url", "")
+                print(f"🟢 [LOCAL]  {name:<26} -> Preserved ({url})")
+                results[name] = url
+            elif fetcher == "youtube_live":
+                if old_url:
+                    is_valid, msg = _check_yt_expire(old_url, min_remaining_sec=3600)
+                    if is_valid:
+                        print(f"🟢 [KEEP]   {name:<26} -> {msg}")
+                        results[name] = old_url
+                    else:
+                        print(f"🟡 [UPDATE] {name:<26} -> {msg}")
+                        to_fetch.append(ch)
+                else:
+                    print(f"🟡 [UPDATE] {name:<26} -> No existing stream")
+                    to_fetch.append(ch)
+            else:
+                if old_url:
+                    safari_candidates.append((ch, old_url))
+                else:
+                    print(f"🟡 [UPDATE] {name:<26} -> No existing stream")
+                    to_fetch.append(ch)
+
+        if safari_candidates:
+            with ThreadPoolExecutor(max_workers=10) as ex:
+                fut_map = {ex.submit(check_stream_health, url): (ch, url) for ch, url in safari_candidates}
+                for fut in as_completed(fut_map):
+                    ch, old_url = fut_map[fut]
+                    name = ch.get("name", "Unknown")
+                    try:
+                        healthy, reason = fut.result()
+                    except Exception as e:
+                        healthy, reason = False, str(e)
+                    if healthy:
+                        print(f"🟢 [KEEP]   {name:<26} -> Healthy")
+                        results[name] = old_url
+                        seen_urls.add(old_url)
+                    else:
+                        print(f"🟡 [UPDATE] {name:<26} -> {reason}")
+                        to_fetch.append(ch)
+    else:
+        print("🔄 Force update enabled: refreshing all non-local channels...")
+        for ch in channels:
+            name = ch.get("name", "Unknown")
+            if ch.get("fetcher") == "local_stream":
+                url = ch.get("url", "")
+                print(f"🟢 [LOCAL]  {name:<26} -> Preserved ({url})")
+                results[name] = url
+            else:
+                to_fetch.append(ch)
 
     yt_tasks = [ch for ch in to_fetch if ch.get("fetcher") == "youtube_live"]
     safari_tasks = [ch for ch in to_fetch if ch.get("fetcher") != "youtube_live"]
