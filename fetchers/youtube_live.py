@@ -7,19 +7,33 @@ FALLBACK_HANDLES = {
     "PU4emHQmC2o": "https://www.youtube.com/@SpongeBobOfficial/live",
 }
 
-def _extract_from_safari(driver, target_url, seen_urls, max_wait=8.0):
+def _to_mobile_url(url):
+    return url.replace("://www.youtube.com", "://m.youtube.com")
+
+def _extract_from_safari(driver, target_url, seen_urls, max_wait=10.0):
+    mobile_url = _to_mobile_url(target_url)
     try:
         driver.execute_script("performance.clearResourceTimings();")
     except Exception:
         pass
 
-    driver.get(target_url)
+    driver.get(mobile_url)
     elapsed = 0.0
     while elapsed < max_wait:
         time.sleep(0.5)
         elapsed += 0.5
         try:
-            # 1) ตรวจหา hlsManifestUrl จาก ytInitialPlayerResponse หรือ page source ทันทีที่โหลดติด
+            # 1) ตรวจหา .m3u8 จาก Network Resource (m.youtube.com บน Safari จะโหลด HLS .m3u8 ตรง ๆ)
+            candidates = driver.execute_script("""
+                return performance.getEntriesByType('resource')
+                    .map(r => r.name)
+                    .filter(u => u.includes('.m3u8'));
+            """) or []
+            for c in candidates:
+                if c not in seen_urls and "googlevideo.com" in c:
+                    return c
+
+            # 2) ตรวจหา hlsManifestUrl จากซอร์สโค้ดหน้าเว็บหรือ ytInitialPlayerResponse
             hls = driver.execute_script("""
                 try {
                     if (window.ytInitialPlayerResponse &&
@@ -29,23 +43,13 @@ def _extract_from_safari(driver, target_url, seen_urls, max_wait=8.0):
                     }
                 } catch (e) {}
                 const html = document.documentElement.innerHTML || "";
-                const m = html.match(/"hlsManifestUrl"\\s*:\\s*"([^"]+\\.m3u8[^"]*)"/);
-                return m ? m[1] : null;
+                const m = html.match(/https?:\\\\?\/\\\\?\/manifest\\.googlevideo\\.com\\\\?\/api\\\\?\/manifest\\\\?\/hls_variant[^"'\\s<>]+\\.m3u8[^"'\\s<>]*/);
+                return m ? m[0] : null;
             """)
             if hls:
                 clean_url = hls.replace("\\u0026", "&").replace("\\/", "/")
                 if clean_url not in seen_urls:
                     return clean_url
-
-            # 2) สำรอง: ดักจับจาก Network Resource (.m3u8)
-            candidates = driver.execute_script("""
-                return performance.getEntriesByType('resource')
-                    .map(r => r.name)
-                    .filter(u => u.includes('.m3u8'));
-            """) or []
-            for c in candidates:
-                if c not in seen_urls and "googlevideo.com" in c:
-                    return c
         except Exception:
             pass
     return None
