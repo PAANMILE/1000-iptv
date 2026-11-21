@@ -1,3 +1,4 @@
+import os
 import sys
 import subprocess
 
@@ -11,7 +12,7 @@ def _ytdlp_m3u8(target):
     for client in ["ios", "mweb"]:
         try:
             cmd = [
-                sys.executable, "-m", "yt_dlp",
+                *(["/usr/local/bin/yt-dlp"] if os.path.exists("/usr/local/bin/yt-dlp") else [sys.executable, "-m", "yt_dlp"]),
                 "--extractor-args", f"youtube:player_client={client}",
                 "--no-playlist",
                 "-g", "--no-warnings", target
