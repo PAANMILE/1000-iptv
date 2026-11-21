@@ -121,6 +121,7 @@ def run(force_update=False, driver=None):
         print("🔄 Force update mode enabled (--force)")
     results = {}
     to_fetch = []
+    seen_urls = set()
     print("🔄 Preparing full refresh for all channels (skipping old link health check)...")
     for ch in channels:
         name = ch.get("name", "Unknown")
