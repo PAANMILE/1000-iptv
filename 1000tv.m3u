@@ -10,11 +10,11 @@ https://nodelive.thaitv5hd.com/hls/tv5hdlive-for-thaitv5hdcom/master.m3u8
 #EXTINF:-1 tvg-chno="23" tvg-id="WORKPOINT.th" tvg-name="Workpoint 23" tvg-logo="https://raw.githubusercontent.com/PAANMILE/1000-iptv/main/logos/workpointtv.png" group-title="Digital TV",Workpoint 23
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.6 Safari/605.1.15
 #EXTVLCOPT:http-referrer=https://tv.trueid.net/
-https://cdn138.stm.trueid.net/p202aes/d83_multi_w_auto_tidapp.smil/playlist.m3u8?appid=trueid&type=live&visitor=web&drm=aes&uid=c1619d803a&did=YlFncGt5VmE5Q2dqTVRySURFY0VDS0tzUzBGRkJsS3k&mpass=nxCLXkk0yuf1o3kVp8J7B7zNKg5B3FC8nnmQznZkaFPFDJLiQxfP8QrHGLvwE46f82cFAkZPgnGeMshTl_IwObeVi4mUXlyCbnviEL-u014gICwfK4jpEwPD_ld5799wip0&sid=d34a2fd765&rt=1795232064&ds=25200&tk=OsxcVSqpyzkO0iLL7XeyUmnBba3EEfQnQzV7uYx-T48
+https://cdn143.stm.trueid.net/p202aes/d83_multi_w_auto_tidapp.smil/playlist.m3u8?appid=trueid&type=live&visitor=web&drm=aes&uid=1b210edfff&did=LWtvU2VyTHZLVldpRU1Ha2pwTUstOXdzZi10RW0yVmw&mpass=jSFpn-Q80OxMMPZQ7sYuDDLv-BC6ppfZetQaHNyswZ8gYnInbmg6rpijzvokGMvYpGTf7mzup6E5UjM9DtHS9T3d9YeVDNVKEu4CUfUdJ1cgILHVH01DFCDaGhTxQY2r1Lc&sid=baa7cb2771&rt=1795273000&ds=25200&tk=RC7Ax4QiB5qPxLAZ8aVCX4Fz5xwECeoyOSBG_RmOJ3E
 #EXTINF:-1 tvg-chno="24" tvg-id="TRUE4U.th" tvg-name="True4U" tvg-logo="https://raw.githubusercontent.com/PAANMILE/1000-iptv/main/logos/true4u.png" group-title="Digital TV",True4U
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.6 Safari/605.1.15
 #EXTVLCOPT:http-referrer=https://true4u.com/
-https://true4u-p4ljv2.cdn.byteark.com/live/playlist.m3u8?x_ark_access_id=fleet-1890&x_ark_auth_type=ark-v2&x_ark_expires=1795253667&x_ark_path_prefix=%2Flive%2F&x_ark_signature=nlw5D-RKcUBUdDBeHaWBpA
+https://true4u-p4ljv2.cdn.byteark.com/live/playlist.m3u8?x_ark_access_id=fleet-1890&x_ark_auth_type=ark-v2&x_ark_expires=1795294602&x_ark_path_prefix=%2Flive%2F&x_ark_signature=ZzuDbDRLOIboKHUWUAwIHA
 #EXTINF:-1 tvg-chno="25" tvg-id="GMM.th" tvg-name="GMM25" tvg-logo="https://raw.githubusercontent.com/PAANMILE/1000-iptv/main/logos/gmm25.png" group-title="Digital TV",GMM25
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.6 Safari/605.1.15
 #EXTVLCOPT:http-referrer=https://www.oned.net/
@@ -22,7 +22,7 @@ https://fastly.live.brightcove.com/6392745120112/ap-southeast-1/6415628290001/ey
 #EXTINF:-1 tvg-chno="27" tvg-id="CH8.th" tvg-name="ช่อง 8" tvg-logo="https://raw.githubusercontent.com/PAANMILE/1000-iptv/main/logos/ch8.png" group-title="Digital TV",ช่อง 8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.6 Safari/605.1.15
 #EXTVLCOPT:http-referrer=https://tv.trueid.net/
-https://cdn733.stm.trueid.net/p301aes/d62_multi_w_auto_tidapp.smil/playlist.m3u8?appid=trueid&type=live&visitor=web&drm=aes&uid=a10d182b10&did=WEhCd0stZFhDSjVndWM5T3pzTDNRZUhvNjNEczNsUW0&mpass=uJXPZfB__4s6w-_yU5Q5ztMHcsFx2d2EoEwY18RyKwNlD_qx1a4SIPSss7jWc1qn3UlBHLysjfny8A_ZgK9n3IBsvwYLfgCNDrtC7jfxY6EgIHuomskXpOC2otKgVJEGuXc&sid=ab0c1dd372&rt=1795232078&ds=25200&tk=ZPGw5G_3MqNS-dwrhOs5CXkLgyItxZkKiznnVp7T4E0
+https://cdn139.stm.trueid.net/p301aes/d62_multi_w_auto_tidapp.smil/playlist.m3u8?appid=trueid&type=live&visitor=web&drm=aes&uid=35a6e9871c&did=VGdPSkpWcktCRml6TmtGSEVzaG5nbjJnYnQyem03dlI&mpass=NwrMuVuJQyny0w_4_56wWFR8ugxgd8Ov9dHXT6-Mf0YdR--M91stttaYuuHHIGcDy3kHZSvoc8I2psqMi88GDELTVIVCrsTxtkbEKoL0yaEgINZRIM3l58u3-FIqsqrRAB8&sid=715540e9b1&rt=1795273011&ds=25200&tk=pwWqgkylt5BHQGtZ3wd3Iy4JX7pJW23yBfbES4FJs_w
 #EXTINF:-1 tvg-chno="30" tvg-id="MCOT.HD.th" tvg-name="9 MCOT HD" tvg-logo="https://raw.githubusercontent.com/PAANMILE/1000-iptv/main/logos/9mcot-hd.png" group-title="Digital TV",9 MCOT HD
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.6 Safari/605.1.15
 #EXTVLCOPT:http-referrer=https://tv.mcot.net/
@@ -34,7 +34,7 @@ https://fastly.live.brightcove.com/6393158620112/ap-southeast-1/6415628290001/ey
 #EXTINF:-1 tvg-chno="33" tvg-id="3HD.th" tvg-name="3HD" tvg-logo="https://raw.githubusercontent.com/PAANMILE/1000-iptv/main/logos/ch3-hd.png" group-title="Digital TV",3HD
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.6 Safari/605.1.15
 #EXTVLCOPT:http-referrer=https://ch3plus.com/
-https://ch3-33-web.cdn.byteark.com/live/playlist.m3u8?x_ark_access_id=D78MkxZFEr5Zr9PE&x_ark_auth_type=ark-v2&x_ark_expires=1795274102&x_ark_max_resolution=720p&x_ark_path_prefix=/live/&x_ark_signature=WvsETkngBjxrGsuanJ4CDA
+https://ch3-33-web.cdn.byteark.com/live/playlist.m3u8?x_ark_access_id=D78MkxZFEr5Zr9PE&x_ark_auth_type=ark-v2&x_ark_expires=1795315802&x_ark_max_resolution=720p&x_ark_path_prefix=/live/&x_ark_signature=f-h5cc1k9--CgqhOlVrdKg
 #EXTINF:-1 tvg-chno="34" tvg-id="AMARIN.th" tvg-name="อมรินทร์ทีวี เอชดี 34" tvg-logo="https://raw.githubusercontent.com/PAANMILE/1000-iptv/main/logos/amarintv-hd.png" group-title="Digital TV",อมรินทร์ทีวี เอชดี 34
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.6 Safari/605.1.15
 #EXTVLCOPT:http-referrer=https://www.amarintv.com/
@@ -46,7 +46,7 @@ https://live-cdn.ch7.com/out/v1/eafeb02c55b64a15b278b1e66c7fc776/playlist.m3u8
 #EXTINF:-1 tvg-chno="36" tvg-id="PPTV.HD.th" tvg-name="PPTV HD 36" tvg-logo="https://raw.githubusercontent.com/PAANMILE/1000-iptv/main/logos/pptv-hd.png" group-title="Digital TV",PPTV HD 36
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.6 Safari/605.1.15
 #EXTVLCOPT:http-referrer=https://tv.trueid.net/
-https://cdn142.stm.trueid.net/p101aes/da7_multi_w_auto_tidapp.smil/playlist.m3u8?appid=trueid&type=live&visitor=web&drm=aes&uid=8edb60b884&did=SE1WYV81YW1HeFV3MzVQcGNSd0h0MXhHb3R5bHQ1Q0E&mpass=wgNpEtTgFo0ryroRf6W0jPV6gNlugt6Fyjho1ju2b9-OfL_Hw6PX5RyyRlir5aGod2rwn08jhG_i4etx20yf_RUNLWbkTeY2qd8P80Hp32wgIEHyAkOnmtoiTaQIvcRj_HA&sid=651da46e78&rt=1795232115&ds=25200&tk=bDmQOUg0Ee3cohvG8gXucSizvr5S0-Nias0e0Ez6UMc
+https://cdn145.stm.trueid.net/p101aes/da7_multi_w_auto_tidapp.smil/playlist.m3u8?appid=trueid&type=live&visitor=web&drm=aes&uid=b2a3bf4a67&did=UDRwQWpmczBHVW1FaG5iV0RLZnhSNFlveHhxSTdEY08&mpass=uGRSifaya2MSa2fhSf-RTa4n9nj-a7V6yQYrNY1GEdnrH_91Ucb0FzJNyXJjxlD4JPQuXgbbqU0n6JYbYnxC9oMFTBC8iv-KYR33ilPYR-UgIEtRNfd0A7mlHN19g7SgQS8&sid=e6d5639e5d&rt=1795273036&ds=25200&tk=Spgcs57134xNO77UFLyPSs0A9UyZR7HBiZzfqqfXCns
 #EXTINF:-1 tvg-chno="222" tvg-id="KBSKorea.yt" tvg-name="KBS Korea" tvg-logo="https://raw.githubusercontent.com/PAANMILE/1000-iptv/main/logos/kbskorea.png" group-title="Entertainment",KBS Korea
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.6 Safari/605.1.15
 #EXTVLCOPT:http-referrer=https://www.youtube.com/
@@ -58,11 +58,11 @@ https://manifest.googlevideo.com/api/manifest/hls_playlist/expire/1795253640/ei/
 #EXTINF:-1 tvg-chno="333" tvg-id="Boomerang.(Thai).th" tvg-name="Boomerang" tvg-logo="https://raw.githubusercontent.com/PAANMILE/1000-iptv/main/logos/boomerang-hd.png" group-title="Kids",Boomerang
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.6 Safari/605.1.15
 #EXTVLCOPT:http-referrer=https://tv.trueid.net/
-https://cdn733.stm.trueid.net/p202aes/i007_multi_w_auto_tidapp.smil/playlist.m3u8?appid=trueid&type=live&visitor=web&drm=aes&uid=2aaaaa8d2c&did=dkR5Y3p0QnZSVnFMM2pGeF9SaDJJOXR2WHB2aHpoUm4&mpass=Ob2srtajwt5Ihciijjnx37QP_n0ZumE_yrfOrTZtnT0fqze_DGFDopJZKRVFaStQnyQeOW4xU2s05DpJF2cvzfVp78qHVUZLehuzX38Tka-Uk4aMyZv5ueb1NBXgGMsoICCR6TKTsDhMlRy_hwvUrk4x&sid=73cce6f54c&rt=1795232123&ds=25200&tk=dw3bH07WQJSaT6Uq0oA2TlD4g2ec9UfME30IDjY73JM
+https://cdn734.stm.trueid.net/p202aes/i007_multi_w_auto_tidapp.smil/playlist.m3u8?appid=trueid&type=live&visitor=web&drm=aes&uid=26815e0ea7&did=Y1BMcWNYSEpFYnBieEVzZTlqQkEwQkRBemJUSUlvbXQ&mpass=ORxIV-UTMA4EB2owWHUHFqt43WdZhVu-w6KU69H9ldmRkvAj4OiWdUHMJCFffjk22ne6mkCexfR-Zh0D7xeOW8YZ6IGYq1WCRvuXMSufJr_PuS8rIg82w6y-tTaKsGPTICAucZ-ND2_yOgIWfF3n8vhj&sid=60b10611bc&rt=1795273044&ds=25200&tk=xbCHw3UQOSv08V38pCBKv1wfhH0iBuiIMvexRSwLAj0
 #EXTINF:-1 tvg-chno="334" tvg-id="CartoonClub.th" tvg-name="Cartoon Club" tvg-logo="https://raw.githubusercontent.com/PAANMILE/1000-iptv/main/logos/tid-cartoon-club-channel.png" group-title="Kids",Cartoon Club
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.6 Safari/605.1.15
 #EXTVLCOPT:http-referrer=https://tv.trueid.net/
-https://cdn733.stm.trueid.net/p201dai/143_multi_w_auto_tidapp.smil/playlist.m3u8?appid=trueid&type=live&visitor=web&drm=aes&uid=abf77d3e7a&did=YUZWZ2ctd0ZKR3l0M2hwT0JaT3YtcTNUWGRXSk5mVUU&mpass=cv0IA9s0HWKV4GdNrybFC7Lb45XyO7MP48OoUKVQeSZIbLIS5yZrq_cpi1nnDeYm8KBAOKXExhZx-WYfofKSrYwGspooq_dmvZxuWJYal-EgIGVTusU1zZeJ71zRqmTNmLw&sid=69ca36616e&rt=1795232130&ds=25200&tk=cI7Q7ABVvyN1_vJjoC8LU5ypB0grORGqQU7uA1wViLk
+https://cdn139.stm.trueid.net/p201dai/143_multi_w_auto_tidapp.smil/playlist.m3u8?appid=trueid&type=live&visitor=web&drm=aes&uid=90e7eb9b3f&did=dU9RcE1TazdvWFMzSmdBQWo4WVd3amtJOTJNenJPLTI&mpass=JpQmzyHC5O0wKrTaYTJlHo0IP--9gSNcHh_ShXEWWdoGU6m_8WOf3b8d-ELJZW6RFO8GK1qKWWb1PQP9eksV0UPZw5KLicrdkM-eCdqpppcgIB9LRd1Zu90JkBuioggxYXE&sid=7f120332e5&rt=1795273051&ds=25200&tk=PobJ3GY7N5JX2Ule3jNgYwS2ywTFHvejTEHc9bBT70c
 #EXTINF:-1 tvg-chno="335" tvg-id="DisneyChannelAnimation.yt" tvg-name="Disney Channel Animation" tvg-logo="https://raw.githubusercontent.com/PAANMILE/1000-iptv/main/logos/disneychannelanimation.png" group-title="Kids",Disney Channel Animation
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.6 Safari/605.1.15
 #EXTVLCOPT:http-referrer=https://www.youtube.com/
