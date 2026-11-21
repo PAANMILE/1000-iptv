@@ -183,12 +183,12 @@ def run(force_update=False, driver=None):
     safari_tasks = [ch for ch in to_fetch if ch.get("fetcher") != "youtube_live"]
 
     if yt_tasks:
-        print(f"\n🚀 Fetching {len(yt_tasks)} YouTube Live channel(s) in parallel (5 threads)...")
+        print(f"\n🚀 Fetching {len(yt_tasks)} YouTube Live channel(s) in parallel (3 threads)...")
         def _run_yt(ch):
             mod = importlib.import_module("fetchers.youtube_live")
             return ch, mod.fetch(None, ch["url"], ch["name"], seen_urls)
 
-        with ThreadPoolExecutor(max_workers=5) as ex:
+        with ThreadPoolExecutor(max_workers=3) as ex:
             futs = [ex.submit(_run_yt, ch) for ch in yt_tasks]
             for fut in as_completed(futs):
                 ch, stream_url = fut.result()
