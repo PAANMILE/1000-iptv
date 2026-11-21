@@ -59,7 +59,7 @@ def load_existing_streams():
 def get_token_expiry(stream_url):
     parsed = urlparse(stream_url)
     qs = parse_qs(parsed.query)
-    for key in ["x_ark_expires", "expires", "exp", "end", "validto"]:
+    for key in ["x_ark_expires", "expires", "expire", "exp", "end", "validto"]:
         if key in qs:
             try:
                 val = int(qs[key][0])
@@ -98,7 +98,7 @@ def check_stream_health(stream_url, referer):
             "Referer": referer or "https://tv.trueid.net/"
         }
         req = Request(stream_url, headers=headers)
-        with urlopen(req, timeout=8, context=ctx) as resp:
+        with urlopen(req, timeout=4, context=ctx) as resp:
             if resp.status != 200:
                 return False, f"HTTP {resp.status}"
             body = resp.read(2048).decode("utf-8", errors="ignore")
@@ -126,16 +126,30 @@ def run(force_update=False, driver=None):
     to_fetch = []
     seen_urls = set()
 
-    for ch in channels:
+    health_results = {}
+    to_check = []
+    for idx, ch in enumerate(channels):
+        name = ch["name"]
+        if ch.get("fetcher") == "local_stream":
+            continue
+        old_data = existing_streams.get(name)
+        if old_data:
+            to_check.append((idx, ch, old_data["stream_url"], get_referer(ch["url"])))
+
+    if to_check:
+        with ThreadPoolExecutor(max_workers=10) as ex:
+            futs = {ex.submit(check_stream_health, s_url, ref): idx for idx, ch, s_url, ref in to_check}
+            for fut in as_completed(futs):
+                health_results[futs[fut]] = fut.result()
+
+    for idx, ch in enumerate(channels):
         name = ch["name"]
         if ch.get("fetcher") == "local_stream":
             existing_entry = existing_streams.get(name)
             if isinstance(existing_entry, dict):
                 s_url = existing_entry.get("stream_url", "")
-                ref_url = existing_entry.get("referer", ch.get("referer", ""))
             else:
                 s_url = existing_entry or ""
-                ref_url = ch.get("referer", "")
 
             if not s_url and os.path.exists("1000tv.m3u"):
                 m_local = re.search(r'(http://[^\s]+:8888/1000miles_tv/index\.m3u8)', open("1000tv.m3u", encoding="utf-8").read())
@@ -145,16 +159,14 @@ def run(force_update=False, driver=None):
             if not s_url:
                 s_url = ch["url"]
 
-            preserved_entry = {"stream_url": s_url, "referer": ref_url}
             print(f"🟢 [LOCAL]  {pad_display(name, 26)} -> Preserved ({s_url})")
             results[name] = s_url
             seen_urls.add(s_url)
             continue
-        expected_ref = get_referer(ch["url"])
-        old_data = existing_streams.get(name)
 
+        old_data = existing_streams.get(name)
         if old_data:
-            is_ok, reason = check_stream_health(old_data["stream_url"], expected_ref)
+            is_ok, reason = health_results[idx]
             if is_ok and old_data["stream_url"] not in seen_urls:
                 print(f"🟢 [KEEP]   {pad_display(name, 26)} -> {reason}")
                 results[name] = old_data["stream_url"]
