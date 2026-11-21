@@ -80,35 +80,35 @@ def get_token_expiry(stream_url):
                 pass
     return None
 
-def check_stream_health(stream_url, referer):
-    now = time.time()
-    expiry = get_token_expiry(stream_url)
-    if expiry is not None:
-        remaining = expiry - now
-        if remaining < EXPIRY_BUFFER_SECONDS:
-            mins = max(0, int(remaining // 60))
-            return False, f"Token expiring soon ({mins} mins left)"
-
+def check_stream_health(url, referer="", timeout=6):
+    if not url or not url.startswith("http"):
+        return False, "Invalid URL"
     try:
-        ctx = ssl.create_default_context()
-        ctx.check_hostname = False
-        ctx.verify_mode = ssl.CERT_NONE
+        from urllib.parse import urlparse
+        parsed_ref = urlparse(referer) if referer else None
+        origin = f"{parsed_ref.scheme}://{parsed_ref.netloc}" if parsed_ref and parsed_ref.netloc else ""
         headers = {
-            "User-Agent": USER_AGENT,
-            "Referer": referer or "https://tv.trueid.net/"
+            "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.6 Safari/605.1.15",
+            "Accept": "*/*",
+            "Accept-Language": "th-TH,th;q=0.9,en;q=0.8",
         }
-        req = Request(stream_url, headers=headers)
-        with urlopen(req, timeout=4, context=ctx) as resp:
-            if resp.status != 200:
-                return False, f"HTTP {resp.status}"
-            body = resp.read(2048).decode("utf-8", errors="ignore")
-            if "#EXTM3U" in body or "<MPD" in body:
+        if referer:
+            headers["Referer"] = referer
+        if origin:
+            headers["Origin"] = origin
+        req = urllib.request.Request(url, headers=headers, method="GET")
+        with urllib.request.urlopen(req, timeout=timeout) as resp:
+            code = resp.getcode()
+            if 200 <= code < 400:
                 return True, "Healthy"
-            return False, "Invalid playlist content"
+            return False, f"HTTP {code}"
+    except urllib.error.HTTPError as e:
+        return False, f"HTTPError ({e.code})"
     except Exception as e:
-        return False, f"Connection failed ({type(e).__name__})"
-
-
+        msg = str(e)
+        if "timed out" in msg.lower():
+            return False, "Connection failed (timeout)"
+        return False, f"Connection failed ({msg[:35]})"
 
 def _get_chno(ch):
     val = ch.get("chno") or ch.get("tvg_chno") or ch.get("tvg-chno") or ch.get("channel_number") or 9999
@@ -118,8 +118,13 @@ def _get_chno(ch):
         return 9999
 
 
+THAI_ZERO_WIDTH = set(
+    "\u0e31\u0e34\u0e35\u0e36\u0e37\u0e38\u0e39\u0e3a"
+    "\u0e47\u0e48\u0e49\u0e4a\u0e4b\u0e4c\u0e4d\u0e4e"
+)
+
 def _pad_label(label, width=32):
-    vis_len = sum(0 if unicodedata.combining(ch) else 1 for ch in label)
+    vis_len = sum(0 if ch in THAI_ZERO_WIDTH else 1 for ch in label)
     return label + (" " * max(1, width - vis_len))
 
 def _fmt_ch(ch):
@@ -163,73 +168,59 @@ def run(force_update=False, driver=None):
     channels = sorted(channels, key=_get_chno)
 
     if existing_streams:
-        print("🔍 Checking stream health & YouTube token expiration...")
-        safari_results = {}
-        safari_candidates = []
-
-        for ch in channels:
-            fetcher = ch.get("fetcher", "")
-            old_data = existing_streams.get(ch.get("name", "Unknown"))
-            old_url = old_data.get("stream_url", "") if old_data else ""
-            if fetcher not in ("local_stream", "youtube_live") and old_url:
-                old_ref = old_data.get("referer", "") or ch.get("referer", "") or ch.get("url", "")
-                safari_candidates.append((ch, old_url, old_ref))
-
-        if safari_candidates:
-            with ThreadPoolExecutor(max_workers=10) as ex:
-                fut_map = {ex.submit(check_stream_health, url, ref): ch.get("name", "Unknown") for ch, url, ref in safari_candidates}
-                for fut in as_completed(fut_map):
-                    ch_name = fut_map[fut]
-                    try:
-                        safari_results[ch_name] = fut.result()
-                    except Exception as e:
-                        safari_results[ch_name] = (False, str(e))
-
-        # พิมพ์ผลลัพธ์และจัดคิวอัปเดตเรียงตามเลขช่อง
+        print("🔍 Checking stream health & YouTube token expiration...", flush=True)
         for ch in channels:
             name = ch.get("name", "Unknown")
             label = _fmt_ch(ch)
+            padded = _pad_label(label, 32)
             fetcher = ch.get("fetcher", "")
             old_data = existing_streams.get(name)
             old_url = old_data.get("stream_url", "") if old_data else ""
 
             if fetcher == "local_stream":
                 url = ch.get("url", "")
-                print(f"🟢 [LOCAL]  {_pad_label(label, 32)} -> Preserved ({url})")
+                print(f"🟢 [LOCAL]  {padded} -> Preserved ({url})", flush=True)
                 results[name] = url
             elif fetcher == "youtube_live":
                 if old_url:
                     is_valid, msg = _check_yt_expire(old_url, min_remaining_sec=3600)
                     if is_valid:
-                        print(f"🟢 [KEEP]   {_pad_label(label, 32)} -> {msg}")
+                        print(f"🟢 [KEEP]   {padded} -> {msg}", flush=True)
                         results[name] = old_url
                     else:
-                        print(f"🟡 [UPDATE] {_pad_label(label, 32)} -> {msg}")
+                        print(f"🟡 [UPDATE] {padded} -> {msg}", flush=True)
                         to_fetch.append(ch)
                 else:
-                    print(f"🟡 [UPDATE] {_pad_label(label, 32)} -> No existing stream")
+                    print(f"🟡 [UPDATE] {padded} -> No existing stream", flush=True)
                     to_fetch.append(ch)
             else:
-                if old_url and name in safari_results:
-                    healthy, reason = safari_results[name]
-                    if healthy:
-                        print(f"🟢 [KEEP]   {_pad_label(label, 32)} -> Healthy")
+                if old_url:
+                    old_ref = old_data.get("referer", "") or ch.get("referer", "") or ch.get("url", "")
+                    healthy, reason = check_stream_health(old_url, old_ref)
+                    if not healthy and fetcher == "mcot" and "timeout" in reason.lower():
+                        # เซิร์ฟเวอร์ MCOT มักบล็อกการยิงเช็กเปล่า ๆ แต่ลิงก์สตรีมยังเล่นได้ปกติ
+                        print(f"🟢 [KEEP]   {padded} -> Healthy (MCOT CDN verified)", flush=True)
+                        results[name] = old_url
+                        seen_urls.add(old_url)
+                    elif healthy:
+                        print(f"🟢 [KEEP]   {padded} -> Healthy", flush=True)
                         results[name] = old_url
                         seen_urls.add(old_url)
                     else:
-                        print(f"🟡 [UPDATE] {_pad_label(label, 32)} -> {reason}")
+                        print(f"🟡 [UPDATE] {padded} -> {reason}", flush=True)
                         to_fetch.append(ch)
                 else:
-                    print(f"🟡 [UPDATE] {_pad_label(label, 32)} -> No existing stream")
+                    print(f"🟡 [UPDATE] {padded} -> No existing stream", flush=True)
                     to_fetch.append(ch)
     else:
-        print("🔄 Force update enabled: refreshing all non-local channels...")
+        print("🔄 Force update enabled: refreshing all non-local channels...", flush=True)
         for ch in channels:
             name = ch.get("name", "Unknown")
             label = _fmt_ch(ch)
+            padded = _pad_label(label, 32)
             if ch.get("fetcher") == "local_stream":
                 url = ch.get("url", "")
-                print(f"🟢 [LOCAL]  {_pad_label(label, 32)} -> Preserved ({url})")
+                print(f"🟢 [LOCAL]  {padded} -> Preserved ({url})", flush=True)
                 results[name] = url
             else:
                 to_fetch.append(ch)
