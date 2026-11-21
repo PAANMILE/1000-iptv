@@ -120,7 +120,16 @@ def run(force_update=False, driver=None):
     if force_update:
         print("🔄 Force update mode enabled (--force)")
     else:
-        print("🔍 Checking stream health and token expiration...")
+        print("🔄 Preparing full refresh for all channels (skipping old link health check)...")
+        for ch in channels:
+            name = ch.get("name", "Unknown")
+            fetcher = ch.get("fetcher", "")
+            if fetcher == "local_stream":
+                url = ch.get("url", "")
+                print(f"🟢 [LOCAL]  {name:<26} -> Preserved ({url})")
+                results[name] = url
+            else:
+                to_update.append(ch)
 
     results = {}
     to_fetch = []
@@ -183,7 +192,21 @@ def run(force_update=False, driver=None):
     safari_tasks = [ch for ch in to_fetch if ch.get("fetcher") != "youtube_live"]
 
     if yt_tasks:
-        print(f"\n🚀 Fetching {len(yt_tasks)} YouTube Live channel(s) in parallel (3 threads)...")
+        print(f"\n🚀 Fetching {len(yt_channels)} YouTube Live channel(s) sequentially via Streamlink...")
+        import time as _time
+        for idx, ch in enumerate(yt_channels, 1):
+            name = ch.get("name", "Unknown")
+            url = ch.get("url", "")
+            m3u8 = youtube_live.fetch(None, url, name)
+            if m3u8:
+                print(f"✅ [{idx}/{len(yt_channels)}] Updated: {name}")
+                results[name] = m3u8
+            else:
+                print(f"⚠️ [{idx}/{len(yt_channels)}] Failed: {name} (keeping previous fallback)")
+                if name in existing_streams:
+                    results[name] = existing_streams[name]
+            if idx < len(yt_channels):
+                _time.sleep(0.5)
         def _run_yt(ch):
             mod = importlib.import_module("fetchers.youtube_live")
             return ch, mod.fetch(None, ch["url"], ch["name"], seen_urls)
