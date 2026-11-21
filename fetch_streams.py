@@ -109,6 +109,19 @@ def check_stream_health(stream_url, referer):
         return False, f"Connection failed ({type(e).__name__})"
 
 
+
+def _get_chno(ch):
+    val = ch.get("chno") or ch.get("tvg_chno") or ch.get("tvg-chno") or ch.get("channel_number") or 9999
+    try:
+        return int(val)
+    except (ValueError, TypeError):
+        return 9999
+
+def _fmt_ch(ch):
+    c = _get_chno(ch)
+    name = ch.get("name", "Unknown")
+    return f"[{c:03d}] {name}" if c != 9999 else f"[---] {name}"
+
 def _check_yt_expire(url, min_remaining_sec=3600):
     m = re.search(r"/expire/(\d+)", url or "")
     if not m:
@@ -141,63 +154,77 @@ def run(force_update=False, driver=None):
     to_fetch = []
     seen_urls = set()
 
+    # เรียงรายการช่องทั้งหมดตามเลขช่อง (chno)
+    channels = sorted(channels, key=_get_chno)
+
     if existing_streams:
-        print("🔍 Checking stream health & YouTube token expiration...")
+        print("🔍 Checking stream health & YouTube token expiration (sorted by channel number)...")
+        safari_results = {}
         safari_candidates = []
+
+        for ch in channels:
+            fetcher = ch.get("fetcher", "")
+            old_data = existing_streams.get(ch.get("name", "Unknown"))
+            old_url = old_data.get("stream_url", "") if old_data else ""
+            if fetcher not in ("local_stream", "youtube_live") and old_url:
+                old_ref = old_data.get("referer", "") or ch.get("referer", "") or ch.get("url", "")
+                safari_candidates.append((ch, old_url, old_ref))
+
+        if safari_candidates:
+            with ThreadPoolExecutor(max_workers=10) as ex:
+                fut_map = {ex.submit(check_stream_health, url, ref): ch.get("name", "Unknown") for ch, url, ref in safari_candidates}
+                for fut in as_completed(fut_map):
+                    ch_name = fut_map[fut]
+                    try:
+                        safari_results[ch_name] = fut.result()
+                    except Exception as e:
+                        safari_results[ch_name] = (False, str(e))
+
+        # พิมพ์ผลลัพธ์และจัดคิวอัปเดตเรียงตามเลขช่อง
         for ch in channels:
             name = ch.get("name", "Unknown")
+            label = _fmt_ch(ch)
             fetcher = ch.get("fetcher", "")
             old_data = existing_streams.get(name)
             old_url = old_data.get("stream_url", "") if old_data else ""
 
             if fetcher == "local_stream":
                 url = ch.get("url", "")
-                print(f"🟢 [LOCAL]  {name:<26} -> Preserved ({url})")
+                print(f"🟢 [LOCAL]  {label:<32} -> Preserved ({url})")
                 results[name] = url
             elif fetcher == "youtube_live":
                 if old_url:
                     is_valid, msg = _check_yt_expire(old_url, min_remaining_sec=3600)
                     if is_valid:
-                        print(f"🟢 [KEEP]   {name:<26} -> {msg}")
+                        print(f"🟢 [KEEP]   {label:<32} -> {msg}")
                         results[name] = old_url
                     else:
-                        print(f"🟡 [UPDATE] {name:<26} -> {msg}")
+                        print(f"🟡 [UPDATE] {label:<32} -> {msg}")
                         to_fetch.append(ch)
                 else:
-                    print(f"🟡 [UPDATE] {name:<26} -> No existing stream")
+                    print(f"🟡 [UPDATE] {label:<32} -> No existing stream")
                     to_fetch.append(ch)
             else:
-                if old_url:
-                    old_ref = old_data.get("referer", "") or ch.get("referer", "") or ch.get("url", "")
-                    safari_candidates.append((ch, old_url, old_ref))
-                else:
-                    print(f"🟡 [UPDATE] {name:<26} -> No existing stream")
-                    to_fetch.append(ch)
-
-        if safari_candidates:
-            with ThreadPoolExecutor(max_workers=10) as ex:
-                fut_map = {ex.submit(check_stream_health, url, ref): (ch, url) for ch, url, ref in safari_candidates}
-                for fut in as_completed(fut_map):
-                    ch, old_url = fut_map[fut]
-                    name = ch.get("name", "Unknown")
-                    try:
-                        healthy, reason = fut.result()
-                    except Exception as e:
-                        healthy, reason = False, str(e)
+                if old_url and name in safari_results:
+                    healthy, reason = safari_results[name]
                     if healthy:
-                        print(f"🟢 [KEEP]   {name:<26} -> Healthy")
+                        print(f"🟢 [KEEP]   {label:<32} -> Healthy")
                         results[name] = old_url
                         seen_urls.add(old_url)
                     else:
-                        print(f"🟡 [UPDATE] {name:<26} -> {reason}")
+                        print(f"🟡 [UPDATE] {label:<32} -> {reason}")
                         to_fetch.append(ch)
+                else:
+                    print(f"🟡 [UPDATE] {label:<32} -> No existing stream")
+                    to_fetch.append(ch)
     else:
-        print("🔄 Force update enabled: refreshing all non-local channels...")
+        print("🔄 Force update enabled: refreshing all non-local channels (sorted by channel number)...")
         for ch in channels:
             name = ch.get("name", "Unknown")
+            label = _fmt_ch(ch)
             if ch.get("fetcher") == "local_stream":
                 url = ch.get("url", "")
-                print(f"🟢 [LOCAL]  {name:<26} -> Preserved ({url})")
+                print(f"🟢 [LOCAL]  {label:<32} -> Preserved ({url})")
                 results[name] = url
             else:
                 to_fetch.append(ch)
@@ -210,13 +237,14 @@ def run(force_update=False, driver=None):
         mod = importlib.import_module("fetchers.youtube_live")
         for idx, ch in enumerate(yt_tasks, 1):
             name = ch.get("name", "Unknown")
+            label = _fmt_ch(ch)
             url = ch.get("url", "")
             m3u8 = mod.fetch(None, url, name)
             if m3u8:
-                print(f"✅ [{idx}/{len(yt_tasks)}] Updated: {name}")
+                print(f"✅ [{idx}/{len(yt_tasks)}] Updated: {label}")
                 results[name] = m3u8
             else:
-                print(f"⚠️ [{idx}/{len(yt_tasks)}] Failed: {name} (keeping previous fallback)")
+                print(f"⚠️ [{idx}/{len(yt_tasks)}] Failed: {label} (keeping previous fallback)")
                 if name in existing_streams:
                     results[name] = existing_streams[name]["stream_url"]
             if idx < len(yt_tasks):
