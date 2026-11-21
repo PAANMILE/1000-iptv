@@ -168,14 +168,15 @@ def run(force_update=False, driver=None):
                     to_fetch.append(ch)
             else:
                 if old_url:
-                    safari_candidates.append((ch, old_url))
+                    old_ref = old_data.get("referer", "") or ch.get("referer", "") or ch.get("url", "")
+                    safari_candidates.append((ch, old_url, old_ref))
                 else:
                     print(f"🟡 [UPDATE] {name:<26} -> No existing stream")
                     to_fetch.append(ch)
 
         if safari_candidates:
             with ThreadPoolExecutor(max_workers=10) as ex:
-                fut_map = {ex.submit(check_stream_health, url): (ch, url) for ch, url in safari_candidates}
+                fut_map = {ex.submit(check_stream_health, url, ref): (ch, url) for ch, url, ref in safari_candidates}
                 for fut in as_completed(fut_map):
                     ch, old_url = fut_map[fut]
                     name = ch.get("name", "Unknown")
