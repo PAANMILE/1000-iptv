@@ -179,29 +179,7 @@ def run(force_update=False, driver=None):
 
         to_fetch.append(ch)
 
-    yt_tasks = [ch for ch in to_fetch if ch.get("fetcher") == "youtube_live"]
-    safari_tasks = [ch for ch in to_fetch if ch.get("fetcher") != "youtube_live"]
-
-    if yt_tasks:
-        print(f"\n🚀 Fetching {len(yt_tasks)} YouTube Live channel(s) in parallel (5 threads)...")
-        def _run_yt(ch):
-            mod = importlib.import_module("fetchers.youtube_live")
-            return ch, mod.fetch(None, ch["url"], ch["name"], seen_urls)
-
-        with ThreadPoolExecutor(max_workers=5) as ex:
-            futs = [ex.submit(_run_yt, ch) for ch in yt_tasks]
-            for fut in as_completed(futs):
-                ch, stream_url = fut.result()
-                name = ch["name"]
-                if stream_url and stream_url not in seen_urls:
-                    print(f"✅ Updated: {name}")
-                    results[name] = stream_url
-                    seen_urls.add(stream_url)
-                else:
-                    print(f"⚠️ Failed to fetch new stream: {name}")
-                    if name in existing_streams:
-                        print("   ↪ Keeping previous stream as fallback")
-                        results[name] = existing_streams[name]["stream_url"]
+    safari_tasks = list(to_fetch)
 
     own_driver = False
     if safari_tasks:
