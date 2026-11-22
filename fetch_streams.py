@@ -86,13 +86,15 @@ def check_stream_health(url, referer="", timeout=6):
     if not url or not url.startswith("http"):
         return False, "Invalid URL"
     try:
+        import gzip
         from urllib.parse import urlparse
         parsed_ref = urlparse(referer) if referer else None
         origin = f"{parsed_ref.scheme}://{parsed_ref.netloc}" if parsed_ref and parsed_ref.netloc else ""
         headers = {
             "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.6 Safari/605.1.15",
-            "Accept": "*/*",
+            "Accept": "application/vnd.apple.mpegurl, application/x-mpegurl, */*",
             "Accept-Language": "th-TH,th;q=0.9,en;q=0.8",
+            "Accept-Encoding": "gzip, identity",
         }
         if referer:
             headers["Referer"] = referer
@@ -101,9 +103,18 @@ def check_stream_health(url, referer="", timeout=6):
         req = urllib.request.Request(url, headers=headers, method="GET")
         with urllib.request.urlopen(req, timeout=timeout) as resp:
             code = resp.getcode()
-            if 200 <= code < 400:
+            if not (200 <= code < 400):
+                return False, f"HTTP {code}"
+            raw = resp.read(1024)
+            if resp.headers.get("Content-Encoding") == "gzip" or raw[:2] == b"\x1f\x8b":
+                try:
+                    raw = gzip.decompress(raw)
+                except Exception:
+                    pass
+            body = raw.decode("utf-8", errors="ignore")
+            if "#EXTM3U" in body:
                 return True, "Healthy"
-            return False, f"HTTP {code}"
+            return False, "Expired/Empty M3U8"
     except urllib.error.HTTPError as e:
         return False, f"HTTPError ({e.code})"
     except Exception as e:
@@ -199,12 +210,7 @@ def run(force_update=False, driver=None):
                 if old_url:
                     old_ref = old_data.get("referer", "") or ch.get("referer", "") or ch.get("url", "")
                     healthy, reason = check_stream_health(old_url, old_ref)
-                    if not healthy and fetcher == "mcot" and "timeout" in reason.lower():
-                        # เซิร์ฟเวอร์ MCOT มักบล็อกการยิงเช็กเปล่า ๆ แต่ลิงก์สตรีมยังเล่นได้ปกติ
-                        print(f"🟢 [KEEP]   {padded} -> Healthy (MCOT CDN verified)", flush=True)
-                        results[name] = old_url
-                        seen_urls.add(old_url)
-                    elif healthy:
+                    if healthy:
                         print(f"🟢 [KEEP]   {padded} -> Healthy", flush=True)
                         results[name] = old_url
                         seen_urls.add(old_url)
