@@ -27,8 +27,28 @@ def pad_display(text, width=26):
 def is_epg_fresh():
     if not OUTPUT_EPG.exists() or OUTPUT_EPG.stat().st_size < 500:
         return False
-    age = time.time() - OUTPUT_EPG.stat().st_mtime
-    return age < EPG_MAX_AGE_SECONDS
+    try:
+        tz_th = timezone(timedelta(hours=7))
+        now_th = datetime.now(tz_th)
+        check_until = now_th + timedelta(hours=2)
+        tree = ET.parse(OUTPUT_EPG)
+        root = tree.getroot()
+        # ตรวจสอบว่าช่องหลัก (เช่น 1000milesTV.th และ Boomerang) ยังมีรายการครอบคลุมเวลาปัจจุบัน + 2 ชม.
+        required_cids = {"1000milesTV.th", "Boomerang.(Thai).th", "CartoonClub.th"}
+        found_valid = set()
+        for prog in root.findall("programme"):
+            cid = prog.attrib.get("channel", "")
+            if cid not in required_cids:
+                continue
+            sp_str = (prog.attrib.get("stop") or "").strip()
+            if not sp_str:
+                continue
+            dt_stop = datetime.strptime(sp_str, "%Y%m%d%H%M%S %z")
+            if dt_stop >= check_until:
+                found_valid.add(cid)
+        return len(found_valid) == len(required_cids)
+    except Exception:
+        return False
 
 def _fetch_single_http_channel(idx, ch):
     name = ch["name"]
@@ -46,8 +66,7 @@ def run(force_update=False, driver=None):
         return driver
 
     if not force_update and is_epg_fresh():
-        mins_ago = int((time.time() - OUTPUT_EPG.stat().st_mtime) // 60)
-        print(f"⚡ EPG is up-to-date (updated {mins_ago} mins ago). Skipping EPG download!")
+        print("⚡ EPG schedules are valid & up-to-date. Skipping EPG download!")
         return driver
 
     with open(CHANNELS_FILE, "r", encoding="utf-8") as f:
